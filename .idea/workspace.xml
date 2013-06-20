@@ -502,57 +502,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery.backstretch.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery.carouFredSel.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery.carouFredSel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-hy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-kn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-my.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-sr-SR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-uz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/countdown/jquery.countdown.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/fitvids/jquery.fitvids.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/fitvids/jquery.fitvids.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/fitvids/jquery.fitvids.min.js" />
@@ -724,10 +673,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+            <state line="22" column="24" selection-start="913" selection-end="913" vertical-scroll-proportion="0.52307695">
               <folding />
             </state>
           </provider>
@@ -753,10 +702,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layout.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Layout.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Download/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.16643357">
+            <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -765,7 +714,7 @@
       <file leaf-file-name="Layout.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Index/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="-10.88">
+            <state line="6" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="-4.08">
               <folding />
             </state>
           </provider>
@@ -1050,13 +999,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.6707153" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.6707153" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1226,20 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Index/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="-10.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JsLibraries/bootstrap-carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="32" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
@@ -1251,7 +1186,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Download/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.16643357">
+        <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Index/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="-4.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="913" selection-end="913" vertical-scroll-proportion="0.52307695">
           <folding />
         </state>
       </provider>
