@@ -1,0 +1,27 @@
+{
+  "name": "NzbDrone",
+  "version": "0.0.0",
+  "description": "NZBDrone",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install grunt-cli -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NzbDrone/NzbDrone.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "9ff7aa1bf7fe38c4c5bdb92f56c8ad556916ed67",
+  "readmeFilename": "readme.md",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-handlebars": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-curl": "*",
+    "grunt-notify": "*",
+    "grunt-clean": "*"
+  }
+}
