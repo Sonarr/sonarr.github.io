@@ -14,6 +14,7 @@ require.config({
         '$'                   : 'JsLibraries/jquery',
         'underscore'          : 'JsLibraries/underscore',
         'marionette'          : 'JsLibraries/backbone.marionette',
+        'jquery.carouFredSel' : 'JsLibraries/jquery.carouFredSel',
         'libs'                : 'JsLibraries/'
     },
 
@@ -21,6 +22,11 @@ require.config({
 
         $: {
             exports: '$'
+        },
+
+
+        'jquery.carouFredSel':{
+            deps: ['$']
         },
 
         bootstrap: {
