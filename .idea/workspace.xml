@@ -2,633 +2,625 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825a82c5-b907-48c7-8719-84053b8fb768" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/8020select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/8020select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/adoptahydrant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/adoptahydrant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/ico/apple-touch-icon-114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/ico/apple-touch-icon-114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/ico/apple-touch-icon-114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/ico/apple-touch-icon-114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/ico/apple-touch-icon-144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/ico/apple-touch-icon-144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/ico/apple-touch-icon-144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/ico/apple-touch-icon-144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/ico/apple-touch-icon-57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/ico/apple-touch-icon-57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/ico/apple-touch-icon-57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/ico/apple-touch-icon-57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/ico/apple-touch-icon-72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/ico/apple-touch-icon-72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/ico/apple-touch-icon-72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/ico/apple-touch-icon-72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/bg9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/bg9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/bg/body_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/bg/body_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bootstrap-docs-readme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bootstrap-docs-readme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-carousel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-carousel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-fluid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-fluid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-justified-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-justified-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-marketing-narrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-marketing-narrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-marketing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-marketing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-signin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-signin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-starter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-starter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/bootstrap-example-sticky-footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/bootstrap-example-sticky-footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/breakingnews.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/breakingnews.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/browser-icon-chrome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/browser-icon-chrome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/browser-icon-firefox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/browser-icon-firefox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/browser-icon-safari.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/browser-icon-safari.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bs-docs-bootstrap-features.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bs-docs-bootstrap-features.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bs-docs-masthead-pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bs-docs-masthead-pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bs-docs-responsive-illustrations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bs-docs-responsive-illustrations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/bs-docs-twitter-github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/bs-docs-twitter-github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_rounded/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_square/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/facebook/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/light_rounded/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/light_square/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_rounded/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_square/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_rounded/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_square/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_rounded/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_square/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/facebook/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/light_rounded/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/light_square/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_rounded/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_square/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_rounded/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_square/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_rounded/contentPattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_square/contentPattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_rounded/contentPattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_square/contentPattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/facebook/contentPatternBottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/contentPatternBottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/facebook/contentPatternLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/contentPatternLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/facebook/contentPatternRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/contentPatternRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/facebook/contentPatternTop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/contentPatternTop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/default/default_thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/default/default_thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_rounded/default_thumbnail.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_square/default_thumbnail.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/default_thumbnail.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_rounded/default_thumbnail.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_square/default_thumbnail.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/ico/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/ico/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/ico/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/ico/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/ico/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/ico/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/fleetio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/fleetio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/gathercontent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/gathercontent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/grid-baseline-20px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/grid-baseline-20px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/blog/img_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/blog/img_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/blog/img_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/blog/img_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/blog/img_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/blog/img_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/blog/img_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/blog/img_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/blog/img_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/blog/img_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/img_9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/img_9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/jshint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/jshint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/kippt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/kippt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/less-logo-large.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/less-logo-large.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_rounded/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_square/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/default/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_rounded/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_square/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/images/noise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/images/noise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/partners/partner_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/partners/partner_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/partners/partner_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/partners/partner_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/partners/partner_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/partners/partner_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/partners/partner_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/partners/partner_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/partners/partner_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/partners/partner_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/partners/partner_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/partners/partner_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/responsive-illustrations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/responsive-illustrations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/slide-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/slide-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/slide-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/slide-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/examples/slide-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/examples/slide-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/slides/slide_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/slides/slide_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/slides/slide_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/slides/slide_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/slides/slide_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/slides/slide_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/images/small-hogan-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/images/small-hogan-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/img/example-sites/soundready.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/img/example-sites/soundready.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_rounded/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/dark_square/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/default/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/facebook/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/light_rounded/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/light_square/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_rounded/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/dark_square/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/default/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/facebook/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_rounded/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/light_square/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/default/sprite_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/default/sprite_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/default/sprite_prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/default/sprite_prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/default/sprite_x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/default/sprite_x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/prettyPhoto/default/sprite_y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/images/prettyPhoto/default/sprite_y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/images/stripes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/images/stripes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/.git_ignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/AsChangeTrackingModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/AsChangeTrackingModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/AsModelBoundView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/AsModelBoundView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/AsNamedView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/AsNamedView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/AutoComplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/AutoComplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/Changes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/instrumentation/ErrorHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/instrumentation/ErrorHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Shared/FormatHelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Shared/FormatHelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSLintOptions.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Download/Layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Features/Layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Index/Layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Download/Layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Features/Layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Index/Layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Download/LayoutTemplate.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Features/LayoutTemplate.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Index/LayoutTemplate.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/MainMenuView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainMenuView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Shared/NotFoundTemplate.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Shared/NotFoundView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Shared/NotFoundView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/RouteBinder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RouteBinder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Routing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Routing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/instrumentation/StringFormat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/instrumentation/StringFormat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/TESTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Shared/Footer/Template.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Shared/TemplateHelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Shared/TemplateHelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/Shared/Footer/View.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Shared/Footer/View.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/wrappers/amd.js.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/backbone.ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/backbone.ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.backgrid.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.backgrid.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.backgrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.backgrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.backgrid.paginator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.backgrid.paginator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.collectionbinder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.collectionbinder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.deep.model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.deep.model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.marionette.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.marionette.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/backbone.marionette.region.mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/backbone.marionette.region.mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/backbone.marionette.templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/backbone.marionette.templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.marionette.viewswapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.marionette.viewswapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.modelbinder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.modelbinder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.mutators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.mutators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.pageable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.pageable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.relational.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.relational.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/backbone.shortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/backbone.shortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/backbone.signalr.mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/backbone.signalr.mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/base-css.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/base-css.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/carousel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/comments.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/comments.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/wrappers/common.js.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/lib/compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/lib/compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/components.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/components.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/customize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/customize.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/css/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/css/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/uitotop/easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/uitotop/easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/extend.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/extend.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/fluid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/getting-started.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/getting-started.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/handlebars.runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/handlebars.runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/hero.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/lib/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/1.0.0/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/lib/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/1.0.0/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/1.0.0/hogan.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/1.0.0/hogan.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/holder/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/holder/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/holder/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/holder/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/.bin/hulk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/index.html.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/index.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/inverted.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/inverted.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/javascript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/javascript.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery-flickr/jflickrfeed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery-flickr/jflickrfeed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery-flickr/jflickrfeed.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery-flickr/jflickrfeed.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery.backstretch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery.backstretch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery.carouFredSel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery.carouFredSel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/fitvids/jquery.fitvids.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/fitvids/jquery.fitvids.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/fitvids/jquery.fitvids.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/fitvids/jquery.fitvids.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery.isotope.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery.isotope.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/prettyphoto/jquery.prettyPhoto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/prettyphoto/jquery.prettyPhoto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/jquery-tweet/jquery.tweet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/jquery-tweet/jquery.tweet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/uitotop/jquery.ui.totop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/uitotop/jquery.ui.totop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/uitotop/jquery.ui.totop.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/uitotop/jquery.ui.totop.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/wrappers/js.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/justified-nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/layout.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/html/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/templates/list.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/lunr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/lunr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/marketing-narrow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/messenger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/messenger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/wrappers/mustache.js.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/test/mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/mustache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/nzbdrone.github.com.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/partials.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/partials.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/google-code-prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/google-code-prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/assets/js/google-code-prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/assets/js/google-code-prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/prettyPhoto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/prettyPhoto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/tools/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/tools/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/scaffolding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/templates/pages/scaffolding.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-cyan.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-cyan.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-dark-orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-dark-orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-gradients-grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-gradients-grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-navy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-navy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-noisy-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-noisy-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-wood.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-wood.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/css/scheme-yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/css/scheme-yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/sections.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/sections.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/signin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/test/spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/starter-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/sticky-footer-navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/examples/sticky-footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/sugar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/sugar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/lib/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/lib/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/JsLibraries/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JsLibraries/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/mixins/underscore.mixin.deepExtend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mixins/underscore.mixin.deepExtend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/docs/build/node_modules/hogan.js/tools/web_templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/tools/web_templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.yml" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\images\bg_hr.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\images\blacktocat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\images\icon_download.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\images\sprite_download.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\javascripts\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\params.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\stylesheets\pygment_trac.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\stylesheets\stylesheet.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-LightItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-LightItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-SemiBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-SemiBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-Semibold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-SemiboldItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-SemiboldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/font/OpenSans-SemiboldItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/fontawesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/images/nzbdrone.fw.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/hero-unit.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/labels-badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/site.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/sprites.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/FontAwesome/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/content/Bootstrap/wells.less" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\base.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\font-awesome-ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-black.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-cyan.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-dark-orange.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-gradients-grey.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-green.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-navy.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-noisy-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-orange.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-pink.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-purple.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-red.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-wood.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\css\scheme-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\font\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\font\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\font\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\font\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\font\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\ico\apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\ico\apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\ico\apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\ico\apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\ico\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg10.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg11.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg6.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg8.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\bg9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\bg\body_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\blog\img_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\blog\img_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\blog\img_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\blog\img_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\blog\img_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\img_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\partners\partner_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\partners\partner_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\partners\partner_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\partners\partner_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\partners\partner_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\partners\partner_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_rounded\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_square\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\dark_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\default\default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\default\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\default\sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\default\sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\default\sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\default\sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\facebook\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\facebook\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\facebook\contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\facebook\contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\facebook\contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\facebook\contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\facebook\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\light_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\light_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\light_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\light_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\light_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\prettyPhoto\light_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\slides\slide_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\slides\slide_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\content\images\slides\slide_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\css\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\ico\apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\ico\apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\ico\apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\ico\apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\ico\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bootstrap-docs-readme.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bootstrap-mdo-sfmoma-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bootstrap-mdo-sfmoma-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bootstrap-mdo-sfmoma-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bs-docs-bootstrap-features.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bs-docs-masthead-pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bs-docs-responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\bs-docs-twitter-github.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\8020select.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\adoptahydrant.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\breakingnews.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\fleetio.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\gathercontent.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\jshint.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\kippt.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\example-sites\soundready.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-fluid.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-justified-nav.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-marketing-narrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-signin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-starter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\bootstrap-example-sticky-footer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\browser-icon-chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\browser-icon-firefox.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\browser-icon-safari.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\slide-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\slide-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\examples\slide-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\grid-baseline-20px.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\less-logo-large.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\img\responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\google-code-prettify\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\google-code-prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\holder\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\assets\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\lib\compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\lib\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\lib\template.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\test\mustache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\test\spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\tools\release.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\tools\web_templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\1.0.0\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\1.0.0\hogan.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.0\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.0\hogan.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.3\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.3\hogan.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.mustache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.mustache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\template-1.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\builds\1.0.5\template-1.0.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\images\noise.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\images\small-hogan-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\images\stripes.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\stylesheets\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\site\docs\build\node_modules\hogan.js\web\stylesheets\skeleton.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Download\Layout.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Download\LayoutTemplate.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Features\Layout.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Features\LayoutTemplate.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Index\Layout.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Index\LayoutTemplate.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.backgrid.filter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.backgrid.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.backgrid.paginator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.collectionbinder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.deep.model.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.marionette.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.marionette.viewswapper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.modelbinder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.mutators.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.pageable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.relational.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\backbone.shortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\base.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\fitvids\jquery.fitvids.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\fitvids\jquery.fitvids.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\handlebars.runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\holder\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\jquery-flickr\jflickrfeed.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\jquery-flickr\jflickrfeed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\jquery-tweet\jquery.tweet.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\jquery.backstretch.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\jquery.carouFredSel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\lunr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\messenger.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\prettyphoto\jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\require.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\sugar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\uitotop\easing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\uitotop\jquery.ui.totop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\uitotop\jquery.ui.totop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\JsLibraries\underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\MainMenuView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\RouteBinder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Routing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Shared\Footer\Template.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Shared\Footer\View.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Shared\FormatHelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Shared\NotFoundTemplate.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Shared\NotFoundView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\Shared\TemplateHelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\base.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\font-awesome-ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-black.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-cyan.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-dark-orange.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-gradients-grey.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-green.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-navy.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-noisy-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-orange.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-pink.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-purple.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-red.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-wood.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\css\scheme-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\font\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\font\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\font\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\font\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\font\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\ico\apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\ico\apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\ico\apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\ico\apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\ico\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\ico\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg10.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg11.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg6.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg8.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\bg9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\bg\body_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\blog\img_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\blog\img_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\blog\img_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\blog\img_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\blog\img_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\img_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\partners\partner_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\partners\partner_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\partners\partner_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\partners\partner_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\partners\partner_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\partners\partner_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_rounded\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_rounded\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_rounded\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_square\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_square\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_square\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\dark_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\default\default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\default\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\default\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\default\sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\default\sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\default\sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\default\sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\facebook\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_rounded\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_rounded\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_square\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_square\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\prettyPhoto\light_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\slides\slide_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\slides\slide_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\content\images\slides\slide_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\css\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\ico\apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\ico\apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\ico\apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\ico\apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\ico\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\ico\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bootstrap-docs-readme.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bootstrap-mdo-sfmoma-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bootstrap-mdo-sfmoma-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bootstrap-mdo-sfmoma-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bs-docs-bootstrap-features.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bs-docs-masthead-pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bs-docs-responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\bs-docs-twitter-github.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\8020select.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\adoptahydrant.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\breakingnews.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\fleetio.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\gathercontent.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\jshint.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\kippt.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\example-sites\soundready.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-fluid.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-justified-nav.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-marketing-narrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-signin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-starter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\bootstrap-example-sticky-footer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\browser-icon-chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\browser-icon-firefox.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\browser-icon-safari.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\slide-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\slide-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\examples\slide-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\grid-baseline-20px.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\less-logo-large.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\img\responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\google-code-prettify\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\google-code-prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\holder\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\assets\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\base-css.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\.bin\hulk" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\.git_ignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\lib\compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\lib\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\lib\template.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\html\list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\mustache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\Changes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\TESTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\comments.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\comments.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\delimiters.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\delimiters.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\interpolation.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\interpolation.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\inverted.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\inverted.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\partials.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\partials.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\sections.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\sections.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\~lambdas.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\spec\specs\~lambdas.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\test\templates\list.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\tools\release.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\tools\web_templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\1.0.0\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\1.0.0\hogan.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.0\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.0\hogan.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.3\hogan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.3\hogan.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.mustache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.mustache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\template-1.0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\builds\1.0.5\template-1.0.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\images\noise.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\images\small-hogan-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\images\stripes.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\index.html.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\stylesheets\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\web\stylesheets\skeleton.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\wrappers\amd.js.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\wrappers\common.js.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\wrappers\js.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\node_modules\hogan.js\wrappers\mustache.js.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\build\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\components.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\customize.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\fluid.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\hero.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\justified-nav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\marketing-narrow.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\signin.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\starter-template.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\sticky-footer-navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\examples\sticky-footer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\extend.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\scaffolding.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\layout.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\base-css.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\components.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\customize.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\extend.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\getting-started.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\index.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\javascript.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\docs\templates\pages\scaffolding.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\instrumentation\ErrorHandler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\instrumentation\StringFormat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\AsChangeTrackingModel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\AsModelBoundView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\AsNamedView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\AutoComplete.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\backbone.ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\backbone.marionette.region.mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\backbone.marionette.templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\backbone.signalr.mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Git\nzbdrone.github.com\src\mixins\underscore.mixin.deepExtend.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nzbdrone.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371705860439" ignored="false" />
-    <file path="/index.html" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371702518921" ignored="false" />
-    <file path="/a.dummy" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371705884602" ignored="false" />
+    <file path="/Dummy.txt" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373829316139" ignored="false" />
+    <file path="/index.html" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373839322897" ignored="false" />
+    <file path="/a.dummy" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373839492336" ignored="false" />
     <file path="$PROJECT_DIR$/../NzbDrone/UI/Routing.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371516573627" ignored="false" />
     <file path="/Routing.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371700668425" ignored="false" />
     <file path="/View.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371698659485" ignored="false" />
@@ -649,11 +641,12 @@
     <file path="$PROJECT_DIR$/../NzbDrone/UI/Settings/SyncNotification.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371608284747" ignored="false" />
     <file path="/Controller.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371700721989" ignored="false" />
     <file path="/Layout.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371699127718" ignored="false" />
-    <file path="/app.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371704581583" ignored="false" />
-    <file path="/Gruntfile.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371694898574" ignored="false" />
+    <file path="/app.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371707818761" ignored="false" />
+    <file path="/Gruntfile.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373838978640" ignored="false" />
     <file path="/Template.hbs" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371695059007" ignored="false" />
     <file path="/RouteBinder.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371697155427" ignored="false" />
     <file path="/LayoutTemplate.hbs" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371700743777" ignored="false" />
+    <file path="/beaker.css" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373832469525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -673,48 +666,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app.js">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="913" selection-end="913" vertical-scroll-proportion="0.52307695">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-carousel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JsLibraries/bootstrap-carousel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="32" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="15" column="84" selection-start="725" selection-end="734" vertical-scroll-proportion="0.33834586">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Layout.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Download/Layout.js">
+        <entry file="file://$PROJECT_DIR$/site/Download/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layout.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Index/Layout.js">
+      <file leaf-file-name="site.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/content/site.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="-4.08">
+            <state line="322" column="15" selection-start="7949" selection-end="7949" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variable.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-less/node_modules/less/lib/less/tree/variable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="54" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/bootstrap.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/path.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alerts.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/alerts.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -738,30 +774,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Index/LayoutTemplate.hbs" />
-        <option value="$PROJECT_DIR$/src/Shared/Footer/Model.js" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/src/Shared/Footer/Template.hbs" />
-        <option value="$PROJECT_DIR$/src/RouteBinder.js" />
-        <option value="$PROJECT_DIR$/src/instrumentation/ErrorHandler.js" />
-        <option value="$PROJECT_DIR$/src/Shared/Footer/View.js" />
-        <option value="$PROJECT_DIR$/src/Features/Layout.js" />
         <option value="$PROJECT_DIR$/src/Features/LayoutTemplate.hbs" />
         <option value="$PROJECT_DIR$/src/Routing.js" />
         <option value="$PROJECT_DIR$/src/Controller.js" />
         <option value="$PROJECT_DIR$/src/Download/Layout.js" />
         <option value="$PROJECT_DIR$/src/Download/LayoutTemplate.hbs" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/Index/Layout.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/content/css/beaker.css" />
+        <option value="$PROJECT_DIR$/site/content/css/beaker.css" />
+        <option value="$PROJECT_DIR$/src/content/FontAwesome/core.less" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/site/content/site.less" />
+        <option value="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.less" />
+        <option value="$PROJECT_DIR$/site/content/Bootstrap/variables.less" />
+        <option value="$PROJECT_DIR$/site/content/FontAwesome/variables.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="2064" />
+    <option name="height" value="1128" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -848,7 +884,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -862,11 +898,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsLibraries" />
+              <option name="myItemId" value="instrumentation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -880,7 +916,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -898,7 +934,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -916,11 +952,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Download" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -932,8 +968,8 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools/handlebars-compile.bat" />
+    <property name="options.lastSelected" value="preferences.externalTools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -941,13 +977,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dropbox\Git\nzbdrone.github.com\site\content\font" />
+      <recent name="C:\Dropbox\Git\nzbdrone.github.com\site\content" />
+      <recent name="C:\Dropbox\Git\nzbdrone.github.com\site\content\images" />
+      <recent name="C:\Dropbox\Git\nzbdrone.github.com\src\content\images" />
       <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\src" />
-      <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\src\Features" />
-      <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\src\JsLibraries" />
-      <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com" />
-      <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\SubMod" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dropbox\Git\nzbdrone.github.com\site\content" />
+      <recent name="C:\Dropbox\Git\nzbdrone.github.com\site\content\css" />
       <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\src\JsLibraries" />
       <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\src\JsLibraries\carousel" />
       <recent name="C:\Users\Mark\Dropbox\Dev\nzbdrone.github.com\content" />
@@ -998,18 +1036,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277559" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.6707153" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23358025" sideWeight="0.7037402" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29625985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1082,125 +1120,261 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Shared/NotFoundTemplate.hbs">
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="332" column="33" selection-start="24463" selection-end="24463" vertical-scroll-proportion="0.2714536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSLintOptions.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shared/NotFoundView.js">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shared/Footer/View.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="137" selection-end="137" vertical-scroll-proportion="0.10828026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Features/LayoutTemplate.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Features/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Download/LayoutTemplate.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JsLibraries/fitvids/jquery.fitvids.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="415" selection-end="415" vertical-scroll-proportion="0.33903134">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1371692340036" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371692340036" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1371692340036" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373839957478" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JsLibraries/holder/holder.js">
+    <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="60" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JsLibraries/jquery.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-less/node_modules/less/lib/less/tree/variable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="54" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/alerts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/path.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/site.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="15" selection-start="7949" selection-end="7949" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/Download/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="246" selection-end="246" vertical-scroll-proportion="0.14804064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JsLibraries/bootstrap-carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Download/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Index/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="-4.08">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="913" selection-end="913" vertical-scroll-proportion="0.52307695">
+        <state line="15" column="84" selection-start="725" selection-end="734" vertical-scroll-proportion="0.33834586">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,392 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+/*
+ * Beaker - Responsive Landing Page - V.1.0
+ * Author: Shy Markets
+ * Author URL: http://creativemarket.com/shymarkets
+ * All Right Reserved
+ * Credits:
+ * * http://twitter.github.com/bootstrap/
+ * * http://fortawesome.github.com/Font-Awesome/
+ **/
+/*************************************************************
+                         google font
+**************************************************************/
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenProRegular'), url(http://themes.googleusercontent.com/static/fonts/mavenpro/v4/MG9KbUZFchDs94Tbv9U-pT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+/*************************************************************
+                    reset some defaults styles
+**************************************************************/
+body {
+  font-family: lato;
+  font-size: 15px;
+  font-weight: 300;
+  color: #7c7c7c;
+}
+a {
+  color: #323232;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+a:hover,
+a:focus {
+  color: #db522f;
+  text-decoration: none;
+}
+.carousel-control {
+  font-size: 210px;
+  color: #000;
+  background: transparent;
+  border: 0;
+}
+a.carousel-control:hover {
+  color: #c8c8c8;
+}
+.carousel-control.right {
+  right: -10px;
+  left: auto;
+}
+.carousel-control.left {
+  left: -35px;
+}
+a.carousel-control:hover {
+  color: #db522f;
+}
+/*************************************************************
+                             header
+**************************************************************/
+.site-header {
+  background-image: url(http://zapp.trakt.us/images/fanart/126.jpg);
+  background-repeat: no-repeat, repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+/* logo - icon is from fontawesome font */
+.site-logo {
+  color: #fff;
+  font-family: 'Maven Pro';
+  font-weight: 300;
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 29px;
+}
+.site-logo img {
+  width: 150px;
+  height: 150px;
+  opacity: 0.8;
+}
+/* header-description */
+.header-description {
+  margin: 130px 0 0;
+}
+.header-description h2 {
+  font-weight: 400;
+  font-size: 70px;
+  color: #ffffff;
+  text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
+  padding: 0px 0 40px 0;
+}
+/* header button - call to action button */
+.header-btn {
+  color: #fff;
+  border-radius: 9px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 20px 35px;
+  border: 2px solid #db522f;
+  background: #db522f;
+  display: inline-block;
+}
+.header-btn:hover {
+  color: #fff;
+  background: transparent;
+}
+/* header features */
+.header-features {
+  color: #fff;
+  display: block;
+}
+.header-feature {
+  padding-bottom: 70px;
+}
+/*************************************************************
+                        section#slider
+**************************************************************/
+.nexus {
+  background-image: url(../img/nexus.png);
+  width: 254px;
+  height: 408px;
+  margin: -200px 291px 0;
+  position: relative;
+}
+.slider {
+  width: 191px;
+  margin: 52px 31px 0;
+  height: 309px;
+  position: absolute;
+  background: #0f0f0f;
+}
+.carousel-indicators {
+  bottom: 15px;
+  top: auto;
+  right: 104px;
+  bottom: -18px;
+}
+.purchase-button {
+  margin: 50px 0;
+  text-align: center;
+}
+.purchase-button a {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 50px;
+  font-weight: 300;
+  background: #363636;
+  border: 1px solid #363636;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+  -ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+  -o-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+}
+.purchase-button a:active {
+  color: #fff;
+  border: 1px solid #363636;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+  -ms-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+  -o-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+}
+.purchase-button a i {
+  margin-right: 10px;
+}
+/*************************************************************
+                        #footer
+**************************************************************/
+.footer {
+  position: relative;
+}
+.notify-wrapper {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+}
+.notify-inner {
+  position: relative;
+  right: 50%;
+  padding: 29px 10px 27px;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.17);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.17);
+}
+.notify {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 17px 50px;
+  background: #93cede;
+  background: -moz-linear-gradient(top, #93cede 0%, #49a5bf 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #93cede), color-stop(100%, #49a5bf));
+  background: -webkit-linear-gradient(top, #93cede 0%, #49a5bf 100%);
+  background: -o-linear-gradient(top, #93cede 0%, #49a5bf 100%);
+  background: -ms-linear-gradient(top, #93cede 0%, #49a5bf 100%);
+  background: linear-gradient(to bottom, #93cede 0%, #49a5bf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93cede', endColorstr='#49a5bf', GradientType=0);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  -ms-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  -o-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.notify:active,
+.notify:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.notify:active {
+  border: 1px solid rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+  -ms-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+  -o-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+}
+/* footer info */
+.footer-info {
+  padding: 130px 0 0px;
+}
+.footer-info .container {
+  max-width: 500px;
+}
+.follow-btn {
+  margin-bottom: 50px;
+}
+.follow-btn li {
+  background: #363636;
+  width: 220px;
+  border-radius: 33px;
+  height: 63px;
+  position: relative;
+}
+.follow-btn li a {
+  font-size: 20px;
+  padding: 10px;
+  color: #ffffff;
+  vertical-align: -24px;
+  border-radius: 100%;
+  background: #363636;
+  border: 5px solid #ffffff;
+}
+.follow-btn li.facebook {
+  margin-left: 33px;
+}
+.follow-btn li.facebook span {
+  margin-right: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  position: relative;
+  top: 21px;
+  float: right;
+}
+.follow-btn li.twitter a {
+  position: relative;
+  text-align: right;
+  left: 0%;
+  top: 4px;
+  float: right;
+  width: 25px;
+  height: 25px;
+}
+.follow-btn li.twitter a i {
+  vertical-align: -4px;
+}
+.follow-btn li.twitter:before {
+  content: '';
+  position: absolute;
+  border-top: 2px solid #363636;
+  height: 2px;
+  width: 60px;
+  right: -40px;
+  top: 50%;
+  z-index: -1;
+}
+.follow-btn li.twitter a:hover,
+.follow-btn li.facebook a:hover {
+  color: #363636;
+  background: #ffffff;
+  border: 5px solid #ffffff;
+}
+.follow-btn li.twitter span {
+  margin-left: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  position: relative;
+  top: 21px;
+}
+.footer-notes p {
+  padding-bottom: 20px;
+}
+.footer-notes p + p {
+  border-top: 1px dashed #dcdcdc;
+  padding: 25px;
+}
+/*************************************************************
+                        responsive fix
+**************************************************************/
+/* Large desktop */
+@media (min-width: 1100px) {
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nexus {
+    margin: -200px 214px 0;
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .nexus {
+    margin: 0px 92px 0;
+  }
+  .purchase-button a {
+    font-size: 18px;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .header-description {
+    margin: 66px 0 0;
+  }
+  .header-description h2 {
+    font-size: 59px;
+    line-height: 62px;
+  }
+  .purchase-button a {
+    font-size: 16px;
+    padding: 16px 24px;
+  }
+  .nexus {
+    margin: -64px auto 117px;
+  }
+  .notify {
+    font-size: 16px;
+    display: inline-block;
+    padding: 17px 25px;
+  }
+  .notify-inner {
+    padding: 7px 8px 8px;
+  }
+  .follow-btn {
+    text-align: center;
+  }
+  .follow-btn li {
+    margin-top: 20px;
+  }
+  .follow-btn li.facebook {
+    margin-left: 0;
+    text-align: left;
+  }
+  .follow-btn li.twitter {
+    text-align: left;
+  }
+  .follow-btn li.twitter:before {
+    display: none;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  
+}
