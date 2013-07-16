@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Beaker - Responsive Landing Page</title>
+    <title>NzbDrone</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Beaker - Responsive Landing Page">
     <meta name="author" content="Shy Markets">
 
-    <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
     <link href="site/content/Bootstrap/bootstrap.css" rel="stylesheet">
     <link href="site/content/site.css" rel="stylesheet">
@@ -21,53 +20,56 @@
 <body>
 
 <header id="header" class="site-header">
-    <div class="container">
+<!--    <div class="container-fluid">
         <div class="row-fluid">
             <div class="span12">
-                <h1>
-                    <a class="site-logo" href="#">
-                        <img src="site/content/images/nzbdrone.fw.ico">
-                    </a>
-                </h1>
+                <h1><a class="site-title pull-left" href="#">
+                    <img src="site/content/images/nzbdrone.fw.ico">
+                </a></h1>
             </div>
         </div>
-    </div>
-    <!-- /container -->
-
-    <div class="container">
+    </div>-->
+    <div class="container-fluid">
         <div class="row-fluid">
-            <div class="span12">
+            <div class="span5">
 
                 <div class="header-description">
-                    <h2>Leave no episode behind.</h2>
+           <!--         <h2>reclaim your tv.</h2>-->
+                    <a class="download-btn" href="#">Download Release Preview</a>
                 </div>
                 <!-- /header-description -->
 
-                <div class="header-features">
-                    <div class="row-fluid">
-                        <div class="span6 header-feature">
-                            <h3></i>Extremely flexible</h3>
 
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <p>Proin ut iaculis nisl. Nulla dignissim neque magna, id hendrerit metus. Mauris
-                                        non turpis eu arcu volutpat cursus. Etiam hendrerit erat ac eros auctor at
-                                        eleifend lacus tincidunt. Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="span6">
-                                    <p>Proin ut iaculis nisl. Nulla dignissim neque magna, id hendrerit metus. Mauris
-                                        non turpis eu arcu volutpat cursus. Etiam hendrerit erat.</p>
-                                </div>
-                                <div class="span12">
-                                    <div class="purchase-button">
-                                        <a href=""><i class="icon-tablet"></i> Download Release Preview</a>
-                                    </div>
-                                </div>
-                            </div>
+                <!-- /header-features -->
+
+            </div>
+            <!-- /span12 -->
+        </div>
+    </div>
+    <!-- /container -->
+</header>
+
+<section id="slider" class="slider text-center">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">
+
+                <div id="slider-carousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/macbook-air-3.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/macbook-air-1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/macbook-air-2.png" alt="">
                         </div>
                     </div>
+                    <a class="carousel-control left" href="#slider-carousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#slider-carousel" data-slide="next">&rsaquo;</a>
                 </div>
-                <!-- /header-features -->
+                <!-- /slider-carousel -->
 
             </div>
             <!-- /span12 -->
@@ -75,44 +77,189 @@
         <!-- /row-fluid -->
     </div>
     <!-- /container -->
-</header>
+</section>
 
-<footer id="footer" class="footer">
+<section id="features" class="features">
     <div class="container">
         <div class="row-fluid">
-            <div class="span12">
-                <div class="footer-info">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span12">
 
-                                <ul class="unstyled inline follow-btn">
-                                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a><span>Follow</span>
-                                    </li>
-                                    <li class="facebook"><a href="#"><i class="icon-facebook"></i></a><span>Like</span>
-                                    </li>
-                                </ul>
+            <div class="span3">
+                <div class="feature">
+                    <i class="icon-globe icon-2x pull-left"></i>
+                    <h4>Used by Millions</h4>
 
-                                <div class="footer-notes">
-                                    <p>Proin ut iaculis nisl. Nulla dignissim neque magna, id hendrerit metus. Mauris
-                                        non turpis eu arcu volutpat cursus. Etiam hendrerit erat ac eros auctor at
-                                        eleifend lacus tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Nullam eu dignissim risus. Lorem ipsum dolor sit amet.</p>
+                    <p>Curabitur fringilla, elit pulvinar auctor tincidunt, arcu nibh adipiscing velit, at tincidunt
+                        libero nisl sit amet nisl.</p>
+                </div>
+            </div>
+            <!-- /span3 -->
 
-                                    <p class="text-center "><a href="#">Beaker:</a> will make your life easier.</p>
+            <div class="span3">
+                <div class="feature">
+                    <i class="icon-wrench icon-2x pull-left"></i>
+                    <h4>Developers Friendly</h4>
+
+                    <p>Nullam ac magna sit amet Justo eu vulputate fermentum.</p>
+                </div>
+            </div>
+            <!-- /span3 -->
+
+            <div class="span3">
+                <div class="feature">
+                    <i class="icon-desktop icon-2x pull-left"></i>
+                    <h4>Responsive</h4>
+
+                    <p>From desktop tto mobile. Dignissim et dolor. Proin facilisis nulla vitae dui luctus ac pulvinar
+                        magna tincidunt.</p>
+                </div>
+            </div>
+            <!-- /span3 -->
+
+            <div class="span3">
+                <div class="feature">
+                    <i class="icon-thumbs-up icon-2x pull-left"></i>
+                    <h4>Flat Design</h4>
+
+                    <p>keeping up with trends, can impact your success. Integer.</p>
+                </div>
+            </div>
+            <!-- /span3 -->
+
+        </div>
+        <!-- /row-fluid -->
+    </div>
+    <!-- /container -->
+</section>
+
+<!--<section id="testimonials" class="testimonials">
+    <div class="container-fluid">
+
+        <div id="testimonials-carousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <blockquote>
+                                <div>
+                                    <i class="icon-quote-left"></i>
+
+                                    <p>Curabitur fringilla, elit pulvinar auctor tincidunt, arcu nibh adipiscing velit,
+                                        at tincidunt libero nisl sit amet nisl. Proin facilisis nulla vitae dui luctus
+                                        ac pulvinar magna tincidunt.</p>
+                                    <small>Someone famous <cite title="Source Title">Source Title</cite></small>
                                 </div>
-
-                            </div>
+                            </blockquote>
                         </div>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <blockquote>
+                                <div>
+                                    <i class="icon-quote-left"></i>
 
+                                    <p>Curabitur fringilla, elit pulvinar auctor tincidunt, arcu nibh adipiscing velit,
+                                        at tincidunt libero nisl sit amet nisl. Proin facilisis nulla vitae dui luctus
+                                        ac pulvinar magna</p>
+                                    <small>Someone famous <cite title="Source Title">Source Title</cite></small>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <blockquote>
+                                <div>
+                                    <i class="icon-quote-left"></i>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.</p>
+                                    <small>Someone famous <cite title="Source Title">Source Title</cite></small>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control left" href="#testimonials-carousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#testimonials-carousel" data-slide="next">&rsaquo;</a>
+        </div>
+        &lt;!&ndash; /testimonials-carousel &ndash;&gt;
+
+    </div>
+    &lt;!&ndash; /container &ndash;&gt;
+</section>-->
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span6">
+                <h2>Feedbacks & Questions</h2>
+
+                <p><i class="icon-bullhorn icon-4x pull-left icon-muted"></i> I'd love to hear from you. Duis dapibus
+                    varius rhoncus. Aenean mauris urna, ultrices vitae faucibus quis, posuere id augue. Morbi id eros in
+                    nisl pretium ultrices ac nec dui. Praesent felis risus, pretium a semper et, pretium commodo nibh.
+                </p>
+            </div>
+            <div class="span6">
+                <br>
+
+                <p>There are different ways to keep in touch:</p>
+
+                <ul class="unstyled inline social">
+                    <li><a href="#"><i class="icon-phone"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-github-alt"></i></a></li>
+                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="#"><i class="icon-google-plus"></i></a></li>
+                </ul>
+
+                <ul class="unstyled inline text-center">
+                    <li><a href="#">Our Ticket System</a></li>
+                    |
+                    <li><a href="#">Our Forum</a></li>
+                    |
+                    <li><a href="#">Following Contact Form</a></li>
+                </ul>
 
             </div>
         </div>
     </div>
+</section>
+<section id="subscribe" class="subscribe">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <p>No, not again. I am not going to miss it one more time!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="footer">
+    <div class="container-fluid">
+
+        <div class="row-fluid">
+            <div class="span12">
+                <h1 class="footer-title pull-left"><a href="#"><i class="icon-beaker"></i> Beaker</a></h1>
+
+                <p class="pull-right copyright">
+                    &copy All Right Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
 </footer>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- Le javascript
+ ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="site/app.js"></script>
 </body>
 </html>
