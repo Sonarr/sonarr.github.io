@@ -84,11 +84,13 @@ a.carousel-control:hover {
 /* header-description */
 .header-description {
   margin: 130px 0 80px;
+  margin-top: 230px;
   text-align: center;
 }
 .header-description h2 {
   font-weight: 100;
   font-size: 93px;
+  text-align: left;
   color: #ffffff;
   text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
   padding: 0px 0 40px 0;
@@ -96,13 +98,12 @@ a.carousel-control:hover {
 /* header button - call to action button */
 .download-btn {
   color: #fff;
-  margin-top: 230px;
   margin-bottom: 30px;
   font-weight: 300;
   font-size: 24px;
   vertical-align: middle;
   padding: 20px 35px;
-  background: #263445;
+  background: #222222;
   display: inline-block;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -114,7 +115,8 @@ a.carousel-control:hover {
   filter: alpha(opacity=80);
 }
 .download-btn i {
-  font-size: 56px;
+  font-size: 28px;
+  margin-right: 10px;
 }
 .download-btn:hover {
   opacity: 1;
@@ -141,15 +143,15 @@ a.carousel-control:hover {
                         section#features
 **************************************************************/
 .features {
-  background: #ff8759;
-  border-top: 1px solid rgba(255, 255, 255, 0.54);
+  background: #222222;
   color: #fff;
   padding: 20px 0;
 }
-.feature {
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
+.features .feature {
   padding: 20px 10px;
+}
+.features a {
+  color: #fff;
 }
 /*************************************************************
                         section#testimonials
@@ -378,15 +380,19 @@ ul.social li:nth-child(6):before {
 **************************************************************/
 .footer {
   padding: 0px 0 !important;
+  background-color: #333333;
 }
-.footer-title {
+.footer .footer-title {
   font-size: 20px;
 }
-.footer-title a:hover {
-  text-decoration: none;
-}
-.copyright {
+.footer .copyright {
   margin-top: 22px;
+}
+.footer a {
+  color: #fff;
+}
+.github {
+  font-size: 20px;
 }
 /*************************************************************
                         responsive fix

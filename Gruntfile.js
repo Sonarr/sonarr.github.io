@@ -86,13 +86,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-handlebars');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-notify');
     grunt.loadNpmTasks('grunt-curl');
-    grunt.loadNpmTasks('grunt-clean');
     // Default task(s).
-    grunt.registerTask('package', ['clean', 'copy', 'less', 'handlebars']);
+
+    grunt.registerTask('package', ['less', 'handlebars']);
     grunt.registerTask('default', ['package', 'watch']);
     grunt.registerTask('update', ['curl']);
-
 };

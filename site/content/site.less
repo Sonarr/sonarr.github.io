@@ -13,6 +13,7 @@
 **************************************************************/
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 @import 'prefixer';
+@import 'bootstrap/variables';
 
 /*************************************************************
                     reset some defaults styles
@@ -89,33 +90,36 @@ a.carousel-control:hover {
 /* header-description */
 .header-description {
   margin: 130px 0 80px;
-  text-align: center;
-}
+  margin-top: 230px;
 
-.header-description h2 {
-  font-weight: 100;
-  font-size: 93px;
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
-  padding: 0px 0 40px 0;
+  text-align: center;
+
+  h2 {
+    font-weight: 100;
+    font-size: 93px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
+    padding: 0px 0 40px 0;
+  }
 }
 
 /* header button - call to action button */
 .download-btn {
   color: #fff;
-  margin-top: 230px;
   margin-bottom: 30px;
   font-weight: 300;
   font-size: 24px;
   vertical-align: middle;
   padding: 20px 35px;
-  background: rgb(38, 52, 69);
+  background: @grayDarker;
   display: inline-block;
   .border-radius(9px);
   .opacity(0.8);
 
   i {
-    font-size: 56px;
+    font-size: 28px;
+    margin-right: 10px;
   }
 
   &:hover {
@@ -146,16 +150,17 @@ a.carousel-control:hover {
                         section#features
 **************************************************************/
 .features {
-  background: rgb(255, 135, 89);
-  border-top: 1px solid rgba(255, 255, 255, 0.54);
+  background: @grayDarker;
   color: #fff;
   padding: 20px 0;
-}
 
-.feature {
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 20px 10px;
+  .feature {
+    padding: 20px 10px;
+  }
+
+  a {
+    color: #fff;
+  }
 }
 
 /*************************************************************
@@ -428,18 +433,26 @@ ul.social li:nth-child(6):before {
 **************************************************************/
 .footer {
   padding: 0px 0 !important;
+
+
+  background-color: @grayDark;
+
+  .footer-title {
+    font-size: 20px;
+  }
+
+  .copyright {
+    margin-top: 22px;
+  }
+
+  a{
+    color: #fff;
+  }
+
 }
 
-.footer-title {
+.github{
   font-size: 20px;
-}
-
-.footer-title a:hover {
-  text-decoration: none;
-}
-
-.copyright {
-  margin-top: 22px;
 }
 
 /*************************************************************
