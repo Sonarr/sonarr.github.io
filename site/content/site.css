@@ -90,9 +90,7 @@ a.carousel-control:hover {
 .header-description {
   margin: 130px 0 80px;
   margin-top: 230px;
-  text-align: center;
-}
-.header-description h2 {
+  line-height: 90px;
   font-weight: 100;
   font-size: 93px;
   text-align: left;
@@ -401,77 +399,109 @@ ul.social li:nth-child(6):before {
 }
 /*************************************************************
                         responsive fix
-**************************************************************/
-/* Large desktop */
+**************************************************************//*
+
+*/
+/* Large desktop *//*
+
 @media (min-width: 1200px) {
-  
 }
-/* Portrait tablet to landscape and desktop */
+
+*/
+/* Portrait tablet to landscape and desktop *//*
+
 @media (min-width: 768px) and (max-width: 979px) {
   .header-description h2 {
     font-size: 83px;
     line-height: 58px;
   }
+
   .header-features {
     margin: 0 0 30px 0;
   }
+
   .header-feature {
     margin: 0 0 30px 0;
     padding: 0;
   }
 }
-/* Landscape phone to portrait tablet */
+
+*/
+/* Landscape phone to portrait tablet *//*
+
 @media (max-width: 767px) {
   body {
     padding: 0;
   }
+
   .container {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .header-description {
     margin: 76px 0 80px;
   }
+
   .header-description h2 {
     font-size: 66px;
     line-height: 58px;
   }
+
   .download-btn {
     margin-top: 74px;
   }
+
   .header-features {
     margin: 0 0 30px 0;
   }
+
   .header-feature {
     margin: 0 0 30px 0;
     padding: 0;
   }
-  /* blockqoute */
+
+  */
+/* blockqoute *//*
+
   .testimonials {
     padding: 44px 0 60px !important;
   }
+
   .testimonials i {
     font-size: 106px;
   }
+
   blockquote > div {
     padding: 0;
   }
+
   blockquote p {
     font-size: 18px;
   }
-  /* contact form */
+
+  */
+/* contact form *//*
+
   .contact-form-inner {
     padding: 18px !important;
   }
+
   .subscribe input {
     height: 31px;
     width: 154px;
   }
+
   .btn-custom {
     padding: 9px 14px 8px;
   }
+
 }
-/* Landscape phones and down */
+
+*/
+/* Landscape phones and down *//*
+
 @media (max-width: 480px) {
-  
+
 }
+*/
