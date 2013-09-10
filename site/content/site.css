@@ -99,29 +99,33 @@ a.carousel-control:hover {
   padding: 0px 0 40px 0;
 }
 /* header button - call to action button */
-.download-btn {
+.download-buttons {
+  width: 300px;
+}
+.download-buttons .download-btn {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   font-weight: 300;
   font-size: 24px;
   vertical-align: middle;
   padding: 20px 35px;
   background: #222222;
   display: inline-block;
-  -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
-  border-radius: 9px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
   opacity: 0.8;
   filter: alpha(opacity=80);
+  width: 100%;
 }
-.download-btn i {
+.download-buttons .download-btn i {
   font-size: 28px;
   margin-right: 10px;
 }
-.download-btn:hover {
+.download-buttons .download-btn:hover {
   opacity: 1;
   filter: alpha(opacity=80);
   color: #fff;

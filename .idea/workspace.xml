@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825a82c5-b907-48c7-8719-84053b8fb768" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css" afterPath="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/content/site.css" afterPath="$PROJECT_DIR$/site/content/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/content/site.less" afterPath="$PROJECT_DIR$/site/content/site.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nzbdrone.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1374551637511" ignored="false" />
-    <file path="/index.html" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1374555412751" ignored="false" />
+    <file path="/Dummy.txt" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1378852504489" ignored="false" />
+    <file path="/index.html" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1378852833088" ignored="false" />
     <file path="/a.dummy" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373839492336" ignored="false" />
     <file path="$PROJECT_DIR$/../NzbDrone/UI/Routing.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371516573627" ignored="false" />
     <file path="/Routing.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371700668425" ignored="false" />
@@ -39,7 +38,7 @@
     <file path="/RouteBinder.js" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371697155427" ignored="false" />
     <file path="/LayoutTemplate.hbs" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1371700743777" ignored="false" />
     <file path="/beaker.css" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373832469525" ignored="false" />
-    <file path="/site.less" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1374555079124" ignored="false" />
+    <file path="/site.less" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1378852746330" ignored="false" />
     <file path="/bootstrap.less" changelist="825a82c5-b907-48c7-8719-84053b8fb768" time="1373948689653" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,16 +62,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="255" column="18" selection-start="10329" selection-end="10329" vertical-scroll-proportion="0.476731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/variables.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="32" selection-start="473" selection-end="473" vertical-scroll-proportion="-13.2">
+            <state line="113" column="37" selection-start="4738" selection-end="4738" vertical-scroll-proportion="0.6777906">
               <folding />
             </state>
           </provider>
@@ -81,10 +71,8 @@
       <file leaf-file-name="site.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/content/site.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="454" column="17" selection-start="9020" selection-end="9020" vertical-scroll-proportion="-16.28">
-              <folding>
-                <element signature="e#6663#6814#1" expanded="true" />
-              </folding>
+            <state line="101" column="18" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +89,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1061" column="0" selection-start="18721" selection-end="18721" vertical-scroll-proportion="0.0">
+            <state line="1061" column="0" selection-start="20506" selection-end="20506" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +98,7 @@
       <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0">
+            <state line="51" column="0" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -252,7 +240,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,6 +260,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,9 +269,9 @@
     <property name="options.lastSelected" value="preferences.externalTools" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -302,14 +290,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -346,13 +326,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23352662" sideWeight="0.6726695" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23352662" sideWeight="0.6726695" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -459,9 +439,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/responsive-1200px-min.less">
@@ -480,14 +458,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1061" column="0" selection-start="18721" selection-end="18721" vertical-scroll-proportion="0.0">
+        <state line="1061" column="0" selection-start="20506" selection-end="20506" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0">
+        <state line="51" column="0" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -515,23 +493,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="473" selection-end="473" vertical-scroll-proportion="-13.2">
+        <state line="22" column="32" selection-start="473" selection-end="473" vertical-scroll-proportion="0.01633987">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/site.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="17" selection-start="9020" selection-end="9020" vertical-scroll-proportion="-16.28">
-          <folding>
-            <element signature="e#6663#6814#1" expanded="true" />
-          </folding>
+        <state line="101" column="18" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="18" selection-start="10329" selection-end="10329" vertical-scroll-proportion="0.476731">
+        <state line="113" column="37" selection-start="4738" selection-end="4738" vertical-scroll-proportion="0.6777906">
           <folding />
         </state>
       </provider>

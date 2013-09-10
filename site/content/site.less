@@ -108,26 +108,30 @@ a.carousel-control:hover {
 }
 
 /* header button - call to action button */
-.download-btn {
-  color: #fff;
-  margin-bottom: 30px;
-  font-weight: 300;
-  font-size: 24px;
-  vertical-align: middle;
-  padding: 20px 35px;
-  background: @grayDarker;
-  display: inline-block;
-  .border-radius(9px);
-  .opacity(0.8);
 
-  i {
-    font-size: 28px;
-    margin-right: 10px;
-  }
-
-  &:hover {
-    .opacity(1);
+.download-buttons {
+  width: 300px;
+  .download-btn {
     color: #fff;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 24px;
+    vertical-align: middle;
+    padding: 20px 35px;
+    background: @grayDarker;
+    display: inline-block;
+    .border-radius(3px);
+    .opacity(0.8);
+    width: 100%;
+    i {
+      font-size: 28px;
+      margin-right: 10px;
+    }
+
+    &:hover {
+      .opacity(1);
+      color: #fff;
+    }
   }
 }
 
@@ -437,7 +441,6 @@ ul.social li:nth-child(6):before {
 .footer {
   padding: 0px 0 !important;
 
-
   background-color: @grayDark;
 
   .footer-title {
@@ -448,13 +451,13 @@ ul.social li:nth-child(6):before {
     margin-top: 22px;
   }
 
-  a{
+  a {
     color: #fff;
   }
 
 }
 
-.github{
+.github {
   font-size: 20px;
 }
 
