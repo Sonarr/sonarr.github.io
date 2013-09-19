@@ -16,12 +16,9 @@
   "readmeFilename": "readme.md",
   "dependencies": {
     "grunt": "*",
-    "grunt-contrib-handlebars": "*",
     "grunt-contrib-watch": "*",
     "grunt-contrib-less": "*",
     "grunt-contrib-copy": "*",
-    "grunt-curl": "*",
-    "grunt-notify": "*",
     "grunt-clean": "*"
   }
 }
