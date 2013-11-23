@@ -9,7 +9,7 @@
 **************************************************************/
 body {
   font-size: 15px;
-  min-width: 1000px;
+  font-family: "Maven Pro", "open sans", "Segoe UI", "Segoe WP", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body a {
   color: #323232;
@@ -36,7 +36,7 @@ body a:focus {
   height: 800px;
 }
 #header .header-description {
-  margin: 130px 0 80px;
+  /*margin: 130px 0 80px;*/
   margin-top: 230px;
   line-height: 90px;
   font-weight: 100;
@@ -46,12 +46,9 @@ body a:focus {
   text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
   padding: 0px 0 40px 0;
 }
-#header .download-buttons {
-  width: 300px;
-}
 #header .download-buttons .download-btn {
   color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: 300;
   font-size: 24px;
   vertical-align: middle;
@@ -66,7 +63,7 @@ body a:focus {
   background-clip: padding-box;
   opacity: 0.8;
   filter: alpha(opacity=80);
-  width: 100%;
+  width: 400px;
 }
 #header .download-buttons .download-btn i {
   font-size: 28px;
@@ -74,7 +71,7 @@ body a:focus {
 }
 #header .download-buttons .download-btn:hover {
   opacity: 1;
-  filter: alpha(opacity=80);
+  filter: alpha(opacity=100);
   color: #fff;
 }
 /*************************************************************

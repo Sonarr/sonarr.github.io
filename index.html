@@ -32,108 +32,88 @@
         </div>-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-offset-1 col-sm-8 col-md-8">
+            <div class="col-sm-offset-1 col-sm-10 col-md-8 col-xs-12">
                 <div class="header-description">
                     NzbDrone 2.0
                     <br>
                     cut the cord.
                 </div>
-                <div class="download-buttons">
-                    <div>
-                        <a class="download-btn" href="http://update.nzbdrone.com/v2/master/NzbDrone.master.latest.zip"
-                           onclick="_gaq.push(['_trackEvent','Download_Windows', 'Windows']);">
-                            <i class="fa fa-windows"></i>
-                            NzbDrone for Windows</a>
-                    </div>
-                    <div>
-                        <a class="download-btn" href="https://github.com/NzbDrone/NzbDrone/wiki/Installation#linux"
-                           onclick="_gaq.push(['_trackEvent', 'Download_Windows', 'Linux']);">
-                            <i class="fa fa-linux"></i>
-                            NzbDrone for Linux</a>
-                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="download-buttons">
+                <div class="col-xs-offset-1 col-lg-11">
+                    <a class="download-btn" href="http://update.nzbdrone.com/v2/master/NzbDrone.master.latest.zip"
+                       onclick="_gaq.push(['_trackEvent','Download_Windows', 'Windows']);">
+                        <i class="fa fa-windows"></i>
+                        NzbDrone for Windows</a>
+                </div>
+                <div class="col-xs-offset-1 col-lg-11">
+                    <a class="download-btn" href="https://github.com/NzbDrone/NzbDrone/wiki/Installation#linux"
+                       onclick="_gaq.push(['_trackEvent', 'Download_Windows', 'Linux']);">
+                        <i class="fa fa-linux"></i>
+                        NzbDrone for Linux</a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </header>
-<!--
-
-<section id="slider" class="slider text-center">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span12">
-
-                <div id="slider-carousel" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="img/macbook-air-3.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/macbook-air-1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="img/macbook-air-2.png" alt="">
-                        </div>
-                    </div>
-                    <a class="carousel-control left" href="#slider-carousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#slider-carousel" data-slide="next">&rsaquo;</a>
-                </div>
-                &lt;!&ndash; /slider-carousel &ndash;&gt;
-
-            </div>
-            &lt;!&ndash; /span12 &ndash;&gt;
-        </div>
-        &lt;!&ndash; /row-fluid &ndash;&gt;
-    </div>
-    &lt;!&ndash; /container &ndash;&gt;
-</section>
--->
 
 <section id="features">
     <div class="container">
         <div class="row">
-            <a href="http://forums.nzbdrone.com" target="_blank"
-               onclick="_gaq.push(['_trackEvent', 'Click_Forums','Forums']);" class="span3">
-                <div class="feature">
-                    <i class="fa fa-group fa fa-2x pull-left"></i>
-                    <h4>Forums</h4>
+            <div class="col-md-3 col-sm-6">
+                <a href="http://forums.nzbdrone.com" target="_blank"
+                   onclick="_gaq.push(['_trackEvent', 'Click_Forums','Forums']);" class="span3">
+                    <div class="feature">
+                        <i class="fa fa-group fa fa-2x pull-left"></i>
+                        <h4>Forums</h4>
 
-                    <p>Talk to NzbDrone developers and users, we are here to help.</p>
-                </div>
-            </a>
-            <a href="http://webchat.freenode.net/?channels=#nzbdrone" target="_blank"
-               onclick="_gaq.push(['_trackEvent','Click_Trello', 'IRC']);" class="span3">
-                <div class="feature">
-                    <i class="fa fa-comment fa fa-2x pull-left"></i>
-                    <h4>IRC Channel</h4>
+                        <p>Talk to NzbDrone developers and users, we are here to help.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="http://webchat.freenode.net/?channels=#nzbdrone" target="_blank"
+                   onclick="_gaq.push(['_trackEvent','Click_Trello', 'IRC']);" class="span3">
+                    <div class="feature">
+                        <i class="fa fa-comment fa fa-2x pull-left"></i>
+                        <h4>IRC Channel</h4>
 
-                    <p>Join our IRC channel for a chat. irc.freenode.net #nzbdrone</p>
-                </div>
-            </a>
-            <a href="https://twitter.com/NzbDrone" target="_blank"
-               onclick="_gaq.push(['_trackEvent', 'Click_Trello','Twitter']);" class="span3">
-                <div class="feature">
-                    <i class="fa fa-twitter fa fa-2x pull-left"></i>
-                    <h4>Follow us on Twitter</h4>
+                        <p>Join our IRC channel for a chat. irc.freenode.net #nzbdrone</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://twitter.com/NzbDrone" target="_blank"
+                   onclick="_gaq.push(['_trackEvent', 'Click_Trello','Twitter']);" class="span3">
+                    <div class="feature">
+                        <i class="fa fa-twitter fa fa-2x pull-left"></i>
+                        <h4>Follow us on Twitter</h4>
 
-                    <p>Want to get all the news as fast as they come out. follow us on twitter and don't miss a
-                        thing.</p>
-                </div>
-            </a>
-            <a href="http://trello.nzbdrone.com" target="_blank"
-               onclick="_gaq.push(['_trackEvent', 'Click_Trello','Trello']);" class="span3">
-                <div class="feature">
-                    <i class="fa fa-trello fa fa-2x pull-left"></i>
-                    <h4>Trello Board</h4>
+                        <p>Want to get all the news as fast as they come out. follow us on twitter and don't miss a
+                            thing.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="http://trello.nzbdrone.com" target="_blank"
+                   onclick="_gaq.push(['_trackEvent', 'Click_Trello','Trello']);" class="span3">
+                    <div class="feature">
+                        <i class="fa fa-trello fa fa-2x pull-left"></i>
+                        <h4>Trello Board</h4>
 
-                    <p>Want to track the progress of a bug or your favourite feature, check out our Trello board.</p>
-                </div>
-            </a>
+                        <p>Want to track the progress of a bug or your favourite feature, check out our Trello
+                            board.</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
 <footer id="footer">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <h3 class="footer-title pull-left">
