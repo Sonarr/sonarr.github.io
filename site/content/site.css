@@ -56,7 +56,7 @@ body a:focus {
   font-size: 24px;
   vertical-align: middle;
   padding: 20px 35px;
-  background: #222222;
+  background-color: #222222;
   display: inline-block;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -96,7 +96,7 @@ body a:focus {
 **************************************************************/
 #footer {
   padding: 0px 0 !important;
-  background-color: #333333;
+  background-color: #222222;
 }
 #footer .footer-title {
   font-size: 20px;
