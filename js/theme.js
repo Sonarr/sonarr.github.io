@@ -30,6 +30,8 @@ $(function () {
             }
         }, this), 0);
     });
+
+    $('#year').html(new Date().getFullYear());
 });
 
 var portfolioItem = {
@@ -72,4 +74,3 @@ var servicesCircle = {
         });
     }
 }
-

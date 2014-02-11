@@ -20,7 +20,7 @@
   clear: both;
 }
 .hide-text {
-  font: NaN a;
+  font: 0/0 a;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
@@ -85,16 +85,12 @@ sub {
 }
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
-
   max-width: 100%;
   /* Part 1: Set a maxium relative to the parent */
-
   width: auto\9;
   /* IE7-8 need help adjusting responsive images */
-
   height: auto;
   /* Part 2: Scale the height according to the width, otherwise you get stretching */
-
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -189,7 +185,7 @@ textarea {
   img {
     max-width: 100% !important;
   }
-  @page  {
+  @page {
     margin: 0.5cm;
   }
   p,
@@ -356,158 +352,158 @@ a:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
-  margin-left: 1.7857142857142856%;
-  *margin-left: 1.7410714285714284%;
+  margin-left: 1.78571429%;
+  *margin-left: 1.74107143%;
 }
 .row-fluid [class*="span"]:first-child {
   margin-left: 0;
 }
 .row-fluid .controls-row [class*="span"] + [class*="span"] {
-  margin-left: 1.7857142857142856%;
+  margin-left: 1.78571429%;
 }
 .row-fluid .span12 {
   width: 100%;
-  *width: 99.95535714285714%;
+  *width: 99.95535714%;
 }
 .row-fluid .span11 {
-  width: 91.51785714285714%;
-  *width: 91.47321428571428%;
+  width: 91.51785714%;
+  *width: 91.47321429%;
 }
 .row-fluid .span10 {
-  width: 83.03571428571428%;
-  *width: 82.99107142857142%;
+  width: 83.03571429%;
+  *width: 82.99107143%;
 }
 .row-fluid .span9 {
-  width: 74.55357142857142%;
-  *width: 74.50892857142856%;
+  width: 74.55357143%;
+  *width: 74.50892857%;
 }
 .row-fluid .span8 {
-  width: 66.07142857142857%;
-  *width: 66.02678571428571%;
+  width: 66.07142857%;
+  *width: 66.02678571%;
 }
 .row-fluid .span7 {
-  width: 57.589285714285715%;
-  *width: 57.54464285714286%;
+  width: 57.58928571%;
+  *width: 57.54464286%;
 }
 .row-fluid .span6 {
-  width: 49.10714285714286%;
-  *width: 49.06250000000001%;
+  width: 49.10714286%;
+  *width: 49.0625%;
 }
 .row-fluid .span5 {
   width: 40.625%;
-  *width: 40.580357142857146%;
+  *width: 40.58035714%;
 }
 .row-fluid .span4 {
-  width: 32.14285714285714%;
-  *width: 32.098214285714285%;
+  width: 32.14285714%;
+  *width: 32.09821429%;
 }
 .row-fluid .span3 {
-  width: 23.660714285714285%;
-  *width: 23.616071428571427%;
+  width: 23.66071429%;
+  *width: 23.61607143%;
 }
 .row-fluid .span2 {
-  width: 15.178571428571427%;
-  *width: 15.13392857142857%;
+  width: 15.17857143%;
+  *width: 15.13392857%;
 }
 .row-fluid .span1 {
-  width: 6.696428571428571%;
-  *width: 6.651785714285714%;
+  width: 6.69642857%;
+  *width: 6.65178571%;
 }
 .row-fluid .offset12 {
-  margin-left: 103.57142857142857%;
-  *margin-left: 103.48214285714285%;
+  margin-left: 103.57142857%;
+  *margin-left: 103.48214286%;
 }
 .row-fluid .offset12:first-child {
-  margin-left: 101.78571428571429%;
-  *margin-left: 101.69642857142857%;
+  margin-left: 101.78571429%;
+  *margin-left: 101.69642857%;
 }
 .row-fluid .offset11 {
-  margin-left: 95.08928571428571%;
-  *margin-left: 94.99999999999999%;
+  margin-left: 95.08928571%;
+  *margin-left: 95%;
 }
 .row-fluid .offset11:first-child {
-  margin-left: 93.30357142857143%;
-  *margin-left: 93.21428571428571%;
+  margin-left: 93.30357143%;
+  *margin-left: 93.21428571%;
 }
 .row-fluid .offset10 {
-  margin-left: 86.60714285714285%;
-  *margin-left: 86.51785714285712%;
+  margin-left: 86.60714286%;
+  *margin-left: 86.51785714%;
 }
 .row-fluid .offset10:first-child {
-  margin-left: 84.82142857142857%;
-  *margin-left: 84.73214285714285%;
+  margin-left: 84.82142857%;
+  *margin-left: 84.73214286%;
 }
 .row-fluid .offset9 {
-  margin-left: 78.12499999999999%;
-  *margin-left: 78.03571428571426%;
+  margin-left: 78.125%;
+  *margin-left: 78.03571429%;
 }
 .row-fluid .offset9:first-child {
-  margin-left: 76.33928571428571%;
-  *margin-left: 76.24999999999999%;
+  margin-left: 76.33928571%;
+  *margin-left: 76.25%;
 }
 .row-fluid .offset8 {
-  margin-left: 69.64285714285714%;
-  *margin-left: 69.55357142857142%;
+  margin-left: 69.64285714%;
+  *margin-left: 69.55357143%;
 }
 .row-fluid .offset8:first-child {
-  margin-left: 67.85714285714286%;
-  *margin-left: 67.76785714285714%;
+  margin-left: 67.85714286%;
+  *margin-left: 67.76785714%;
 }
 .row-fluid .offset7 {
-  margin-left: 61.160714285714285%;
-  *margin-left: 61.07142857142858%;
+  margin-left: 61.16071429%;
+  *margin-left: 61.07142857%;
 }
 .row-fluid .offset7:first-child {
   margin-left: 59.375%;
-  *margin-left: 59.28571428571429%;
+  *margin-left: 59.28571429%;
 }
 .row-fluid .offset6 {
-  margin-left: 52.67857142857143%;
-  *margin-left: 52.58928571428572%;
+  margin-left: 52.67857143%;
+  *margin-left: 52.58928571%;
 }
 .row-fluid .offset6:first-child {
-  margin-left: 50.892857142857146%;
-  *margin-left: 50.80357142857144%;
+  margin-left: 50.89285714%;
+  *margin-left: 50.80357143%;
 }
 .row-fluid .offset5 {
-  margin-left: 44.19642857142857%;
-  *margin-left: 44.10714285714286%;
+  margin-left: 44.19642857%;
+  *margin-left: 44.10714286%;
 }
 .row-fluid .offset5:first-child {
-  margin-left: 42.410714285714285%;
-  *margin-left: 42.32142857142858%;
+  margin-left: 42.41071429%;
+  *margin-left: 42.32142857%;
 }
 .row-fluid .offset4 {
-  margin-left: 35.71428571428571%;
+  margin-left: 35.71428571%;
   *margin-left: 35.625%;
 }
 .row-fluid .offset4:first-child {
-  margin-left: 33.92857142857142%;
-  *margin-left: 33.839285714285715%;
+  margin-left: 33.92857143%;
+  *margin-left: 33.83928571%;
 }
 .row-fluid .offset3 {
-  margin-left: 27.232142857142854%;
-  *margin-left: 27.142857142857142%;
+  margin-left: 27.23214286%;
+  *margin-left: 27.14285714%;
 }
 .row-fluid .offset3:first-child {
-  margin-left: 25.44642857142857%;
-  *margin-left: 25.357142857142854%;
+  margin-left: 25.44642857%;
+  *margin-left: 25.35714286%;
 }
 .row-fluid .offset2 {
   margin-left: 18.75%;
-  *margin-left: 18.66071428571428%;
+  *margin-left: 18.66071429%;
 }
 .row-fluid .offset2:first-child {
-  margin-left: 16.96428571428571%;
-  *margin-left: 16.874999999999996%;
+  margin-left: 16.96428571%;
+  *margin-left: 16.875%;
 }
 .row-fluid .offset1 {
-  margin-left: 10.267857142857142%;
-  *margin-left: 10.178571428571427%;
+  margin-left: 10.26785714%;
+  *margin-left: 10.17857143%;
 }
 .row-fluid .offset1:first-child {
-  margin-left: 8.482142857142858%;
-  *margin-left: 8.392857142857142%;
+  margin-left: 8.48214286%;
+  *margin-left: 8.39285714%;
 }
 [class*="span"].hide,
 .row-fluid [class*="span"].hide {
@@ -702,7 +698,6 @@ ol.inline > li {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
-
   *zoom: 1;
   padding-left: 5px;
   padding-right: 5px;
@@ -864,7 +859,7 @@ address {
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 1.3333333333333333em;
+  font-size: 1.33333333em;
 }
 /* makes sure icons active on rollover in links */
 a [class^="icon-"],
@@ -875,16 +870,16 @@ a [class*=" icon-"] {
 [class^="icon-"].icon-fixed-width,
 [class*=" icon-"].icon-fixed-width {
   display: inline-block;
-  width: 1.1428571428571428em;
+  width: 1.14285714em;
   text-align: right;
-  padding-right: 0.2857142857142857em;
+  padding-right: 0.28571429em;
 }
 [class^="icon-"].icon-fixed-width.icon-large,
 [class*=" icon-"].icon-fixed-width.icon-large {
-  width: 1.4285714285714286em;
+  width: 1.42857143em;
 }
 .icons-ul {
-  margin-left: 2.142857142857143em;
+  margin-left: 2.14285714em;
   list-style-type: none;
 }
 .icons-ul > li {
@@ -892,8 +887,8 @@ a [class*=" icon-"] {
 }
 .icons-ul .icon-li {
   position: absolute;
-  left: -2.142857142857143em;
-  width: 2.142857142857143em;
+  left: -2.14285714em;
+  width: 2.14285714em;
   text-align: center;
   line-height: inherit;
 }
@@ -2297,7 +2292,6 @@ a .icon-flip-vertical:before {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
-
   *zoom: 1;
   padding: 4px 12px;
   margin-bottom: 0;
@@ -2320,7 +2314,6 @@ a .icon-flip-vertical:before {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border: 1px solid #cccccc;
   *border: 0;
@@ -2456,7 +2449,6 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #0044cc;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-primary:hover,
@@ -2488,7 +2480,6 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #f89406;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-warning:hover,
@@ -2520,7 +2511,6 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #bd362f;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-danger:hover,
@@ -2552,7 +2542,6 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #51a351;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-success:hover,
@@ -2584,7 +2573,6 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #2f96b4;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-info:hover,
@@ -2616,7 +2604,6 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #222222;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-inverse:hover,
@@ -2687,7 +2674,8 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
 }
 /*@import "button-groups.less";
-@import "alerts.less"; *//*@import "navs.less";
+@import "alerts.less"; */
+/*@import "navs.less";
 @import "navbar.less";
 @import "breadcrumbs.less";
 @import "pagination.less";

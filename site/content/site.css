@@ -128,7 +128,7 @@ a.carousel-control:hover {
 }
 .download-buttons .download-btn:hover {
   opacity: 1;
-  filter: alpha(opacity=80);
+  filter: alpha(opacity=100);
   color: #fff;
 }
 /*************************************************************
@@ -404,16 +404,19 @@ ul.social li:nth-child(6):before {
 }
 /*************************************************************
                         responsive fix
-**************************************************************//*
+**************************************************************/
+/*
 
 */
-/* Large desktop *//*
+/* Large desktop */
+/*
 
 @media (min-width: 1200px) {
 }
 
 */
-/* Portrait tablet to landscape and desktop *//*
+/* Portrait tablet to landscape and desktop */
+/*
 
 @media (min-width: 768px) and (max-width: 979px) {
   .header-description h2 {
@@ -432,7 +435,8 @@ ul.social li:nth-child(6):before {
 }
 
 */
-/* Landscape phone to portrait tablet *//*
+/* Landscape phone to portrait tablet */
+/*
 
 @media (max-width: 767px) {
   body {
@@ -467,7 +471,8 @@ ul.social li:nth-child(6):before {
   }
 
   */
-/* blockqoute *//*
+/* blockqoute */
+/*
 
   .testimonials {
     padding: 44px 0 60px !important;
@@ -486,7 +491,8 @@ ul.social li:nth-child(6):before {
   }
 
   */
-/* contact form *//*
+/* contact form */
+/*
 
   .contact-form-inner {
     padding: 18px !important;
@@ -504,7 +510,8 @@ ul.social li:nth-child(6):before {
 }
 
 */
-/* Landscape phones and down *//*
+/* Landscape phones and down */
+/*
 
 @media (max-width: 480px) {
 

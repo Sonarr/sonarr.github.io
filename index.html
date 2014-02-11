@@ -2,27 +2,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Business Template</title>
+    <title>NzbDrone - Cut the cord</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Styles -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bootstrap-overrides.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme2.css" />
     <link rel="stylesheet" type="text/css" href="css/theme.css" />
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
 
-    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen" />    
-    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection" />   
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" media="screen, projection" />   
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection" />
 
-
+    <link rel="icon" type="image/ico" href="/img/favicon.ico"/>
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body class="pull_top">
+<body class="pull_top" data-spy="scroll" data-target=".header-navbar" data-offset="70">
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -35,34 +36,20 @@
                 <a href="index.html" class="navbar-brand"><strong>NzbDrone</strong></a>
             </div>
 
-            <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+            <div class="collapse navbar-collapse navbar-ex1-collapse header-navbar" role="navigation">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">HOME</a></li>
-                    <li><a href="about-us.html">ABOUT US</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="features.html">Features</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="sign-in.html">Sign in</a></li>
-                            <li><a href="sign-up.html">Sign up</a></li>
-                            <li><a href="backgrounds.html">Backgrounds</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="pricing.html">PRICING</a></li>
-                    <li><a href="contact.html">CONTACT US</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="sign-up.html">Sign up</a></li>
-                    <li><a href="sign-in.html">Sign in</a></li>
+                    <li><a href="#home"><i class="fa fa-home"></i> HOME</a></li>
+                    <li><a href="#features"><i class="fa fa-star"></i> FEATURES</a></li>
+                    <li><a href="#download"><i class="fa fa-download"></i> DOWNLOAD</a></li>
+                    <li><a href="#support"><i class="fa fa-question-circle"></i> SUPPORT</a></li>
+                    <li><a href="#donate"><i class="fa fa-heart"></i> DONATE</a></li>
                 </ul>
             </div>
         </div>
     </div>
+    <div id="home"></div>
 
-    <section id="feature_slider" class="lol">
+    <section id="feature_slider" class="lol feature-slider">
         <!-- 
             Each slide is composed by <img> and .info
             - .info's position is customized with css in index.css
@@ -77,64 +64,60 @@
 
             For the backgrounds, you can combine from the bgs folder :D
         -->
-        <article class="slide" id="showcasing" style="background: url('img/backgrounds/landscape.png') repeat-x top center;">
-            <img class="asset left-30 sp600 t120 z1" src="img/slides/scene1/macbook.png" />
+        <article class="slide" id="showcasing">
+            <img class="asset left-60 sp600 t120 z2" src="img/slider/seriesdetails.png" />
             <div class="info">
-                <h2>Beautiful theme for showcasing your works.</h2>
+                <h2>Works great and looks even better doing it.</h2>
             </div>
         </article>
-        <article class="slide" id="ideas" style="background: url('img/backgrounds/aqua.jpg') repeat-x top center;">
+        <article class="slide" id="ideas">
             <div class="info">
-                <h2>We love to turn ideas into beautiful things.</h2>
+                <h2>Notifications and fully customizable quality profiles.</h2>
             </div>
-            <img class="asset left-480 sp600 t260 z1" src="img/slides/scene2/left.png" />
-            <img class="asset left-210 sp600 t213 z2" src="img/slides/scene2/middle.png" />
-            <img class="asset left60 sp600 t260 z1" src="img/slides/scene2/right.png" />
+            <img class="asset left-480 sp600 t180 z1" src="img/slider/qualityprofile.png" />
+            <img class="asset left-200 sp600 t260 z2" src="img/slider/notifications.png" />
         </article>
-        <article class="slide" id="tour" style="background: url('img/backgrounds/color-splash.jpg') repeat-x top center;">
-            <img class="asset left-472 sp650 t210 z3" src="img/slides/scene3/ipad.png" />
-            <img class="asset left-365 sp600 t270 z4" src="img/slides/scene3/iphone.png" />
-            <img class="asset left-350 sp450 t135 z2" src="img/slides/scene3/desktop.png" />
-            <img class="asset left-185 sp550 t220 z1" src="img/slides/scene3/macbook.png" />
+        <article class="slide" id="tour">
+            <img class="asset left-472 sp650 t210 z3" src="img/slider/posters.png" />
+            <img class="asset left-185 sp550 t220 z2" src="img/slider/table.png" />
+            <img class="asset left-350 sp450 t135 z1" src="img/slider/overview.png" />
             <div class="info">
-                <h2>Fully Responsive theme</h2>
-                <a href="features.html">TOUR THE PRODUCT</a>
+                <h2>Multiple Series views.</h2>
             </div>
         </article>
-        <article class="slide" id="responsive" style="background: url('img/backgrounds/indigo.jpg') repeat-x top center;">
-            <img class="asset left-472 sp600 t120 z3" src="img/slides/scene4/html5.png" />
-            <img class="asset left-190 sp500 t120 z2" src="img/slides/scene4/css3.png" />
+        <article class="slide" id="responsive">
+            <img class="asset left-472 sp600 t120 z1" src="img/slider/updates2.png" />
+            <img class="asset left-200 sp600 t180 z2" src="img/slider/updates.png" />
             <div class="info">
                 <h2>
-                    Responsive <strong>HTML5 & CSS3</strong>
-                    Theme
+                    Frequent updates. See whats new without leaving the comfort of the app.
                 </h2>                
             </div>
         </article>        
     </section>
 
-   <div id="features">
+   <div id="features" class="features">
         <div class="container">
             <div class="section_header">
-                <h3>Heros</h3>
+                <h3>Features</h3>
             </div> 
             <div class="row feature">
                 <div class="col-sm-6">
-                    <img src="http://www.clipular.com/c?5998418635784192=1rcDBe1p6-MBiL9D2HuoXlj2i2E&f=.png" class="img-responsive" />
+                    <img src="/img/features/calendar.png" />
                 </div>
                 <div class="col-sm-6 info">
                     <h3>
                         <i class="fa fa-chevron-right"></i>
-                        Beautiful all around
+                        Calendar
                     </h3>
                     <p>
-                        Who said something this powerfull can't be beautiful? This is no spread-sheet wanna-be, This is your TV shows put on center stage.  
+                        See all your upcoming episodes in one convenient location.
                     </p>
                 </div>
             </div>
             <div class="row feature">
                 <div class="col-sm-6 pic-right">
-                    <img src="http://www.clipular.com/c?5071086878195712=R7TQqUO9jGCbGcishX4JGVYXExw&f=.png" class="pull-right img-responsive" />
+                    <img src="/img/features/manualsearch.png" class="pull-right img-responsive" />
                 </div>
                 <div class="col-sm-6 info info-left">
                     <h3>
@@ -142,311 +125,168 @@
                         Manual Search
                     </h3>
                     <p>
-                        Do you want a specific release of an episode or maybe want to see why an episode hasn't been downloaded? You can use manual search to see list of avilable episodes and why any of them would be rejected. This lets you either manually overide and download a release or throubleshoot your configuration so episodes are downloaded automatically in the futre.
+                        Find all the releases, choose the one you want and sent it right to your download client.
                     </p>
                 </div>                
             </div>
             <div class="row feature">
                 <div class="col-sm-6">
-                    <img src="img/showcase3.png" class="img-responsive" />
+                    <img src="img/features/blacklist.png" class="img-responsive" />
                 </div>
                 <div class="col-sm-6 info">
                     <h3>
                         <i class="fa fa-chevron-right"></i>
-                        Automatic Failed Download Handeling
+                        Automatic Failed Download Handling
                     </h3>
                     <p>
-                        NzbDrone makes faild downloads a thing of the past. Password protected release, missing repair pieces or taken down? no worries. NzbDrone will automatically blacklist the release and tries another one until it finds one that works.
+                        NzbDrone makes failed downloads a thing of the past. Password protected releases, missing repair blocks or virtually any other reason? no worries. NzbDrone will automatically blacklist the release and tries another one until it finds one that works.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="showcase">
+    <div id="download" class="download">
         <div class="container">
             <div class="section_header">
-                <h3>Heros</h3>
-            </div>            
-            <div class="row feature_wrapper">
-                <!-- Features Row -->
-                <div class="features_op1_row">
-                    <!-- Feature -->
-                    <div class="col-sm-4 feature">
-                        <div class="img_box">
-                            <i class="fa fa-eye"></i>
-                        </div>
-                        <div class="text">
-                            <h6>Beautiful all around</h6>
-                            <p>
-                                Who said something this powerfull can't be beautiful? This is no spread-sheet wanna-be, This is your TV shows put on center stage.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-           <div class="col-sm-4 feature">
-                        <div class="img_box">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <div class="text">
-                            <h6>Manual Search</h6>
-                            <p>
-                                Do you want a specific release of an episode or maybe want to see why an episode hasn't been downloaded? You can use manual search to see list of avilable episodes and why any of them would be rejected. This lets you either manually overide and download a release or throubleshoot your configuration so episodes are downloaded automatically in the futre.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-                   <div class="col-sm-4 feature">
-                        <div class="img_box">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <div class="text">
-                            <h6>Automatic Failed Download Handeling</h6>
-                            <p>
-                                NzbDrone makes faild downloads a thing of the past. Password protected release, missing repair pieces or taken down? no worries. NzbDrone will automatically blacklist the release and tries another one until it finds one that works.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
- 
-
-
-    <!-- Pricing Option -->
-    <div id="in_pricing">
-        <div class="container">
-            <div class="section_header">
-                <h3>Pricing</h3>
+                <h3>Download</h3>
             </div>
 
-            <div class="row charts_wrapp">
-                <!-- Plan Box -->
+            <div class="row download_wrapper">
                 <div class="col-sm-4">
-                    <div class="plan">
+                    <div class="option">
                         <div class="wrapper">
-                            <h3>Lite</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">35</span> 
-                                <span class="month">/month</span>
-                            </div>
+                            <h3><i class="fa fa-linux"></i> Linux</h3>
                             <div class="features">
                                 <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
+                                    Use your package manager
                                 </p>
                             </div>
-                            <a class="order" href="pricing.html">ORDER NOW</a>
+                            <a class="order" href="https://github.com/NzbDrone/NzbDrone/wiki/Installation#wiki-linux" target="_blank">INSTRUCTIONS</a>
                         </div>
                     </div>
                 </div>
-                <!-- Plan Box -->
-                <div class="col-sm-4 pro">
-                    <div class="plan">
+
+                <div class="col-sm-4 featured">
+                    <div class="option">
                         <div class="wrapper">
-                            <img class="ribbon" src="img/badge.png">
-                            <h3>Pro</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">99</span> 
-                                <span class="month">/month</span>
-                            </div>
+                            <h3><i class="fa fa-windows"></i> Windows</h3>
                             <div class="features">
                                 <p>
-                                    <strong>10</strong>
-                                    Shared Projects
+                                    Automatic Updates
                                 </p>
                                 <p>
-                                    <strong>25</strong>
-                                    Team Members
+                                    Run as a Service
                                 </p>
                                 <p>
-                                    <strong>Unlimited</strong>
-                                     Storage
-                                </p>
-                                <p>
-                                    <strong>Plus </strong>
-                                    Phone Support
+                                     Installer
                                 </p>
                             </div>
-                            <a class="order" href="pricing.html">ORDER NOW</a>
+                            <a class="order" href="http://update.nzbdrone.com/v2/master/latest/NzbDrone.master.exe">DOWNLOAD</a>
                         </div>
                     </div>
                 </div>
-                <!-- Plan Box -->
-                <div class="col-sm-4 standar">
-                    <div class="plan">
+
+                <div class="col-sm-4">
+                    <div class="option">
                         <div class="wrapper">
-                            <h3>Standard</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">65</span> 
-                                <span class="month">/month</span>
-                            </div>
+                            <h3><i class="fa fa-apple"></i> OS X</h3>
                             <div class="features">
                                 <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
+                                    Manual Updates
                                 </p>
                             </div>
-                            <a class="order" href="pricing.html">ORDER NOW</a>
+                            <a class="order" href="https://github.com/NzbDrone/NzbDrone/wiki/Installation#wiki-osx" target="_blank">INSTRUCTIONS</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="start">
-                <p>Start your free, no-risk, 14 day trial! </p>
-                <a href="pricing.html">Start Now!</a>
             </div>
         </div>
     </div>
 
-    <div id="clients">
+    <div id="support" class="support">
         <div class="container">
             <div class="section_header">
-                <h3>Clients</h3>
+                <h3>Support</h3>
             </div>
             <div class="row">
-                <div class="col-md-2 col-sm-4 client">
-                    <div class="img client1"></div>
-                </div>
-                <div class="col-md-2 col-sm-4 client">
-                    <div class="img client2"></div>
-                </div>
-                <div class="col-md-2 col-sm-4 client">
-                    <div class="img client3"></div>
-                </div>
-                <div class="col-md-2 col-sm-4 client">
-                    <div class="img client1"></div>
-                </div>
-                <div class="col-md-2 col-sm-4 client">
-                    <div class="img client2"></div>
-                </div>
-                <div class="col-md-2 col-sm-4 client">
-                    <div class="img client3"></div>
-                </div>
+                <a class="col-sm-3" href="http://forums.nzbdrone.com" target="_blank">
+                    <div class="text">
+                        <i class="fa fa-group fa-2x"></i>
+                        <h4>Forums</h4>
+                        <p>
+                            Talk to NzbDrone developers and users, we are here to help.
+                        </p>
+                    </div>
+                </a>
+
+                <a class="col-sm-3" href="http://wiki.nzbdrone.com" target="_blank">
+                    <div class="text">
+                        <i class="fa fa-group fa-2x"></i>
+                        <h4>Wiki</h4>
+                        <p>
+                            FAQ, API documentation and other guides
+                        </p>
+                    </div>
+                </a>
+
+                <a class="col-sm-3" href="http://webchat.freenode.net/?channels=#nzbdrone" target="_blank">
+                    <div class="text">
+                        <i class="fa fa-comment fa-2x"></i>
+                        <h4>IRC Channel</h4>
+                        <p>
+                            Join our IRC channel for a chat. irc.freenode.net #nzbdrone
+                        </p>
+                    </div>
+                </a>
+
+                <a class="col-sm-3" href="http://trello.nzbdrone.com/" target="_blank">
+                    <div class="text">
+                        <i class="fa fa-trello fa-2x"></i>
+                        <h4>Trello Board</h4>
+                        <p>
+                            Track bugs and features and vote for the things that matter to you.
+                        </p>
+                    </div>
+                </a>
+
+                <a class="col-sm-3" href="https://twitter.com/NzbDrone" target="_blank">
+                    <div class="text">
+                        <i class="fa fa-twitter fa-2x"></i>
+                        <h4>Follow us on Twitter</h4>
+                        <p>
+                            News, updates and anything else that might
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>6
+
+    <div id="donate" class="donate">
+        <div class="container">
+            <div class="section_header">
+                <h3>Donate</h3>
+                <h5>Help support development with a donation, we promise to put it to good use.</h5>
+            </div>
+            <div class="row">
+                <a class="col-sm-3" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HGGGM7JT5YVSS" target="_blank">
+                    <div class="text">
+                        <i class="fa fa-usd fa-2x"></i>
+                        <h4>Paypal</h4>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 
-    <!-- starts footer -->
-    <footer id="footer">
+    <footer id="footer" class="footer">
         <div class="container">
-            <div class="row sections">
-                <div class="col-sm-4 recent_posts">
-                    <h3 class="footer_header">
-                        Recent Posts
-                    </h3>
-                    <div class="post">
-                        <a href="blogpost.html">
-                            <img src="img/recent_post1.png" class="img-circle" />
-                        </a>
-                        <div class="date">
-                            Wed, 12 Dec
-                        </div>
-                        <a href="blogpost.html" class="title">
-                            Randomised words which don't look embarrasing hidden.
-                        </a>
-                    </div>
-                    <div class="post">
-                        <a href="blogpost.html">
-                            <img src="img/recent_post2.png" class="img-circle" />
-                        </a>
-                        <div class="date">
-                            Mon, 12 Dec
-                        </div>
-                        <a href="blogpost.html" class="title">
-                            Randomised words which don't look embarrasing hidden.
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4 testimonials">
-                    <h3 class="footer_header">
-                        Testimonials
-                    </h3>
-                    <div class="wrapper">
-                        <div class="quote">
-                            <span>“</span>
-                            There are many variations of passages of randomised words which don't look even slightly believable. You need to be sure there isn't anything embarrassing of text.
-                            <span></span>
-                        </div>
-                        <div class="author">
-                            <img src="img/user-display.png" />
-                            <div class="name">Alejandra Galvan Castillo</div>
-                            <div class="info">
-                                Details Canvas
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 contact">
-                    <h3 class="footer_header">
-                        Contact
-                    </h3>
-                    <form action="#" method="post">
-                        <input type="text" placeholder="Your name" />
-                        <input type="text" placeholder="Your email" />
-                        <textarea rows="3" placeholder="Message"></textarea>
-                        <input type="submit" value="Send" />
-                    </form>
-                </div>
-            </div>
             <div class="row credits">
                 <div class="col-md-12">
-                    <div class="row social">
-                        <div class="col-md-12">
-                            <a href="#" class="facebook">
-                                <span class="socialicons ico1"></span>
-                                <span class="socialicons_h ico1h"></span>
-                            </a>
-                            <a href="#" class="twitter">
-                                <span class="socialicons ico2"></span>
-                                <span class="socialicons_h ico2h"></span>
-                            </a>
-                            <a href="#" class="gplus">
-                                <span class="socialicons ico3"></span>
-                                <span class="socialicons_h ico3h"></span>
-                            </a>
-                            <a href="#" class="flickr">
-                                <span class="socialicons ico4"></span>
-                                <span class="socialicons_h ico4h"></span>
-                            </a>
-                            <a href="#" class="pinterest">
-                                <span class="socialicons ico5"></span>
-                                <span class="socialicons_h ico5h"></span>
-                            </a>
-                            <a href="#" class="dribble">
-                                <span class="socialicons ico6"></span>
-                                <span class="socialicons_h ico6h"></span>
-                            </a>
-                            <a href="#" class="behance">
-                                <span class="socialicons ico7"></span>
-                                <span class="socialicons_h ico7h"></span>
-                            </a>
-                        </div>
-                    </div>
                     <div class="row copyright">
                         <div class="col-md-12">
-                            © 2013 Clean Canvas. All rights reserved. Theme by Detail Canvas.
+                            © <span id="year"></span> NzbDrone. All rights reserved. Theme by Detail Canvas.
                         </div>
                     </div>
                 </div>            
@@ -454,7 +294,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/theme.js"></script>

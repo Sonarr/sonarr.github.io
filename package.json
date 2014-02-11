@@ -20,5 +20,8 @@
     "grunt-contrib-less": "*",
     "grunt-contrib-copy": "*",
     "grunt-clean": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "~0.6.0"
   }
 }

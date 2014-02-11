@@ -2,48 +2,54 @@ module.exports = function (grunt) {
 
     // Project configuration.
     grunt.initConfig({
-                         pkg: grunt.file.readJSON('package.json'),
+                        pkg: grunt.file.readJSON('package.json'),
 
-                         less: {
+                        less: {
 
+                            options: {
+                                dumpLineNumbers: 'false',
+                                compress: false,
+                                yuicompress: false,
+                                ieCompat: false
+                            },
+                            general: {
+                                files: [
+                                    {
+                                        expand: true,
+                                        src: [
+                                            'css/theme.less',
+                                            'site/content/bootstrap/bootstrap.less',
+                                            'site/content/site.less'
+                                        ],
+                                        dest: '',
+                                        ext: '.css'
+                                    }
+                                ]
+                            }
+                        },
 
-                             options: {
-                                 dumpLineNumbers: 'false',
-                                 compress: false,
-                                 yuicompress: false,
-                                 ieCompat: false
-                             },
+                        watch: {
+                            options: {
+                                nospawn: false
+                            },
+                            less: {
+                                files: ['**/*.less'],
+                                tasks: ['less']
+                            }                           
+                        },
 
-                             general: {
-                                 files: [
-                                     {
-                                         expand: true,
-                                         src: [
-                                             'site/content/bootstrap/bootstrap.less',
-                                             'site/content/site.less'
-                                         ],
-                                         dest: '',
-                                         ext: '.css'
-                                     }
-                                 ]
-                             }
+                        connect: {
+                            server: {
+                                options: {
+                                    port: 9001,
+                                    keepalive: true
+                                }
+                            }
+                        }
+                    });
 
-                         },
-
-                         watch: {
-                             options: {
-                                 nospawn: false
-                             },
-
-                             less: {
-                                 files: ['**/*.less'],
-                                 tasks: ['less']
-                             }
-                            
-                         }
-                     });
-
+    grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['less', 'watch']);
+    grunt.registerTask('default', ['less', 'watch', 'connect']);
 };
