@@ -426,21 +426,21 @@ header {
   margin-bottom: 5px;
   font-size: 14px;
 }
-.download .option a.order {
-  background-color: #2190DB;
+.download .option a.button {
+  background-color: #35c5f4;
   text-align: center;
   margin: 25px auto 0;
   width: 48%;
   display: block;
   padding: 3px 0;
-  color: #fff;
+  color: #6c6c6c;
   font-size: 13px;
   font-weight: bold;
   border-radius: 5px;
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
 }
-.download .option a.order:hover {
+.download .option a.button:hover {
   background: #252528;
 }
 .download .featured .option {
@@ -457,7 +457,7 @@ header {
   top: 0;
   right: 0;
 }
-.download .featured .option a.order {
+.download .featured .option a.button {
   margin-top: 35px;
 }
 .footer {
@@ -517,7 +517,7 @@ header {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .download .option a.order {
+  .download .option a.button {
     width: 64%;
   }
 }
