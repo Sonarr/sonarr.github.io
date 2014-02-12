@@ -479,7 +479,12 @@ header {
   .features {
     margin-top: 100px;
   }
-  .support .text p {
+  .support .text,
+  .donate .text {
+    margin-left: 10px;
+  }
+  .support .text p,
+  .donate .text p {
     display: none;
   }
   .features .section-header {

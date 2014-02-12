@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825a82c5-b907-48c7-8719-84053b8fb768" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slider.less" afterPath="$PROJECT_DIR$/css/slider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.css" afterPath="$PROJECT_DIR$/css/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.less" afterPath="$PROJECT_DIR$/css/theme.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nzbdrone.github.com.iws" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="208" column="51" selection-start="9393" selection-end="9393" vertical-scroll-proportion="-5.27451" vertical-offset="3267" max-vertical-offset="4964">
+            <state line="247" column="10" selection-start="10974" selection-end="10974" vertical-scroll-proportion="-5.607843" vertical-offset="3913" max-vertical-offset="4964">
               <folding />
             </state>
           </provider>
@@ -45,19 +46,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="theme.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/theme.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="0" selection-start="2720" selection-end="2720" vertical-scroll-proportion="-10.0" vertical-offset="2244" max-vertical-offset="4896">
-              <folding />
+            <state line="218" column="7" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.60390764" vertical-offset="1037" max-vertical-offset="2669">
+              <folding>
+                <element signature="e#708#953#0" expanded="false" />
+                <element signature="e#1156#1521#0" expanded="false" />
+                <element signature="e#1533#3077#0" expanded="false" />
+                <element signature="e#3087#3285#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slider.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/slider.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="222" column="3" selection-start="4240" selection-end="4240" vertical-scroll-proportion="0.82474226" vertical-offset="3054" max-vertical-offset="3927">
+            <state line="224" column="3" selection-start="4279" selection-end="4279" vertical-scroll-proportion="-14.784314" vertical-offset="3054" max-vertical-offset="3927">
               <folding />
             </state>
           </provider>
@@ -66,8 +72,10 @@
       <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="475" column="1" selection-start="9433" selection-end="9433" vertical-scroll-proportion="0.0" vertical-offset="8075" max-vertical-offset="9129">
-              <folding />
+            <state line="369" column="0" selection-start="7395" selection-end="7395" vertical-scroll-proportion="0.0" vertical-offset="6069" max-vertical-offset="9214">
+              <folding>
+                <marker date="1392232375873" expanded="true" signature="9695:9706" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,9 +120,9 @@
         <option value="$PROJECT_DIR$/js/index-slider.js" />
         <option value="$PROJECT_DIR$/css/navbar.less" />
         <option value="$PROJECT_DIR$/css/theme.css" />
-        <option value="$PROJECT_DIR$/css/theme.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/slider.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/theme.less" />
       </list>
     </option>
   </component>
@@ -348,7 +356,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263158" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3263158" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23328067" sideWeight="0.6726695" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -400,7 +408,12 @@
     <entry file="file://$PROJECT_DIR$/css/theme.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="190" column="28" selection-start="3154" selection-end="3154" vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="4896">
-          <folding />
+          <folding>
+            <element signature="e#708#953#0" expanded="false" />
+            <element signature="e#1156#1521#0" expanded="false" />
+            <element signature="e#1533#3077#0" expanded="false" />
+            <element signature="e#3087#3285#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -414,7 +427,9 @@
     <entry file="file://$PROJECT_DIR$/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="476" column="1" selection-start="9495" selection-end="9503" vertical-scroll-proportion="0.0" vertical-offset="8092" max-vertical-offset="9129">
-          <folding />
+          <folding>
+            <marker date="1392232375873" expanded="true" signature="9695:9706" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -435,7 +450,12 @@
     <entry file="file://$PROJECT_DIR$/css/theme.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="210" column="3" selection-start="3513" selection-end="3513" vertical-scroll-proportion="0.0" vertical-offset="3570" max-vertical-offset="4896">
-          <folding />
+          <folding>
+            <element signature="e#708#953#0" expanded="false" />
+            <element signature="e#1156#1521#0" expanded="false" />
+            <element signature="e#1533#3077#0" expanded="false" />
+            <element signature="e#3087#3285#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,7 +469,9 @@
     <entry file="file://$PROJECT_DIR$/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="476" column="1" selection-start="9496" selection-end="9504" vertical-scroll-proportion="0.0" vertical-offset="8092" max-vertical-offset="9129">
-          <folding />
+          <folding>
+            <marker date="1392232375873" expanded="true" signature="9695:9706" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -470,7 +492,12 @@
     <entry file="file://$PROJECT_DIR$/css/theme.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="210" column="3" selection-start="3513" selection-end="3513" vertical-scroll-proportion="0.0" vertical-offset="3570" max-vertical-offset="4896">
-          <folding />
+          <folding>
+            <element signature="e#708#953#0" expanded="false" />
+            <element signature="e#1156#1521#0" expanded="false" />
+            <element signature="e#1533#3077#0" expanded="false" />
+            <element signature="e#3087#3285#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,7 +511,9 @@
     <entry file="file://$PROJECT_DIR$/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="476" column="1" selection-start="9496" selection-end="9504" vertical-scroll-proportion="0.0" vertical-offset="8092" max-vertical-offset="9129">
-          <folding />
+          <folding>
+            <marker date="1392232375873" expanded="true" signature="9695:9706" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -497,12 +526,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/site.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="18" selection-start="2364" selection-end="2364" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9843" />
+        <state line="101" column="18" selection-start="2364" selection-end="2364" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9843">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/responsive-1200px-min.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css">
@@ -522,7 +555,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/prefixer.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5950" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5950">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/path.less">
@@ -557,7 +592,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/responsive-1200px-min.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/path.less">
@@ -582,7 +619,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/prefixer.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/FontAwesome/variables.less">
@@ -607,7 +646,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/site.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.3469388" vertical-offset="2210" max-vertical-offset="9843" />
+        <state line="142" column="0" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.3469388" vertical-offset="2210" max-vertical-offset="9843">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/animate.css">
@@ -639,31 +680,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/css/slider.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="475" column="1" selection-start="9433" selection-end="9433" vertical-scroll-proportion="0.0" vertical-offset="8075" max-vertical-offset="9129">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="0" selection-start="2720" selection-end="2720" vertical-scroll-proportion="-10.0" vertical-offset="2244" max-vertical-offset="4896">
+        <state line="224" column="3" selection-start="4279" selection-end="4279" vertical-scroll-proportion="-14.784314" vertical-offset="3054" max-vertical-offset="3927">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="51" selection-start="9393" selection-end="9393" vertical-scroll-proportion="-5.27451" vertical-offset="3267" max-vertical-offset="4964">
+        <state line="247" column="10" selection-start="10974" selection-end="10974" vertical-scroll-proportion="-5.607843" vertical-offset="3913" max-vertical-offset="4964">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/slider.less">
+    <entry file="file://$PROJECT_DIR$/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="3" selection-start="4240" selection-end="4240" vertical-scroll-proportion="0.82474226" vertical-offset="3054" max-vertical-offset="3927">
-          <folding />
+        <state line="369" column="0" selection-start="7395" selection-end="7395" vertical-scroll-proportion="0.0" vertical-offset="6069" max-vertical-offset="9214">
+          <folding>
+            <marker date="1392232375873" expanded="true" signature="9695:9706" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="7" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.60390764" vertical-offset="1037" max-vertical-offset="2669">
+          <folding>
+            <element signature="e#708#953#0" expanded="false" />
+            <element signature="e#1156#1521#0" expanded="false" />
+            <element signature="e#1533#3077#0" expanded="false" />
+            <element signature="e#3087#3285#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
