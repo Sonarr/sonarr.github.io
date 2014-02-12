@@ -473,7 +473,7 @@ header {
   text-align: center;
 }
 .slide {
-  background: url('/img/backgrounds/icon.png') 50px 100px no-repeat, #333333 url('/img/backgrounds/black.png') top center / cover repeat;
+  background: url('/img/background/logo.png') 50px 100px no-repeat, #333333 url('/img/background/black.png') top center / cover repeat;
 }
 @media (max-width: 767px) {
   .features {
