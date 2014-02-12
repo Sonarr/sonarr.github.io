@@ -1,4 +1,45 @@
-.section_header {
+@import 'slider';
+@import 'navbar';
+
+html {
+  margin: 0;
+}
+
+body {
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Lato', sans-serif !important;
+  padding-top: 107px;
+  line-height: 20px;
+  h2 {
+    font-size: 31.5px;
+  }
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .h3, body .h4, body .h5, body .h6 {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+body h1, body h2, body h3 {
+  line-height: 40px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body.pull_top {
+  padding-top: 0px !important;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.section-header {
   width: 100%;
   margin-bottom: 30px;
 
@@ -159,7 +200,9 @@
 }
 
 .slide {
-  background: url('/img/backgrounds/black_linen_with_logo.png') repeat-x top center;
+  background:
+    url('/img/backgrounds/icon.png') 50px 100px no-repeat,
+    #333333 url('/img/backgrounds/black.png') top center e('/') cover repeat;
 }
 
 @media (max-width: 767px) {
@@ -172,7 +215,7 @@
   }
 
   .features {
-    .section_header {
+    .section-header {
       text-align: center;
     }
     .feature {

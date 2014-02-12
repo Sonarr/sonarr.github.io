@@ -2,42 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825a82c5-b907-48c7-8719-84053b8fb768" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/256.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/backgrounds/black_linen_v2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/backgrounds/black_linen_with_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/features/blacklist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/features/calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/backgrounds/drone-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/leftright-arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/features/manualsearch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/notifications.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/overview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/posters.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/qualityprofile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/seriesdetails.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/table.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/updates.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slider/updates2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/theme2.css" />
-      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\favicon.ico" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css" afterPath="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/slider.less" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\css\theme2.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\256.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\backgrounds\aqua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\backgrounds\black_linen_v2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\backgrounds\black_linen_with_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\backgrounds\color-splash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\backgrounds\drone-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\backgrounds\indigo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dropbox\Dev\nzbdrone.github.io\img\backgrounds\landscape.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/notifications.png" afterPath="$PROJECT_DIR$/img/slider/notifications.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/qualityprofile.png" afterPath="$PROJECT_DIR$/img/slider/qualityprofile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/updates.png" afterPath="$PROJECT_DIR$/img/slider/updates.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/updates2.png" afterPath="$PROJECT_DIR$/img/slider/updates2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index-slider.js" afterPath="$PROJECT_DIR$/js/index-slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nzbdrone.github.com.iml" afterPath="$PROJECT_DIR$/.idea/nzbdrone.github.com.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/content/site.css" afterPath="$PROJECT_DIR$/site/content/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.css" afterPath="$PROJECT_DIR$/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/theme.js" afterPath="$PROJECT_DIR$/js/theme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.less" afterPath="$PROJECT_DIR$/css/theme.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nzbdrone.github.com.iws" />
@@ -61,14 +46,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="91" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.7193764" vertical-offset="918" max-vertical-offset="4216">
+            <state line="33" column="39" selection-start="1692" selection-end="1704" vertical-scroll-proportion="-9.807693" vertical-offset="306" max-vertical-offset="4998">
               <folding>
-                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1836">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,33 +69,34 @@
       <file leaf-file-name="theme.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="282" selection-end="282" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="986">
+            <state line="210" column="3" selection-start="3513" selection-end="3513" vertical-scroll-proportion="-137.3077" vertical-offset="0" max-vertical-offset="4896">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/slider.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.56462586" vertical-offset="943" max-vertical-offset="3927">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="476" column="1" selection-start="9496" selection-end="9504" vertical-scroll-proportion="0.0" vertical-offset="7580" max-vertical-offset="8738">
               <folding>
-                <element signature="e#16#261#0" expanded="false" />
-                <element signature="e#841#2380#0" expanded="false" />
-                <element signature="e#2390#2588#0" expanded="false" />
-                <element signature="e#2713#3521#0" expanded="false" />
-                <element signature="e#3572#3625#0" expanded="false" />
-                <element signature="e#3653#3792#0" expanded="false" />
+                <element signature="e#4160#4193#0" expanded="false" />
+                <element signature="e#4213#4387#0" expanded="false" />
+                <element signature="e#4695#4720#0" expanded="false" />
+                <element signature="e#4780#4904#0" expanded="false" />
+                <element signature="e#4973#4991#0" expanded="false" />
+                <element signature="e#5066#5089#0" expanded="false" />
+                <element signature="e#5113#5186#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="120" selection-end="120" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="3417">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme2.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/theme2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="10" selection-start="3690" selection-end="3690" vertical-scroll-proportion="-21.52" vertical-offset="1604" max-vertical-offset="2550">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -140,12 +134,16 @@
         <option value="$PROJECT_DIR$/site/content/Bootstrap/bootstrap.less" />
         <option value="$PROJECT_DIR$/site/app.js" />
         <option value="$PROJECT_DIR$/site/content/site.less" />
+        <option value="$USER_HOME$/AppData/Local/Temp/localhost.url" />
         <option value="$PROJECT_DIR$/js/theme.js" />
         <option value="$PROJECT_DIR$/css/theme2.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/localhost.url" />
-        <option value="$PROJECT_DIR$/css/theme.less" />
+        <option value="$PROJECT_DIR$/js/index-slider.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/navbar.less" />
+        <option value="$PROJECT_DIR$/css/theme.css" />
+        <option value="$PROJECT_DIR$/css/theme.less" />
+        <option value="$PROJECT_DIR$/css/slider.less" />
       </list>
     </option>
   </component>
@@ -241,7 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,9 +343,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263158" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3263158" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23328067" sideWeight="0.6726695" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -386,7 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="113" column="14" selection-start="6054" selection-end="6054" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="7973">
           <folding>
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
@@ -521,12 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/content/Bootstrap/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="473" selection-end="473" vertical-scroll-proportion="0.01633987" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="18" selection-start="2364" selection-end="2364" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="9843">
+        <state line="22" column="32" selection-start="473" selection-end="473" vertical-scroll-proportion="0.01633987" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
@@ -545,20 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="45" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="10" selection-start="3690" selection-end="3690" vertical-scroll-proportion="-21.52" vertical-offset="1604" max-vertical-offset="2550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/localhost.url">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
@@ -566,34 +544,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/site/content/site.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="120" selection-end="120" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="3417">
+        <state line="142" column="0" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.3469388" vertical-offset="2210" max-vertical-offset="9843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme.less">
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="282" selection-end="282" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="986">
+        <state line="18" column="35" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.2545757" vertical-offset="153" max-vertical-offset="55760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="2487" selection-start="3318" selection-end="3318" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="969">
           <folding>
-            <element signature="e#16#261#0" expanded="false" />
-            <element signature="e#841#2380#0" expanded="false" />
-            <element signature="e#2390#2588#0" expanded="false" />
-            <element signature="e#2713#3521#0" expanded="false" />
-            <element signature="e#3572#3625#0" expanded="false" />
-            <element signature="e#3653#3792#0" expanded="false" />
+            <marker date="1392082236045" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="251" column="88" selection-start="8447" selection-end="8447" vertical-scroll-proportion="0.6644951" vertical-offset="3859" max-vertical-offset="6460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="0" selection-end="1883" vertical-scroll-proportion="0.44299674" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="91" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.7193764" vertical-offset="918" max-vertical-offset="4216">
+        <state line="33" column="39" selection-start="1692" selection-end="1704" vertical-scroll-proportion="-9.807693" vertical-offset="306" max-vertical-offset="4998">
           <folding>
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="476" column="1" selection-start="9496" selection-end="9504" vertical-scroll-proportion="0.0" vertical-offset="7580" max-vertical-offset="8738">
+          <folding>
+            <element signature="e#4160#4193#0" expanded="false" />
+            <element signature="e#4213#4387#0" expanded="false" />
+            <element signature="e#4695#4720#0" expanded="false" />
+            <element signature="e#4780#4904#0" expanded="false" />
+            <element signature="e#4973#4991#0" expanded="false" />
+            <element signature="e#5066#5089#0" expanded="false" />
+            <element signature="e#5113#5186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="3" selection-start="3513" selection-end="3513" vertical-scroll-proportion="-137.3077" vertical-offset="0" max-vertical-offset="4896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/slider.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.56462586" vertical-offset="943" max-vertical-offset="3927">
+          <folding />
         </state>
       </provider>
     </entry>
