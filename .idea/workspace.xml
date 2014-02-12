@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825a82c5-b907-48c7-8719-84053b8fb768" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slider.less" afterPath="$PROJECT_DIR$/css/slider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.css" afterPath="$PROJECT_DIR$/css/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nzbdrone.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="208" column="51" selection-start="9393" selection-end="9393" vertical-scroll-proportion="0.3127907" vertical-offset="3267" max-vertical-offset="4964">
+            <state line="208" column="51" selection-start="9393" selection-end="9393" vertical-scroll-proportion="-5.27451" vertical-offset="3267" max-vertical-offset="4964">
               <folding />
             </state>
           </provider>
@@ -52,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="slider.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/slider.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="40" selection-start="3731" selection-end="3731" vertical-scroll-proportion="0.0" vertical-offset="3054" max-vertical-offset="3927">
+            <state line="222" column="3" selection-start="4240" selection-end="4240" vertical-scroll-proportion="0.82474226" vertical-offset="3054" max-vertical-offset="3927">
               <folding />
             </state>
           </provider>
@@ -64,7 +66,7 @@
       <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="476" column="1" selection-start="9570" selection-end="9570" vertical-scroll-proportion="0.0" vertical-offset="8092" max-vertical-offset="9129">
+            <state line="475" column="1" selection-start="9433" selection-end="9433" vertical-scroll-proportion="0.0" vertical-offset="8075" max-vertical-offset="9129">
               <folding />
             </state>
           </provider>
@@ -110,9 +112,9 @@
         <option value="$PROJECT_DIR$/js/index-slider.js" />
         <option value="$PROJECT_DIR$/css/navbar.less" />
         <option value="$PROJECT_DIR$/css/theme.css" />
-        <option value="$PROJECT_DIR$/css/slider.less" />
         <option value="$PROJECT_DIR$/css/theme.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/slider.less" />
       </list>
     </option>
   </component>
@@ -639,14 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="476" column="1" selection-start="9570" selection-end="9570" vertical-scroll-proportion="0.0" vertical-offset="8092" max-vertical-offset="9129">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/slider.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="40" selection-start="3731" selection-end="3731" vertical-scroll-proportion="0.0" vertical-offset="3054" max-vertical-offset="3927">
+        <state line="475" column="1" selection-start="9433" selection-end="9433" vertical-scroll-proportion="0.0" vertical-offset="8075" max-vertical-offset="9129">
           <folding />
         </state>
       </provider>
@@ -660,7 +655,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="51" selection-start="9393" selection-end="9393" vertical-scroll-proportion="0.3127907" vertical-offset="3267" max-vertical-offset="4964">
+        <state line="208" column="51" selection-start="9393" selection-end="9393" vertical-scroll-proportion="-5.27451" vertical-offset="3267" max-vertical-offset="4964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/slider.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="3" selection-start="4240" selection-end="4240" vertical-scroll-proportion="0.82474226" vertical-offset="3054" max-vertical-offset="3927">
           <folding />
         </state>
       </provider>

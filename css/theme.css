@@ -203,7 +203,7 @@
   }
 }
 @media (max-width: 767px) {
-  .feature-slider {
+  #feature-slider {
     display: none;
   }
 }
