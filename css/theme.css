@@ -426,11 +426,11 @@ header {
   margin-bottom: 5px;
   font-size: 14px;
 }
-.download .option a.button {
+.download .option .button {
   background-color: #35c5f4;
   text-align: center;
   margin: 25px auto 0;
-  width: 48%;
+  width: 50%;
   display: block;
   padding: 3px 0;
   color: #6c6c6c;
@@ -440,8 +440,11 @@ header {
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
 }
-.download .option a.button:hover {
+.download .option .button:hover {
   background: #252528;
+}
+.download .option .button.disabled {
+  cursor: not-allowed;
 }
 .download .featured .option {
   width: 100%;
@@ -457,7 +460,7 @@ header {
   top: 0;
   right: 0;
 }
-.download .featured .option a.button {
+.download .featured .option .button {
   margin-top: 35px;
 }
 .footer {
@@ -522,7 +525,7 @@ header {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .download .option a.button {
+  .download .option .button {
     width: 64%;
   }
 }

@@ -141,11 +141,11 @@ header {
       }
     }
 
-    a.button {
+    .button {
       background-color: #35c5f4;
       text-align: center;
       margin: 25px auto 0;
-      width: 48%;
+      width: 50%;
       display: block;
       padding: 3px 0;
       color: #6c6c6c;
@@ -157,6 +157,10 @@ header {
 
       &:hover {
         background: #252528;
+      }
+
+      &.disabled {
+        cursor: not-allowed;
       }
     }
   }
@@ -178,7 +182,7 @@ header {
         right: 0;
       }
 
-      a.button {
+      .button {
         margin-top: 35px;
       }
     }
@@ -269,7 +273,7 @@ header {
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .download .option a.button {
+  .download .option .button {
     width: 64%;
   }
 }
