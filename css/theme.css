@@ -537,3 +537,10 @@ header {
     float: left;
   }
 }
+.logo-text {
+  font-weight: 300;
+}
+.logo-text .highlight {
+  font-weight: 400;
+  color: #35c5f4;
+}

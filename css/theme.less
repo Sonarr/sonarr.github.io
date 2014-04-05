@@ -1,6 +1,8 @@
 @import 'slider';
 @import 'navbar';
 
+@droneTeal: #35c5f4;
+
 html {
   margin: 0;
 }
@@ -142,7 +144,7 @@ header {
     }
 
     .button {
-      background-color: #35c5f4;
+      background-color: @droneTeal;
       text-align: center;
       margin: 25px auto 0;
       width: 50%;
@@ -288,5 +290,14 @@ header {
         float: left;
       }
     }
+  }
+}
+
+.logo-text {
+  font-weight: 300;
+
+  .highlight {
+    font-weight: 400;
+    color: @droneTeal;
   }
 }
