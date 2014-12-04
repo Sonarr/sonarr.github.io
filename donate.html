@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sonarr - Donate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+<!--    <link rel="stylesheet" type="text/css" href="css/theme.css"/>-->
+    <link rel="stylesheet" type="text/css" href="css/donate.css"/>
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic,700italic,900italic'
+          rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css"
+          media="screen, projection"/>
+    <link rel="icon" type="image/ico" href="img/favicon.ico"/>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="pull_top" data-spy="scroll" data-target=".header-navbar" data-offset="70">
+<div id="donate" class="donate container">
+        <div class="section-header">
+            <h3>Donate</h3>
+            <h5>Help support Sonarr with your donations, we promise to put it to good use.</h5>
+        </div>
+        <div role="tabpanel">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#recurring" aria-controls="recurring" role="tab"
+                                                          data-toggle="tab">Recurring</a>
+                </li>
+                <li role="presentation"><a href="#onetime" aria-controls="onetime" role="tab"
+                                           data-toggle="tab">One Time</a></li>
+
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel fade in" class="tab-pane active" id="recurring">
+                    <button type="button" class="btn btn-info btn-lg">$3/Month</button>
+                    <button type="button" class="btn btn-info btn-lg">$5/Month</button>
+                    <button type="button" class="btn btn-success btn-lg">$10/Month</button>
+                    <button type="button" class="btn btn-success btn-lg">$20/Month</button>
+                </div>
+                <div role="tabpanel fade" class="tab-pane" id="onetime">
+                    <div class="container">
+                        <div class="row">
+                            <a class="col-sm-3"
+                               href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HGGGM7JT5YVSS"
+                               target="_blank">
+                                <div class="text">
+                                    <i class="fa fa-usd fa-2x"></i>
+                                    <h4>Paypal</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="row">
+                <span class="col-sm-4">
+                    <div class="text">
+                        <i class="fa fa-btc fa-2x"></i>
+                        <h4>BTC</h4>
+
+                        <p>1BAa2sZoW2ob4NBEzeVcsFrjRzGaY98vmr</p>
+                    </div>
+                </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/theme.js"></script>
+
+<script type="text/javascript" src="js/donate.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8318723-9']);
+    _gaq.push(['_setDomainName', 'sonarr.tv']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>
