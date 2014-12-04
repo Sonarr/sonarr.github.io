@@ -38,7 +38,7 @@
                     <li><a href="#features"><i class="fa fa-star"></i> FEATURES</a></li>
                     <li><a href="#download"><i class="fa fa-download"></i> DOWNLOAD</a></li>
                     <li><a href="#support"><i class="fa fa-question-circle"></i> SUPPORT</a></li>
-                    <li><a href="#donate"><i class="fa fa-heart"></i> DONATE</a></li>
+                    <li><a href="https://sonarr.tv/donate"><i class="fa fa-heart"></i> DONATE</a></li>
                     <li><a href="https://github.com/Sonarr/Sonarr" target="_blank"><i class="fa fa-github-alt"></i> GITHUB</a></li>
                 </ul>
             </div>
@@ -77,18 +77,6 @@
             </div>
         </article>        
     </section>
-
-    <div id="home" class="rename">
-        <div class="container">
-            <div class="container">
-                <div class="col-sm-12">
-                    <h3>NzbDrone is now Sonarr. Dive in.</h3>
-                    <div>For now changes are cosmetic only, we'll update our progress on our forums and twitter. Our goal is to make this transition as smooth as possible for everyone.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div id="features" class="features">
         <div class="container">
             <div class="section-header">
@@ -259,32 +247,6 @@
         </div>
     </div>
 
-    <div id="donate" class="donate">
-        <div class="container">
-            <div class="section-header">
-                <h3>Donate</h3>
-                <h5>Help support development with a donation, we promise to put it to good use.</h5>
-            </div>
-            <div class="row">
-                <a class="col-sm-3" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HGGGM7JT5YVSS" target="_blank">
-                    <div class="text">
-                        <i class="fa fa-usd fa-2x"></i>
-                        <h4>Paypal</h4>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <span class="col-sm-4">
-                    <div class="text">
-                        <i class="fa fa-btc fa-2x"></i>
-                        <h4>BTC</h4>
-                        <p>1BAa2sZoW2ob4NBEzeVcsFrjRzGaY98vmr</p>
-                    </div>
-                </span>
-            </div>
-        </div>
-    </div>
-
     <footer id="footer" class="footer">
         <div class="container">
             <div class="row credits">
@@ -305,9 +267,14 @@
 
     <script type="text/javascript" src="js/index-slider.js"></script>   
     <script type="text/javascript">
+
+        if(window.location.hash.toLocaleLowerCase()=== "#donate"){
+            window.location.replace("https://sonarr.tv/donate");
+        }
+
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-8318723-9']);
-    _gaq.push(['_setDomainName', 'nzbdrone.com']);
+    _gaq.push(['_setDomainName', 'sonarr.tv']);
     _gaq.push(['_trackPageview']);
 
     (function () {
