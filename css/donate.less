@@ -1,14 +1,27 @@
 .tab-content {
-  padding: 20px;
+  padding: 40px;
 }
 
 .section-header {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+
+  .fa-heart {
+    color: #6b6b6b;
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+  span {
+    font-style: italic;
+  }
 }
 
 body {
   background-color: #333;
-  font-family: 'Lato',sans-serif!important;
+  font-family: 'Lato', sans-serif !important;
 }
 
 .donate {
@@ -22,13 +35,36 @@ body {
   min-height: 300px;
 }
 
-#recurring{
+#recurring {
   margin-left: 90px;
-  button {
-    min-width: 200px;
-    margin: 10px;
-    font-size: 20px;
-    font-weight: 300;
+}
+
+#onetime {
+  margin-left: 140px;
+  .btn {
+    min-width: 300px;
   }
 
+  .btc {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+    .btc-address {
+      font-family: monospace;
+    }
+  }
+
+}
+
+.btn {
+  min-width: 200px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.btc-donate-link{
+  img{
+    display: none;
+  }
 }
