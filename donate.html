@@ -19,51 +19,80 @@
     <![endif]-->
 </head>
 <body class="pull_top" data-spy="scroll" data-target=".header-navbar" data-offset="70">
-<div id="donate" class="donate container">
-    <div class="section-header">
-        <h1><i class="fa fa-heart"></i> Awww, We love you too! </h1>
-        <span>Your donations will help support Sonarr, we promise to put it to good use.</span>
-    </div>
-    <div role="tabpanel">
-        <ul class="nav nav-tabs" role="tablist">
+<div class="container">
+<div class="row">
+    <div id="donate" class="donate col-md-6 col-md-offset-3">
+        <div class="section-header">
+            <h1><i class="fa fa-heart"></i> Awww, We love you too! </h1>
+            <span>Your donations will help support Sonarr, we promise to put it to good use.</span>
+        </div>
+        <div role="tabpanel">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active">
-                    <a href="#recurring" aria-controls="recurring" role="tab" data-toggle="tab">Monthly</a>
-                </li>
-                <li role="presentation">
-                    <a href="#onetime" aria-controls="onetime" role="tab" data-toggle="tab">One Time</a>
-                </li>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#recurring" aria-controls="recurring" role="tab" data-toggle="tab">Monthly</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#onetime" aria-controls="onetime" role="tab" data-toggle="tab">One Time</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel fade in" class="tab-pane active" id="recurring">
+                        <div class="row">
+                            <div class="col-md-6 btn-container">
+                                <a type="button" class="btn btn-info btn-lg"
+                                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZCPPLZCS3VKX4">$3/Month</a>
+                            </div>
+                            <div class="col-md-6 btn-container">
+                                <a type="button" class="btn btn-info btn-lg"
+                                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGV4ZNPSXMFM4">$5/Month</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 btn-container">
+                                <a type="button" class="btn btn-success btn-lg"
+                                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C2V9CY8252QXL">$10/Month</a>
+                            </div>
+                            <div class="col-md-6 btn-container">
+                                <a type="button" class="btn btn-success btn-lg"
+                                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VKUABSVWEUXGL">$20/Month</a>
+                            </div>
+                        </div>
+
+                        <br/>
+                        <hr/>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="btn btn-primary btn-lg btn-btc btn-block"
+                                   href="https://www.coinbase.com/checkouts/c60d6bdae6d835139251089220c4e226">
+                                    <i class="fa fa-btc"></i> Monthly donations in Bitcoin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel fade" class="tab-pane" id="onetime">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <a class="btn btn-primary btn-lg btn-block"
+                                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HGGGM7JT5YVSS">
+                                    <i class="fa fa-paypal"></i> Donate with PayPal</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <a class="btn btn-success btn-lg btn-block"
+                                   href="https://www.coinbase.com/checkouts/465068984c5bf84101197c581ca05a2a">
+                                    <i class="fa fa-btc"></i> Donate Bitcoins</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </ul>
-            <div class="tab-content">
-                <div role="tabpanel fade in" class="tab-pane active" id="recurring">
-                    <a type="button" class="btn btn-info btn-lg"
-                       href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZCPPLZCS3VKX4">$3/Month</a>
-                    <a type="button" class="btn btn-info btn-lg"
-                       href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGV4ZNPSXMFM4">$5/Month</a>
-                    <a type="button" class="btn btn-success btn-lg"
-                       href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C2V9CY8252QXL">$10/Month</a>
-                    <a type="button" class="btn btn-success btn-lg"
-                       href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VKUABSVWEUXGL">$20/Month</a>
-                    <br/>
-                    <hr/>
-                    <a class="btn btn-primary btn-lg btn-btc"
-                       href="https://www.coinbase.com/checkouts/c60d6bdae6d835139251089220c4e226">
-                        <i class="fa fa-btc"></i> Monthly donations in Bitcoin</a>
-                </div>
-                <div role="tabpanel fade" class="tab-pane" id="onetime">
-                    <a class="btn btn-primary btn-lg"
-                       href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HGGGM7JT5YVSS">
-                        <i class="fa fa-paypal"></i> Donate with PayPal</a>
-                    <br/>
-                    <a class="btn btn-success btn-lg"
-                       href="https://www.coinbase.com/checkouts/465068984c5bf84101197c581ca05a2a">
-                        <i class="fa fa-btc"></i> Donate Bitcoins</a>
-                </div>
-            </div>
-        </ul>
+        </div>
     </div>
 </div>
-
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
