@@ -18,10 +18,15 @@
 <div class="row">
     <div id="donate" class="donate col-md-6 col-md-offset-3">
         <div class="section-header">
-            <h1><i class="fa fa-heart"></i> Awww, We love you too! </h1>
+            <h1><i class="fa fa-heart"></i> Awww, We love you too!</h1>
             <span>Your donations will help support Sonarr, we promise to put it to good use.</span>
         </div>
-
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h4>Monthly Donation</h4>
+            <hr/>
+          </div>
+        </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <a class="btn btn-primary btn-lg btn-btc btn-block"
@@ -29,17 +34,77 @@
                     <i class="fa fa-btc"></i> Monthly donations in Bitcoin</a>
             </div>
         </div>
-
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h4>One time Donation</h4>
+            <hr/>
+          </div>
+        </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <a class="btn btn-success btn-lg btn-block"
                    href="https://www.coinbase.com/checkouts/465068984c5bf84101197c581ca05a2a">
                     <i class="fa fa-btc"></i> Donate Bitcoins</a>
             </div>
+            <div class="col-md-8 col-md-offset-2">
+              <div class="input-group input-group-lg">
+                  <input type="number" id="donation-amount" class="form-control" value="5.00">
+                  <span class="input-group-btn">
+                    <button id="donate-stripe" class="btn btn-success" type="button"><i class="fa fa-cc-stripe"></i> Credit Card</button>
+                  </span>
+              </div>
+            </div>
         </div>
     </div>
 </div>
 </div>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+  var donationAmount = $('#donation-amount');
+
+  function getAmount (){
+    var text = donationAmount.val();
+    var amount = parseFloat(text);
+    donationAmount.toggleClass('invalid', !amount);
+    return amount;
+  }
+
+  donationAmount.on('keyup', function(e){
+    getAmount();
+  });
+
+
+  var handler = StripeCheckout.configure({
+    key: 'pk_live_6Enr1XXSuRHmaBCf7b4yV6M1',
+    image: '/img/logo-256.png',
+    locale: 'auto',
+    token: function(token) {
+      // Use the token to create the charge with a server-side script.
+      // You can access the token ID with `token.id`
+    }
+  });
+
+  $('#donate-stripe').on('click', function(e) {
+    var amount = getAmount();
+    if (amount) {
+      handler.open({
+        name: 'sonarr.tv',
+        description: 'Support Sonarr',
+        currency: "usd",
+        amount: amount * 100
+      });
+    }
+    e.preventDefault();
+  });
+
+  // Close Checkout on page navigation
+  $(window).on('popstate', function() {
+    handler.close();
+  });
+
+</script>
+
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -55,7 +120,6 @@
 
     ga('create', 'UA-54382816-2', 'auto');
     ga('send', 'pageview');
-
 </script>
 </body>
 </html>
