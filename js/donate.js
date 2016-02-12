@@ -2,7 +2,7 @@
   var donationAmount = $('#donation-amount');
   var currency = 'usd';
   var key = 'pk_test_aKr8O3jA8gVWltZ9dxzEl8qF';
-  var chargeApi = 'http://localhost:8089/v1/payments/stripe/charge';
+  var chargeApi = 'https://services.sonarr.tv/v1/payments/stripe/charge';
   var chargeAmount = 0;
 
   function getAmount() {
@@ -18,8 +18,6 @@
       url: chargeApi,
       data: options,
       dataType: 'json'
-    }).done(function(){
-      debugger;
     });
   }
 
