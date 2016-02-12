@@ -1,7 +1,7 @@
 (function($) {
   var donationAmount = $('#donation-amount');
   var currency = 'usd';
-  var key = 'pk_test_aKr8O3jA8gVWltZ9dxzEl8qF';
+  var key = 'pk_live_6Enr1XXSuRHmaBCf7b4yV6M1';
   var chargeApi = 'https://services.sonarr.tv/v1/payments/stripe/charge';
   var chargeAmount = 0;
 
