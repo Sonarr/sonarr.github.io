@@ -1,81 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Sonarr - Donate</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/donate.css"/>
-    <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'/>
-    <link rel="icon" type="image/ico" href="img/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/donate.css" />
+    <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css' />
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body class="pull_top" data-spy="scroll" data-target=".header-navbar" data-offset="70">
-<div class="container">
-<div class="row">
-    <div id="donate" class="donate col-md-6 col-md-offset-3">
-        <div class="section-header">
-            <h1><i class="fa fa-heart"></i> Awww, We love you too!</h1>
-            <span>Your donations will help support Sonarr, we promise to put it to good use.</span>
-        </div>
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <h4>Monthly Donation</h4>
-            <hr/>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <a class="btn btn-primary btn-lg btn-btc btn-block"
-                   href="https://www.coinbase.com/checkouts/c60d6bdae6d835139251089220c4e226">
-                    <i class="fa fa-btc"></i> Monthly donations in Bitcoin</a>
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <h4>One time Donation</h4>
-            <hr/>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <a class="btn btn-success btn-lg btn-block"
-                   href="https://www.coinbase.com/checkouts/465068984c5bf84101197c581ca05a2a">
-                    <i class="fa fa-btc"></i> Donate Bitcoins</a>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-              <div class="input-group input-group-lg">
-                  <input type="number" id="donation-amount" class="form-control" value="10.00">
-                  <span class="input-group-btn">
-                    <button id="donate-stripe" class="btn btn-success" type="button"><i class="fa fa-cc-stripe"></i> Credit Card</button>
-                  </span>
-              </div>
+
+<!-- bitcoin modal -->
+<div class="modal fade" id="bitcoinModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="bitcoin:12Jkto87oMbwZmEftGMBQQkM3dd7g2Qnkg?label=Sonarr">
+                    <img src="img/bitcoinqr.png" alt="12Jkto87oMbwZmEftGMBQQkM3dd7g2Qnkg" />
+                </a>
+                </br>
+                <input type="text" value="12Jkto87oMbwZmEftGMBQQkM3dd7g2Qnkg" readonly="true" -/>
             </div>
         </div>
     </div>
 </div>
-</div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://checkout.stripe.com/checkout.js"></script>
-<script src="js/donate.js"></script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+<!-- /bitcoin modal -->
 
-    ga('create', 'UA-54382816-2', 'auto');
-    ga('send', 'pageview');
-</script>
+
+<body class="pull_top" data-spy="scroll" data-target=".header-navbar" data-offset="70">
+    <div class="container">
+        <div class="row">
+            <div id="donate" class="donate col-md-6 col-md-offset-3">
+                <div class="section-header">
+                    <h1><i class="fa fa-heart"></i> Awww, We love you too!</h1>
+                    <span>Your donations will help support Sonarr, we promise to put it to good use.</span>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <button type="button" class="btn btn-lg btn-block bitcoin" data-toggle="modal" data-target="#bitcoinModal">
+                            <i class="fa fa-btc"></i> Donate Bitcoins</a>
+                        </button>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="input-group input-group-lg">
+                            <input type="number" id="donation-amount" class="form-control" value="10.00">
+                            <span class="input-group-btn">
+                    <button id="donate-stripe" class="btn btn-success" type="button"><i class="fa fa-cc-stripe"></i> Credit Card</button>
+                  </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+    <script src="js/donate.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-54382816-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
+
 </html>
