@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css" />
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" />
     <link rel="stylesheet" type="text/css" href="css/theme.css" />
 
     <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
@@ -188,6 +189,278 @@
             </div>
         </div>
     </div>
+    
+    <div id="downloadv3" class="download">
+        <div class="container">
+            <div class="section-header">
+                <h3>Download v3 beta</h3>
+            </div>
+            <div class="row">
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="nav-item active">
+                    <a class="nav-link active" data-toggle="tab" href="#v3-windows"><i class="fab fa-windows"></i> Windows</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#v3-linux"><i class="fab fa-linux"></i> Linux</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#v3-macos"><i class="fab fa-apple"></i> macOS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#v3-docker"><i class="fab fa-docker"></i> Docker</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#v3-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="downloadv3TabContent">
+                    <div class="tab-pane fade active in" id="v3-windows" role="tabpanel">
+                        <div class="install-description">
+                            <div class="alert alert-warning">Sonarr v3 no longer supports Windows XP. We also do not provide any guarantee for Windows 7.</div>
+                            <p>
+                                Sonarr can be installed on Windows as Windows Service or system tray application.
+                            </p>
+                            <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=windows&installer=true">Download Windows Installer</a>
+                        </div>
+                        <div class="install-alternatives">
+                            <div class="collapsed" data-toggle="collapse" data-target="#v3-windows-alternatives">Alternatives for advanced users</div>
+                            <div class="collapse" id="v3-windows-alternatives">
+                                <h5>Manual Install</h5>
+                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom/latest?version=3&os=windows">.zip download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v3-linux" role="tabpanel">
+                        <div>
+                            <ul class="nav nav-pills">
+                                <li class="nav-item active">
+                                    <a class="nav-link active" data-toggle="tab" href="#v3-linux-debian">Debian</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#v3-linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#v3-linux-other"><i class="fas fa-ellipsis-v"></i> Others</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="downloadv3LinuxTabContent">
+                                <div class="tab-pane fade active in" id="v3-linux-debian" role="tabpanel">
+                                    <dl class="install-steps">
+                                        <dt>Introduction</dt>
+                                        <dd>
+                                            <p>
+                                                The installation process described here utilizes debian's apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
+                                                It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
+                                            </p>
+                                            <div class="alert alert-info">
+                                                <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                                The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
+                                                It's advisable to make a backup of the v2 data first.<br/>
+                                                Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
+                                            </div>
+                                        </dd>
+                                        <dt><span class="step">1</span>Optional: Mono and MediaInfo dependencies</dt>
+                                        <dd>
+                                            Debian includes functioning versions of Mono and MediaInfo in it's default repositories. However newer updates are available in the vendors individual repositories.
+                                            For Sonarr to function optimally it may be necessary to configure those repositories.
+                                            <ul>
+                                                <li>
+                                                    Add the <a href="https://www.mono-project.com/download/stable/#download-lin-debian">Mono</a> repository. <i>You do not need to install mono itself.</i>
+                                                </li>
+                                                <li>
+                                                    Add the <a href="https://mediaarea.net/en/Repos#Debian">MediaInfo</a> repository.
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                        <dt><span class="step">2</span>Add the Sonarr repository</dt>
+                                        <dd>
+                                            <div>
+                                                Note: the packages should work on newer Debian versions too but we only provide packages for the ones listed below.
+                                            </div>
+                                            <dl>
+                                                <dt>Debian 8 "jessie" <span class="arch">(i386, amd64)</span></dt>
+                                                <dd>
+                                                    <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/debian jessie main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+sudo apt update</code></pre>
+                                                </dd>
+                                                <dt>Debian 9 "stretch" <span class="arch">(i386, amd64)</span></dt>
+                                                <dd>
+                                                    <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/debian stretch main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+sudo apt update</code></pre>
+                                                </dd>
+                                            </dl>
+                                        </dd>
+                                        <dt><span class="step">3</span>Install Sonarr</dt>
+                                        <dd>
+                                            <div class="alert alert-warning">
+                                                During the installation, you will be asked which user and group Sonarr must run as.
+                                                It's important to choose these correctly to avoid permission issues with your media files.
+                                                We suggest you keep at least the group name identical between your download client(s) and Sonarr.
+                                            </div>
+                                            <pre><code class="bash">sudo apt install sonarr</code></pre>
+                                        </dd>
+                                        <dt><span class="step">4</span>View Sonarr</dt>
+                                        <dd>
+                                            Connect to <code>http://(ip/name):8989</code> to view your Sonarr installation.
+                                        </dd>
+                                    </dl>
+                                    <div class="install-alternatives">
+                                        <div class="collapsed" data-toggle="collapse" data-target="#v3-linux-debian-alternatives">Alternatives for advanced users</div>
+                                        <div class="collapse" id="v3-linux-debian-alternatives">
+                                            <h5>Manual Install</h5>
+                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            <h5>Debian package channels</h5>
+                                            <p>
+                                                The debian packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
+                                                The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
+                                            </p><p>
+                                                For advanced users the alternative jessie-master, jessie-develop, stretch-master or stretch-develop apt repo distributions are available.
+                                                In these channels the built-in updater is disabled and apt must be used to install updates.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v3-linux-ubuntu" role="tabpanel">
+                                    <dl class="install-steps">
+                                        <dt>Introduction</dt>
+                                        <dd>
+                                            <p>
+                                                The installation process described here utilizes debian's apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
+                                                It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
+                                            </p>
+                                            <div class="alert alert-info">
+                                                <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                                The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
+                                                It's advisable to make a backup of the v2 data first.<br/>
+                                                Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
+                                            </div>
+                                        </dd>
+                                        <dt><span class="step">1</span>Optional: Mono and MediaInfo dependencies</dt>
+                                        <dd>
+                                            Ubuntu includes functioning versions of Mono and MediaInfo in it's default repositories. However newer updates are available in the vendors individual repositories.
+                                            For Sonarr to function optimally it may be necessary to configure those repositories.
+                                            <ul>
+                                                <li>
+                                                    Add the <a href="https://www.mono-project.com/download/stable/#download-lin-ubuntu">Mono</a> repository. <i>You do not need to install mono itself.</i>
+                                                </li>
+                                                <li>
+                                                    Add the <a href="https://mediaarea.net/en/Repos#Ubuntu/LinuxMint">MediaInfo</a> repository.
+                                                </li>
+                                            </ul>
+                                        </dd>
+                                        <dt><span class="step">2</span>Add the Sonarr repository</dt>
+                                        <dd>
+                                            <div>
+                                                Note: the packages should work on newer Ubuntu versions too but we only provide packages for the ones listed below.
+                                            </div>
+                                            <dl>
+                                                <dt><i class="fab fa-ubuntu"></i> Ubuntu 16.04 "xenial" <span class="arch">(i386, amd64)</span></dt>
+                                                <dd>
+                                                    <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+sudo apt update</code></pre>
+                                                </dd>
+                                                <dt><i class="fab fa-ubuntu"></i> Ubuntu 18.04 "bionic" <span class="arch">(i386, amd64)</span></dt>
+                                                <dd>
+                                                    <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+sudo apt update</code></pre>
+                                                </dd>
+                                            </dl>
+                                        </dd>
+                                        <dt><span class="step">3</span>Install Sonarr</dt>
+                                        <dd>
+                                            <div class="alert alert-warning">
+                                                During the installation, you will be asked which user and group Sonarr must run as.
+                                                It's important to choose these correctly to avoid permission issues with your media files.
+                                                We suggest you keep at least the group name identical between your download client(s) and Sonarr.
+                                            </div>
+                                            <pre><code class="bash">sudo apt install sonarr</code></pre>
+                                        </dd>
+                                        <dt><span class="step">4</span>View Sonarr</dt>
+                                        <dd>
+                                            Connect to <code>http://(ip/name):8989</code> to view your Sonarr installation.
+                                        </dd>
+                                    </dl>
+                                    <div class="install-alternatives">
+                                        <div class="collapsed" data-toggle="collapse" data-target="#v3-linux-ubuntu-alternatives">Alternatives for advanced users</div>
+                                        <div class="collapse" id="v3-linux-ubuntu-alternatives">
+                                            <h5>Manual Install</h5>
+                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            <h5>Ubuntu package channels</h5>
+                                            <p>
+                                                The ubuntu packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
+                                                The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
+                                            </p><p>
+                                                For advanced users the alternative xenial-master, xenial-develop, bionic-master or bionic-develop apt repo distributions are available.
+                                                In these channels the built-in updater is disabled and apt must be used to install updates.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v3-linux-other" role="tabpanel">
+                                    <div class="install-description">
+                                        <div class="alert alert-info">
+                                            Please contact us if you wish to port Sonarr v3 Beta for any other distribution that the ones already listed.<br/>
+                                            Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                                        </div>
+
+                                        <p>
+                                            A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
+                                        </p>
+
+                                        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">Download Linux .tar.gz</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v3-macos" role="tabpanel">
+                        <dl class="install-steps">
+                            <dt>Introduction</dt>
+                            <dd>The easiest way to install Sonarr on macOS is to use the App archive.</dd>
+                            <dt><span class="step">1</span>Download App package</dt>
+                            <dd>
+                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom/latest?version=3&os=macos&installer=true">Download macOS App</a>
+                            </dd>
+                            <dt><span class="step">2</span>Install App</dt>
+                            <dd>
+                                <p>
+                                    Open the archive and drag the Sonarr icon to your Application folder.
+                                </p>
+                                <div class="alert alert-warning">
+                                    In macOS 10.12+ Gatekeeper App Translocation will prevent Sonarr from updating if it's being run directly from the download location. Therefore it MUST be moved to the Application folder.
+                                </div>
+                            </dd>
+                            <dt><span class="step">3</span>Open Sonarr</dt>
+                            <dd>
+                                Open Sonarr.app in your Application folder.<br/>
+                                You should now be able to access Sonarr at <code>http://localhost:8989</code>.
+                            </dd>
+                        </dl>
+                        <div class="install-alternatives">
+                            <div class="collapsed" data-toggle="collapse" data-target="#v3-macos-alternatives">Alternatives for advanced users</div>
+                            <div class="collapse" id="v3-macos-alternatives">
+                                <h5>Manual Install</h5>
+                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom/latest?version=3&os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v3-docker" role="tabpanel">
+                        Coming Soon
+                    </div>
+                    <div class="tab-pane fade" id="v3-other" role="tabpanel">
+                        <div class="alert alert-info">
+                            Please contact us if you wish to port Sonarr v3 Beta for any other platform that the ones already listed.<br/>
+                            Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="support" class="support">
         <div class="container">
@@ -274,6 +547,8 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <script src="js/theme.js"></script>
 
     <script type="text/javascript" src="js/index-slider.js"></script>

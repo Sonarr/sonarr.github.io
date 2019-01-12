@@ -57,6 +57,18 @@ header {
   }
 }
 
+
+
+.btn-sonarr {
+  background-color: fade(@droneTeal, 20%);
+  border: 1px solid fade(@droneTeal, 50%);
+  
+  &:hover {
+    background-color: fade(@droneTeal, 30%);
+  }
+  
+}
+
 .support, .donate {
   margin-bottom: 20px;
 
@@ -194,6 +206,128 @@ header {
       }
     }
   }
+
+  .tab-pane pre {
+    background-color: #f8f8f8;
+    code.hljs {
+      padding: 0px;
+    }
+  }
+
+  div#downloadv3TabContent {
+    border: 1px solid #ddd;
+    border-top-width: 0px;
+    background-color: #fbfbff;
+
+
+    > .tab-pane {
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+        
+      .tab-pane {
+        padding-top: 20px;
+      }
+    }
+  }
+
+  div.install-description {
+  }
+
+  dl.install-steps {
+    margin-top: -20px;
+
+    > dt {
+      font-size: 24px;
+      line-height: 40px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+
+      span.step {
+        font-size: 80%;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-bottom: 2px solid @droneTeal;
+        vertical-align: bottom;
+        background-color: fade(@droneTeal, 5%);
+        margin-right: -22px;
+        position: relative;
+        left: -40px;
+      }
+    }
+    > dd {
+      > div {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  div.install-alternatives {
+    border-top: 1px solid #ddd;
+    color: gray;
+    background-color: #f8f8fa;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+    > div {
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-bottom: 10px;
+      &.collapsing {
+        height: 0px;
+        padding-bottom: 0px;
+        transition: height padding-bottom .35s ease;
+      }
+    }
+
+    > div[data-toggle] {
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      
+      &::before {
+        content: "\f054";
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: "Font Awesome 5 Free"; 
+        font-style: normal;
+        font-weight: 900;
+        margin-right: -20px;
+        position: relative;
+        left: -40px;
+      }
+
+      &.collapsed {
+        font-style: italic;
+        font-weight: normal;
+      }
+    }
+  }
+  
+  div.install-alternative {
+    margin-top: 20px;
+    color: gray;
+    font-style: italic;
+  }
+
+  span.arch {
+    font-size: 10px;
+    color: grey;
+    font-style: italic;
+  }
+}
+
+.support {
+  margin-top: 30px;
 }
 
 .footer {
