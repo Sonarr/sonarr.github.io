@@ -1,21 +1,21 @@
 var gulp = require('gulp');
-//var livereload = require('gulp-livereload');
-
+var browserSync = require('browser-sync').create();
 
 require('./less.js');
-
 
 gulp.task('watch', ['less'], function () {
     gulp.watch(['css/*.less'],['less']);
 });
 
-gulp.task('liveReload', ['jshint', 'handlebars', 'less', 'copyJs'], function () {
-    var server = livereload();
+gulp.task('serve', ['watch'], function () {
+    browserSync.init({
+        server: {
+            baseDir: './'
+        }
+    })
     gulp.watch([
-        'app/**/*.js',
-        'app/**/*.css',
-        'app/index.html'
-    ]).on('change', function (file) {
-        server.changed(file.path);
-    });
+        'js/*.js',
+        '**/*.css',
+        '**/*.html'
+    ]).on('change', browserSync.reload);
 });
