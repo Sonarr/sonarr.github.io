@@ -319,6 +319,10 @@ sudo apt update</code></pre>
                                                 For advanced users the alternative jessie-master, jessie-develop, stretch-master or stretch-develop apt repo distributions are available.
                                                 In these channels the built-in updater is disabled and apt must be used to install updates.
                                             </p>
+                                            <h5>Docker container</h5>
+                                            <p>
+                                                You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -397,6 +401,10 @@ sudo apt update</code></pre>
                                                 For advanced users the alternative xenial-master, xenial-develop, bionic-master or bionic-develop apt repo distributions are available.
                                                 In these channels the built-in updater is disabled and apt must be used to install updates.
                                             </p>
+                                            <h5>Docker container</h5>
+                                            <p>
+                                                You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -434,9 +442,17 @@ sudo apt update</code></pre>
                                     In macOS 10.12+ Gatekeeper App Translocation will prevent Sonarr from updating if it's being run directly from the download location. Therefore it MUST be moved to the Application folder.
                                 </div>
                             </dd>
-                            <dt><span class="step">3</span>Open Sonarr</dt>
+                            <dt><span class="step">3</span>Start Sonarr</dt>
                             <dd>
-                                Open Sonarr.app in your Application folder.<br/>
+                                <p>
+                                    Open Sonarr.app in your Application folder.
+                                </p>
+                                <div class="alert alert-info">
+                                    During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
+                                </div>
+                            </dd>
+                            <dt><span class="step">4</span>Open Sonarr</dt>
+                            <dd>
                                 You should now be able to access Sonarr at <code>http://localhost:8989</code>.
                             </dd>
                         </dl>
@@ -447,11 +463,46 @@ sudo apt update</code></pre>
                                 <p>
                                     It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom/latest?version=3&os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                 </p>
+                                <h5>Docker container</h5>
+                                <p>
+                                    You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="downloads-v3-docker" role="tabpanel">
-                        Coming Soon
+                        <dl class="install-steps">
+                            <dt>Introduction</dt>
+                            <dd>
+                                <p>
+                                    The Sonarr team does not actively maintain a Docker image for Sonarr. Instead the docker images are maintained by third parties.
+                                </p>
+                                <h5>Docker Permissions</h5>
+                                <p>
+                                    The most common issue our users encounter with Docker is a misunderstanding of permissions and volumes. Especially when connecting with download clients.<br/>
+                                    Our advice is to consider each docker container a separate 'computer' and consider that when you're making configuration changes.
+                                    In order for Sonarr to connect to that other computer it must be made aware of how it can access it.                                    
+                                </p><p>
+                                    This is especially true when importing new downloads.<br/>
+                                    The download client will say "I downloaded the file in /mydownloads/My.Series.S01E01/", but that path is local to that 'computer'.<br/>
+                                    Sonarr needs to be made aware how to access '/mydownloads' if that path is mounted differently in the Sonarr container.<br/>
+                                    One solution is to ensure that the volume mount is the same for both containers, the other option is to configure a Remote Path Mapping in Settings -> Download Clients.<br/>
+                                    Finally, ensure that both containers have the appropriate user permission to access and move files in the volume mounts.
+                                </p>
+                                <h5>Docker Volumes</h5>
+                                <p>
+                                    The second most common issue is when users mount the <code>/downloads</code> and <code>/series</code> volumes separately. 
+                                    Volumes are considered separate filesystems and as such  causes Sonarr to copy new downloads from one to the other instead of efficiently moving or hardlinking them.<br/>
+                                    Our advice is to use a single volume mount such as <code>/data</code> and then configure the subdirectories <code>'/data/downloads'</code> and <code>'/data/tv'</code>.
+                                </p>
+                            </dd>
+                            <dt>Install Sonarr</dt>
+                            <dd>
+                                <p>
+                                    <a href="//www.linuxserver.io">linuxserver.io</a> maintains a preview Sonarr docker image, please follow the <a href="https://hub.docker.com/r/lsiodev/sonarr-preview">instructions</a> to install it.
+                                </p>
+                            </dd>
+                        </dl>
                     </div>
                     <div class="tab-pane fade" id="downloads-v3-other" role="tabpanel">
                         <div class="alert alert-info">
