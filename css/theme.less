@@ -235,6 +235,20 @@ header {
   div.install-description {
   }
 
+
+  .margin-block() {
+    display: inline-block;
+    position: relative;
+    left: -40px;
+    width: 20px;
+    height: 20px;
+    margin-right: -20px;      
+    font-size: 18px;
+    line-height: 18px;    
+    text-align: center;
+    vertical-align: middle;
+  }
+
   dl.install-steps {
     margin-top: -20px;
 
@@ -245,16 +259,10 @@ header {
       margin-bottom: 10px;
 
       span.step {
-        font-size: 80%;
-        font-weight: bold;
-        padding-left: 5px;
-        padding-right: 5px;
-        border-bottom: 2px solid @droneTeal;
-        vertical-align: bottom;
+        .margin-block;
+        margin-bottom: 4px;
         background-color: fade(@droneTeal, 5%);
-        margin-right: -22px;
-        position: relative;
-        left: -40px;
+        border-bottom: 2px solid @droneTeal;
       }
     }
     > dd {
@@ -307,15 +315,12 @@ header {
       cursor: pointer;
       
       &::before {
+        .margin-block;
         content: "\f054";
-        padding-left: 5px;
-        padding-right: 5px;
         font-family: "Font Awesome 5 Free"; 
         font-style: normal;
         font-weight: 900;
-        margin-right: -20px;
-        position: relative;
-        left: -40px;
+        font-size: 14px;
       }
 
       &.collapsed {
