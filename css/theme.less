@@ -263,6 +263,18 @@ header {
       }
     }
   }
+  div.install-maintainedby {
+    //position: relative;
+    //top: -20px;
+    //height: 0px;
+    font-style: italic;
+    text-align: right;
+  }
+
+  div.install-maintainedby::before {
+    content: 'maintained by ';
+    color: gray;
+  }
 
   div.install-alternatives {
     border-top: 1px solid #ddd;
