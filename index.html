@@ -234,6 +234,9 @@
                                     <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-archlinux">ArchLinux</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
                                 </li>
                             </ul>
@@ -404,6 +407,42 @@ sudo apt update</code></pre>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="tab-pane fade" id="downloads-v3-linux-archlinux" role="tabpanel">
+                                    <dl class="install-steps">
+                                        <dt>Introduction</dt>
+                                        <dd>
+                                            <p>
+                                                The Arch Linux User Repository offers a <a href="https://aur.archlinux.org/packages/sonarr-phantom/">sonarr-phantom</a> package that can be installed manually
+                                                or using your favorite <a href="https://wiki.archlinux.org/index.php/AUR_helpers">AUR helper</a>.
+                                            </p>
+                                        </dd>
+                                        <dt><span class="step">1</span>Install Sonarr</dt>
+                                        <dd>
+                                            Use yay to install the sonarr-phantom package:
+                                            <pre><code class="bash">yay -S sonarr-phantom</code></pre>
+                                        </dd>
+                                        <dt><span class="step">2</span>Start Sonarr</dt>
+                                        <dd>
+                                            <pre><code class="bash">sudo systemctl start sonarr</code></pre>
+                                        </dd>
+                                        <dt><span class="step">3</span>View Sonarr</dt>
+                                        <dd>
+                                            You should now be able to access Sonarr at <code>http://localhost:8989</code>.<br>
+                                            <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
+                                        </dd>
+                                    </dl>
+                                    <div class="install-alternatives">
+                                        <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-archlinux-alternatives">Alternatives for advanced users</div>
+                                        <div class="collapse" id="downloads-v3-linux-archlinux-alternatives">
+                                            <h5>Manual Install AUR package</h5>
+                                            <p>
+                                                <pre><code class="bash">git clone https://aur.archlinux.org/sonarr-phantom.git
+cd sonarr-phantom
+makepkg -sri</code></pre>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="downloads-v3-linux-other" role="tabpanel">
                                     <div class="install-description">
                                         <div class="alert alert-info">
@@ -471,32 +510,41 @@ sudo apt update</code></pre>
                                 <dt>Introduction</dt>
                                 <dd>
                                     <p>
-                                        The Sonarr team does not actively maintain a Docker image for Sonarr. Instead the docker images are maintained by third parties.
+                                        The Sonarr team does not offer an official Docker image, instead a number of third parties have created and maintain their own.
                                     </p>
-                                    <h5>Docker Permissions</h5>
+                                    <h5>Volumes and Paths</h5>
                                     <p>
-                                        The most common issue our users encounter with Docker is a misunderstanding of permissions and volumes. Especially when connecting with download clients.<br>
-            Our advice is to consider each docker container a separate 'computer' and consider that when you're making configuration changes.
-            In order for Sonarr to connect to that other computer it must be made aware of how it can access it.
-        </p>
-                                        <p>
-                                            This is especially true when importing new downloads.<br>
-            The download client will say "I downloaded the file in /mydownloads/My.Series.S01E01/", but that path is local to that 'computer'.<br>
-            Sonarr needs to be made aware how to access '/mydownloads' if that path is mounted differently in the Sonarr container.<br>
-            One solution is to ensure that the volume mount is the same for both containers, the other option is to configure a Remote Path Mapping in Settings -> Download Clients.<br>
-            Finally, ensure that both containers have the appropriate user permission to access and move files in the volume mounts.
-        </p>
-                                            <h5>Docker Volumes</h5>
-                                            <p>
-                                                The second most common issue is when users mount the <code>/downloads</code> and <code>/series</code> volumes separately.
-                                                Volumes are considered separate filesystems and as such causes Sonarr to copy new downloads from one to the other instead of efficiently moving or hardlinking them.<br>
-            Our advice is to use a single volume mount such as <code>/data</code> and then configure the subdirectories <code>'/data/downloads'</code> and <code>'/data/tv'</code>.
-                                            </p>
+                                        There are actually two common problems with volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.
+                                        The first is a problem because the download client will report a download's path as <code>/torrents/My.Series.S01E01/</code>, but in the Sonarr container that might be at
+                                        <code>/downloads/My.Series.S01E01/</code>. The second is a problem for long term torrent seeders, but slow moves are annoying for everyone. Both problems can be solved with
+                                        well planned, consistant paths.
+                                    </p>
+                                    <p>
+                                        Most containers suggest paths like <code>/tv</code> and <code>/downloads</code>, which causes the slow moves and impossible hard links problem because inside the container they
+                                        look like different file systems. Some also recommend paths for the download client container that are different from the Sonarr container, like <code>/torrents</code>. The best
+                                        solution to both is to use a single, common volume <i>inside</i> the containers like <code>/data</code>. Your TV shows would be in <code>/data/TV</code>, torrents in <code>/data/downloads/torrents</code>
+                                        and/or usenet in <code>/data/downloads/usenet</code>.
+                                    </p>
+                                    <h5>Ownership and Permissions</h5>
+                                    <p>
+                                        Permissions and ownership of files is one of the most common problems for Sonarr users, both inside and outside Docker. Most images have environment variables that can be used to override
+                                        the default user, group and umask, you should decide this before setting up all of your containers. The ideal is a user for each software and a common group, but a dedicated user or even your own user
+                                        are common as well. Keep in mind that Sonarr will need read and write to the download folders as well as the final folders.
+                                    </p>
+                                    <p>
+                                        For a more detailed explaination of these issues, see <a href="https://www.reddit.com/r/usenet/wiki/docker">The Best Docker Setup</a> wiki article on Reddit.
+                                    </p>
                                 </dd>
                                 <dt>Install Sonarr</dt>
                                 <dd>
                                     <p>
-                                        <a href="//www.linuxserver.io">linuxserver.io</a> maintains a preview Sonarr docker image, please follow the <a href="https://hub.docker.com/r/lsiodev/sonarr-preview">instructions</a> to install it.
+                                        To install and use these Docker images, you'll need to keep the above in mind while following their documentation. There are many ways to manage Docker images and containers too, so installation
+                                        and maintenance of them will depend on the route you choose.
+                                        <ul>
+                                            <li><a href="https://hub.docker.com/r/lsiodev/sonarr-preview">lsiodev/sonarr-preview</a> is made by <a href="//www.linuxserver.io">linuxserver.io</a>, one of the most prolific and popular
+                                                Docker image maintainers. They also maintain images for most of the popular download clients as well.</li>
+                                            <li><a href="https://hub.docker.com/r/hotio/suitarr/">hotio/suitarr</a> doesn't make any specific path suggestions, but uses labels for each software it supports instead of individual Docker images.</li>
+                                        </ul>
                                     </p>
                                 </dd>
                             </dl>
