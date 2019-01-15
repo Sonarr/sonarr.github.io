@@ -2,9 +2,11 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 
 require('./less.js');
+require('./marko.js');
 
-gulp.task('watch', ['less'], function () {
+gulp.task('watch', ['less', 'marko'], function () {
     gulp.watch(['css/*.less'],['less']);
+    gulp.watch(['src/**/*.marko','*.marko'],['marko']);
 });
 
 gulp.task('serve', ['watch'], function () {

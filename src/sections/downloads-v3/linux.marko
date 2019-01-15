@@ -1,0 +1,37 @@
+import DebianTemplate from './linux-debian-template.marko';
+
+<div>
+    <ul class="nav nav-pills">
+        <tabview-item active pill href="#downloads-v3-linux-debian">Debian</tabview-item>
+        <tabview-item pill href="#downloads-v3-linux-ubuntu" icon="fab-ubuntu"> Ubuntu</tabview-item>
+        <tabview-item pill href="#downloads-v3-linux-other" icon="fas-ellipsis-v">&nbsp;&nbsp;Others</tabview-item>
+    </ul>
+    <div class="tab-content" id="download-v3-linux-tabcontent">
+        <tabview-pane active id="downloads-v3-linux-debian">
+            <${DebianTemplate} vendor="debian" vendor_title="Debian" mediainfo_link="Debian" distros=[
+                {title: 'Debian 8 "jessie"', code: 'jessie'}, 
+                {title: 'Debian 9 "stretch"', code: 'stretch'}
+                ] />
+        </tabview-pane>
+        <tabview-pane id="downloads-v3-linux-ubuntu">
+            <${DebianTemplate} vendor="ubuntu" vendor_title="Ubuntu" mediainfo_link="Ubuntu/LinuxMint" distros=[
+                {title: 'Ubuntu 16.04 "xenial"', code: 'xenial'}, 
+                {title: 'Ubuntu 18.04 "bionic"', code: 'bionic'}
+                ] />
+        </tabview-pane>
+        <tabview-pane id="downloads-v3-linux-other">
+            <install-description>
+                <div class="alert alert-info">
+                    Please contact us if you wish to port Sonarr v3 Beta for any other distribution that the ones already listed.<br/>
+                    Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                </div>
+
+                <p>
+                    A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
+                </p>
+
+                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">Download Linux .tar.gz</a>
+            </install-description>
+        </tabview-pane>
+    </div>
+</div>

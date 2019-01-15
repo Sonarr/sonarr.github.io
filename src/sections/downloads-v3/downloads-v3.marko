@@ -1,0 +1,21 @@
+<div class="row">
+    <ul class="nav nav-tabs nav-justified">
+        <tabview-item active href="#downloads-v3-windows" icon="fab-windows"> Windows</tabview-item>
+        <tabview-item href="#downloads-v3-linux" icon="fab-linux"> Linux</tabview-item>
+        <tabview-item href="#downloads-v3-macos" icon="fab-apple"> macOS</tabview-item>
+        <tabview-item href="#downloads-v3-docker" icon="fab-docker"> Docker</tabview-item>
+        <tabview-item href="#downloads-v3-other" icon="fas-ellipsis-v">&nbsp;&nbsp;Others</tabview-item>
+    </ul>
+    <div class="tab-content" id="downloads-v3-tabcontent">
+        <tabview-pane active id="downloads-v3-windows" file="downloads-v3/windows.marko" />
+        <tabview-pane id="downloads-v3-linux" file="downloads-v3/linux.marko" />
+        <tabview-pane id="downloads-v3-macos" file="downloads-v3/macos.marko" />
+        <tabview-pane id="downloads-v3-docker" file="downloads-v3/docker.marko" />
+        <tabview-pane id="downloads-v3-other">
+            <div class="alert alert-info">
+                Please contact us if you wish to port Sonarr v3 Beta for any other platform that the ones already listed.<br/>
+                Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+            </div>
+        </tabview-pane>
+    </div>
+</div>

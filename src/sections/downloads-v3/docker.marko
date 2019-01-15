@@ -1,0 +1,30 @@
+<dl class="install-steps">
+    <install-step title="Introduction">
+        <p>
+            The Sonarr team does not actively maintain a Docker image for Sonarr. Instead the docker images are maintained by third parties.
+        </p>
+        <h5>Docker Permissions</h5>
+        <p>
+            The most common issue our users encounter with Docker is a misunderstanding of permissions and volumes. Especially when connecting with download clients.<br/>
+            Our advice is to consider each docker container a separate 'computer' and consider that when you're making configuration changes.
+            In order for Sonarr to connect to that other computer it must be made aware of how it can access it.                                    
+        </p><p>
+            This is especially true when importing new downloads.<br/>
+            The download client will say "I downloaded the file in /mydownloads/My.Series.S01E01/", but that path is local to that 'computer'.<br/>
+            Sonarr needs to be made aware how to access '/mydownloads' if that path is mounted differently in the Sonarr container.<br/>
+            One solution is to ensure that the volume mount is the same for both containers, the other option is to configure a Remote Path Mapping in Settings -> Download Clients.<br/>
+            Finally, ensure that both containers have the appropriate user permission to access and move files in the volume mounts.
+        </p>
+        <h5>Docker Volumes</h5>
+        <p>
+            The second most common issue is when users mount the <code>/downloads</code> and <code>/series</code> volumes separately. 
+            Volumes are considered separate filesystems and as such  causes Sonarr to copy new downloads from one to the other instead of efficiently moving or hardlinking them.<br/>
+            Our advice is to use a single volume mount such as <code>/data</code> and then configure the subdirectories <code>'/data/downloads'</code> and <code>'/data/tv'</code>.
+        </p>
+    </install-step>
+    <install-step title="Install Sonarr">
+        <p>
+            <a href="//www.linuxserver.io">linuxserver.io</a> maintains a preview Sonarr docker image, please follow the <a href="https://hub.docker.com/r/lsiodev/sonarr-preview">instructions</a> to install it.
+        </p>
+    </install-step>
+</dl>

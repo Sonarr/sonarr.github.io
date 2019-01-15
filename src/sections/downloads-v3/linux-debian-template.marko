@@ -1,0 +1,68 @@
+<dl class="install-steps">
+    <install-step title="Introduction">
+        <p>
+            The installation process described here utilizes ${input.vendor_title}'s apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
+            It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
+        </p>
+        <div class="alert alert-info">
+            <h4 class="alert-heading">Sonarr v2 migration</h4>
+            The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
+            It's advisable to make a backup of the v2 data first.<br/>
+            Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
+        </div>
+    </install-step>
+    <install-step num="1" title="Optional: Mono and MediaInfo dependencies">
+        ${input.vendor_title} includes functioning versions of Mono and MediaInfo in it's default repositories. However newer updates are available in the vendors individual repositories.
+        For Sonarr to function optimally it may be necessary to configure those repositories.
+        <ul>
+            <li>
+                Add the <a href=`https://www.mono-project.com/download/stable/#download-lin-${input.vendor}`>Mono</a> repository. <i>You do not need to install mono itself.</i>
+            </li>
+            <li>
+                Add the <a href=`https://mediaarea.net/en/Repos#${input.mediainfo_link}`>MediaInfo</a> repository.
+            </li>
+        </ul>
+    </install-step>
+    <install-step num="2" title="Add the Sonarr repository">
+        <div>
+            Note: the packages should work on newer ${input.vendor_title} versions too but we only provide packages for the ones listed below.
+        </div>
+        <dl>
+            <for(distro in input.distros)>
+            <dt>${distro.title} <span class="arch">(i386, amd64)</span></dt>
+            <dd>
+                <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/${input.vendor} ${distro.code} main" | sudo tee /etc/apt/sources.list.d/sonarr.list
+sudo apt update</code></pre>
+            </dd>
+            </for>
+        </dl>
+    </install-step>
+    <install-step num="3" title="Install Sonarr">
+        <div class="alert alert-warning">
+            During the installation, you will be asked which user and group Sonarr must run as.
+            It's important to choose these correctly to avoid permission issues with your media files.
+            We suggest you keep at least the group name identical between your download client(s) and Sonarr.
+        </div>
+        <pre><code class="bash">sudo apt install sonarr</code></pre>
+    </install-step>
+    <install-step num="4" title="View Sonarr">
+        Connect to <code>http://(ip/name):8989</code> to view your Sonarr installation.
+    </install-step>
+</dl>
+<install-alternatives id=`downloads-v3-linux-${input.vendor}-alternatives`>
+    <h5>Manual Install</h5>
+    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+    <h5>${input.vendor_title} package channels</h5>
+    <p>
+        The ${input.vendor_title} packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
+        The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
+    </p><p>
+        For advanced users the alternative *-master and *-develop apt repo distributions are available.
+        In these channels the built-in updater is disabled and apt must be used to install updates.
+    </p>
+    <h5>Docker container</h5>
+    <p>
+        You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+    </p>
+</install-alternatives>

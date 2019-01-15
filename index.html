@@ -1,25 +1,22 @@
-<!DOCTYPE html>
 <html>
+
 <head>
     <title>Sonarr - Dive in</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/theme.css" />
-
-    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" media="screen, projection" />
-    <link rel="icon" type="image/ico" href="img/favicon.ico"/>
-
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" media="screen, projection">
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
+
 <body class="pull_top" data-spy="scroll" data-target=".header-navbar" data-offset="70">
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -30,9 +27,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#home" class="navbar-brand"><img src="img/logo.png" /><span class="logo-text">sonarr</span></a>
+                <a href="#home" class="navbar-brand"><img src="img/logo.png"><span class="logo-text">sonarr</span></a>
             </div>
-
             <div class="collapse navbar-collapse navbar-ex1-collapse header-navbar" role="navigation">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home"><i class="fas fa-home"></i> HOME</a></li>
@@ -45,10 +41,10 @@
             </div>
         </div>
     </div>
-
+    <div id="home"></div>
     <section id="feature-slider" class="lol feature-slider">
         <article class="slide" id="showcasing">
-            <img class="asset left-60 sp600 t120 z2" src="img/slider/seriesdetails.png" />
+            <img class="asset left-60 sp600 t120 z2" src="img/slider/seriesdetails.png">
             <div class="info">
                 <h2>Works great and looks even better doing it.</h2>
             </div>
@@ -57,20 +53,20 @@
             <div class="info">
                 <h2>Notifications and fully customizable quality profiles.</h2>
             </div>
-            <img class="asset left-480 sp600 t180 z1" src="img/slider/qualityprofile.png" />
-            <img class="asset left-200 sp600 t260 z2" src="img/slider/notifications.png" />
+            <img class="asset left-480 sp600 t180 z1" src="img/slider/qualityprofile.png">
+            <img class="asset left-200 sp600 t260 z2" src="img/slider/notifications.png">
         </article>
         <article class="slide" id="tour">
-            <img class="asset left-472 sp650 t190 z3" src="img/slider/posters.png" />
-            <img class="asset left-185 sp550 t220 z2" src="img/slider/table.png" />
-            <img class="asset left-350 sp450 t110 z1" src="img/slider/overview.png" />
+            <img class="asset left-472 sp650 t190 z3" src="img/slider/posters.png">
+            <img class="asset left-185 sp550 t220 z2" src="img/slider/table.png">
+            <img class="asset left-350 sp450 t110 z1" src="img/slider/overview.png">
             <div class="info">
                 <h2>Multiple Series views.</h2>
             </div>
         </article>
         <article class="slide" id="responsive">
-            <img class="asset left-472 sp600 t120 z1" src="img/slider/updates2.png" />
-            <img class="asset left-250 sp600 t180 z2" src="img/slider/updates.png" />
+            <img class="asset left-472 sp600 t120 z1" src="img/slider/updates2.png">
+            <img class="asset left-250 sp600 t180 z2" src="img/slider/updates.png">
             <div class="info">
                 <h2>
                     Frequent updates. See what's new without leaving the comfort of the app.
@@ -78,7 +74,6 @@
             </div>
         </article>
     </section>
-
     <div id="features" class="features">
         <div class="container">
             <div class="section-header">
@@ -86,7 +81,7 @@
             </div>
             <div class="row feature">
                 <div class="col-sm-6">
-                    <img src="img/features/calendar.png" class="img-responsive" />
+                    <img src="img/features/calendar.png" class="img-responsive">
                 </div>
                 <div class="col-sm-6 info">
                     <h3>
@@ -100,7 +95,7 @@
             </div>
             <div class="row feature">
                 <div class="col-sm-6 pic-right">
-                    <img src="img/features/manualsearch.png" class="pull-right img-responsive" />
+                    <img src="img/features/manualsearch.png" class="pull-right img-responsive">
                 </div>
                 <div class="col-sm-6 info info-left">
                     <h3>
@@ -114,7 +109,7 @@
             </div>
             <div class="row feature">
                 <div class="col-sm-6">
-                    <img src="img/features/blacklist.png" class="img-responsive" />
+                    <img src="img/features/blacklist.png" class="img-responsive">
                 </div>
                 <div class="col-sm-6 info">
                     <h3>
@@ -128,13 +123,11 @@
             </div>
         </div>
     </div>
-
     <div id="download" class="download">
         <div class="container">
             <div class="section-header">
                 <h3>Download</h3>
             </div>
-
             <div class="row download_wrapper">
                 <div class="col-sm-4">
                     <div class="option">
@@ -152,7 +145,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-sm-4 featured">
                     <div class="option">
                         <div class="wrapper">
@@ -165,14 +157,13 @@
                                     Run as a Service
                                 </p>
                                 <p>
-                                     Installer
+                                    Installer
                                 </p>
                             </div>
                             <a class="button" href="https://download.sonarr.tv/v2/master/latest/NzbDrone.master.exe">DOWNLOAD</a>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-sm-4">
                     <div class="option">
                         <div class="wrapper">
@@ -189,44 +180,47 @@
             </div>
         </div>
     </div>
-    
     <div id="downloads-v3" class="download">
         <div class="container">
             <div class="section-header">
-                <h3>Download v3 beta</h3>
+                <h3>Download v3 Beta</h3>
             </div>
             <div class="row">
                 <ul class="nav nav-tabs nav-justified">
                     <li class="nav-item active">
-                    <a class="nav-link active" data-toggle="tab" href="#downloads-v3-windows"><i class="fab fa-windows"></i> Windows</a>
+                        <a class="nav-link active" data-toggle="tab" href="#downloads-v3-windows"><i class="fab fa-windows"></i> Windows</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#downloads-v3-linux"><i class="fab fa-linux"></i> Linux</a>
+                        <a class="nav-link" data-toggle="tab" href="#downloads-v3-linux"><i class="fab fa-linux"></i> Linux</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#downloads-v3-macos"><i class="fab fa-apple"></i> macOS</a>
+                        <a class="nav-link" data-toggle="tab" href="#downloads-v3-macos"><i class="fab fa-apple"></i> macOS</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#downloads-v3-docker"><i class="fab fa-docker"></i> Docker</a>
+                        <a class="nav-link" data-toggle="tab" href="#downloads-v3-docker"><i class="fab fa-docker"></i> Docker</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#downloads-v3-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
+                        <a class="nav-link" data-toggle="tab" href="#downloads-v3-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
                     </li>
                 </ul>
-                <div class="tab-content" id="downloadv3TabContent">
+                <div class="tab-content" id="downloads-v3-tabcontent">
                     <div class="tab-pane fade active in" id="downloads-v3-windows" role="tabpanel">
                         <div class="install-description">
-                            <div class="alert alert-warning">Sonarr v3 no longer supports Windows XP. We also do not provide any guarantee for Windows 7.</div>
+                            <div class="alert alert-warning">
+                                Sonarr v3 no longer supports Windows XP. We also do not provide any guarantee for Windows 7.
+                            </div>
                             <p>
                                 Sonarr can be installed on Windows as Windows Service or system tray application.
                             </p>
-                            <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=windows&installer=true">Download Windows Installer</a>
+                            <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;amp;os=windows&amp;amp;installer=true">Download Windows Installer</a>
                         </div>
                         <div class="install-alternatives">
                             <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-windows-alternatives">Alternatives for advanced users</div>
                             <div class="collapse" id="downloads-v3-windows-alternatives">
                                 <h5>Manual Install</h5>
-                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom/latest?version=3&os=windows">.zip download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                <p>
+                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom/latest?version=3&amp;amp;os=windows">.zip download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -240,23 +234,23 @@
                                     <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-other"><i class="fas fa-ellipsis-v"></i> Others</a>
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
                                 </li>
                             </ul>
-                            <div class="tab-content" id="downloadv3LinuxTabContent">
+                            <div class="tab-content" id="download-v3-linux-tabcontent">
                                 <div class="tab-pane fade active in" id="downloads-v3-linux-debian" role="tabpanel">
                                     <dl class="install-steps">
                                         <dt>Introduction</dt>
                                         <dd>
                                             <p>
-                                                The installation process described here utilizes debian's apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
+                                                The installation process described here utilizes Debian's apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
                                                 It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
                                             </p>
                                             <div class="alert alert-info">
                                                 <h4 class="alert-heading">Sonarr v2 migration</h4>
                                                 The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
-                                                It's advisable to make a backup of the v2 data first.<br/>
-                                                Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
+                                                It's advisable to make a backup of the v2 data first.<br>
+            Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
                                             </div>
                                         </dd>
                                         <dt><span class="step">1</span>Optional: Mono and MediaInfo dependencies</dt>
@@ -281,13 +275,13 @@
                                                 <dt>Debian 8 "jessie" <span class="arch">(i386, amd64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
-echo "deb https://apt.sonarr.tv/debian jessie main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+echo "deb https://apt.sonarr.tv/debian jessie main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                                 <dt>Debian 9 "stretch" <span class="arch">(i386, amd64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
-echo "deb https://apt.sonarr.tv/debian stretch main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+echo "deb https://apt.sonarr.tv/debian stretch main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                             </dl>
@@ -310,13 +304,14 @@ sudo apt update</code></pre>
                                         <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-debian-alternatives">Alternatives for advanced users</div>
                                         <div class="collapse" id="downloads-v3-linux-debian-alternatives">
                                             <h5>Manual Install</h5>
-                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                             <h5>Debian package channels</h5>
                                             <p>
-                                                The debian packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
+                                                The Debian packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
                                                 The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
-                                            </p><p>
-                                                For advanced users the alternative jessie-master, jessie-develop, stretch-master or stretch-develop apt repo distributions are available.
+                                            </p>
+                                            <p>
+                                                For advanced users the alternative *-master and *-develop apt repo distributions are available.
                                                 In these channels the built-in updater is disabled and apt must be used to install updates.
                                             </p>
                                             <h5>Docker container</h5>
@@ -331,14 +326,14 @@ sudo apt update</code></pre>
                                         <dt>Introduction</dt>
                                         <dd>
                                             <p>
-                                                The installation process described here utilizes debian's apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
+                                                The installation process described here utilizes Ubuntu's apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
                                                 It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
                                             </p>
                                             <div class="alert alert-info">
                                                 <h4 class="alert-heading">Sonarr v2 migration</h4>
                                                 The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
-                                                It's advisable to make a backup of the v2 data first.<br/>
-                                                Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
+                                                It's advisable to make a backup of the v2 data first.<br>
+            Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
                                             </div>
                                         </dd>
                                         <dt><span class="step">1</span>Optional: Mono and MediaInfo dependencies</dt>
@@ -360,16 +355,16 @@ sudo apt update</code></pre>
                                                 Note: the packages should work on newer Ubuntu versions too but we only provide packages for the ones listed below.
                                             </div>
                                             <dl>
-                                                <dt><i class="fab fa-ubuntu"></i> Ubuntu 16.04 "xenial" <span class="arch">(i386, amd64)</span></dt>
+                                                <dt>Ubuntu 16.04 "xenial" <span class="arch">(i386, amd64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
-echo "deb https://apt.sonarr.tv/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+echo "deb https://apt.sonarr.tv/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
-                                                <dt><i class="fab fa-ubuntu"></i> Ubuntu 18.04 "bionic" <span class="arch">(i386, amd64)</span></dt>
+                                                <dt>Ubuntu 18.04 "bionic" <span class="arch">(i386, amd64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
-echo "deb https://apt.sonarr.tv/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/sonarr-official.list
+echo "deb https://apt.sonarr.tv/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                             </dl>
@@ -392,13 +387,14 @@ sudo apt update</code></pre>
                                         <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-ubuntu-alternatives">Alternatives for advanced users</div>
                                         <div class="collapse" id="downloads-v3-linux-ubuntu-alternatives">
                                             <h5>Manual Install</h5>
-                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                             <h5>Ubuntu package channels</h5>
                                             <p>
-                                                The ubuntu packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
+                                                The Ubuntu packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
                                                 The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
-                                            </p><p>
-                                                For advanced users the alternative xenial-master, xenial-develop, bionic-master or bionic-develop apt repo distributions are available.
+                                            </p>
+                                            <p>
+                                                For advanced users the alternative *-master and *-develop apt repo distributions are available.
                                                 In these channels the built-in updater is disabled and apt must be used to install updates.
                                             </p>
                                             <h5>Docker container</h5>
@@ -411,221 +407,215 @@ sudo apt update</code></pre>
                                 <div class="tab-pane fade" id="downloads-v3-linux-other" role="tabpanel">
                                     <div class="install-description">
                                         <div class="alert alert-info">
-                                            Please contact us if you wish to port Sonarr v3 Beta for any other distribution that the ones already listed.<br/>
-                                            Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                                            Please contact us if you wish to port Sonarr v3 Beta for any other distribution that the ones already listed.<br>
+                    Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                </div>
+                                            <p>
+                                                A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
+                                            </p>
+                                            <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">Download Linux .tar.gz</a>
                                         </div>
-
-                                        <p>
-                                            A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
-                                        </p>
-
-                                        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">Download Linux .tar.gz</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="downloads-v3-macos" role="tabpanel">
-                        <dl class="install-steps">
-                            <dt>Introduction</dt>
-                            <dd>The easiest way to install Sonarr on macOS is to use the App archive.</dd>
-                            <dt><span class="step">1</span>Download App package</dt>
-                            <dd>
-                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=macos&installer=true">Download macOS App</a>
-                            </dd>
-                            <dt><span class="step">2</span>Install App</dt>
-                            <dd>
-                                <p>
-                                    Open the archive and drag the Sonarr icon to your Application folder.
-                                </p>
-                                <div class="alert alert-warning">
-                                    In macOS 10.12+ Gatekeeper App Translocation will prevent Sonarr from updating if it's being run directly from the download location. Therefore it MUST be moved to the Application folder.
+                        <div class="tab-pane fade" id="downloads-v3-macos" role="tabpanel">
+                            <dl class="install-steps">
+                                <dt>Introduction</dt>
+                                <dd>
+                                    The easiest way to install Sonarr on macOS is to use the App archive.
+                                </dd>
+                                <dt><span class="step">1</span>Download App package</dt>
+                                <dd>
+                                    <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=macos&amp;installer=true">Download macOS App</a>
+                                </dd>
+                                <dt><span class="step">2</span>Install App</dt>
+                                <dd>
+                                    <p>
+                                        Open the archive and drag the Sonarr icon to your Application folder.
+                                    </p>
+                                    <div class="alert alert-warning">
+                                        In macOS 10.12+ Gatekeeper App Translocation will prevent Sonarr from updating if it's being run directly from the download location. Therefore it MUST be moved to the Application folder.
+                                    </div>
+                                </dd>
+                                <dt><span class="step">3</span>Start Sonarr</dt>
+                                <dd>
+                                    <p>
+                                        Open Sonarr.app in your Application folder.
+                                    </p>
+                                    <div class="alert alert-info">
+                                        During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
+                                    </div>
+                                </dd>
+                                <dt><span class="step">4</span>Open Sonarr</dt>
+                                <dd>
+                                    You should now be able to access Sonarr at <code>http://localhost:8989</code>.
+                                </dd>
+                            </dl>
+                            <div class="install-alternatives">
+                                <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-macos-alternatives">Alternatives for advanced users</div>
+                                <div class="collapse" id="downloads-v3-macos-alternatives">
+                                    <h5>Manual Install</h5>
+                                    <p>
+                                        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom/latest?version=3&amp;os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                    </p>
+                                    <h5>Docker container</h5>
+                                    <p>
+                                        You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+                                    </p>
                                 </div>
-                            </dd>
-                            <dt><span class="step">3</span>Start Sonarr</dt>
-                            <dd>
-                                <p>
-                                    Open Sonarr.app in your Application folder.
-                                </p>
-                                <div class="alert alert-info">
-                                    During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
-                                </div>
-                            </dd>
-                            <dt><span class="step">4</span>Open Sonarr</dt>
-                            <dd>
-                                You should now be able to access Sonarr at <code>http://localhost:8989</code>.
-                            </dd>
-                        </dl>
-                        <div class="install-alternatives">
-                            <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-macos-alternatives">Alternatives for advanced users</div>
-                            <div class="collapse" id="downloads-v3-macos-alternatives">
-                                <h5>Manual Install</h5>
-                                <p>
-                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom/latest?version=3&os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
-                                </p>
-                                <h5>Docker container</h5>
-                                <p>
-                                    You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
-                                </p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="downloads-v3-docker" role="tabpanel">
+                            <dl class="install-steps">
+                                <dt>Introduction</dt>
+                                <dd>
+                                    <p>
+                                        The Sonarr team does not actively maintain a Docker image for Sonarr. Instead the docker images are maintained by third parties.
+                                    </p>
+                                    <h5>Docker Permissions</h5>
+                                    <p>
+                                        The most common issue our users encounter with Docker is a misunderstanding of permissions and volumes. Especially when connecting with download clients.<br>
+            Our advice is to consider each docker container a separate 'computer' and consider that when you're making configuration changes.
+            In order for Sonarr to connect to that other computer it must be made aware of how it can access it.
+        </p>
+                                        <p>
+                                            This is especially true when importing new downloads.<br>
+            The download client will say "I downloaded the file in /mydownloads/My.Series.S01E01/", but that path is local to that 'computer'.<br>
+            Sonarr needs to be made aware how to access '/mydownloads' if that path is mounted differently in the Sonarr container.<br>
+            One solution is to ensure that the volume mount is the same for both containers, the other option is to configure a Remote Path Mapping in Settings -> Download Clients.<br>
+            Finally, ensure that both containers have the appropriate user permission to access and move files in the volume mounts.
+        </p>
+                                            <h5>Docker Volumes</h5>
+                                            <p>
+                                                The second most common issue is when users mount the <code>/downloads</code> and <code>/series</code> volumes separately.
+                                                Volumes are considered separate filesystems and as such causes Sonarr to copy new downloads from one to the other instead of efficiently moving or hardlinking them.<br>
+            Our advice is to use a single volume mount such as <code>/data</code> and then configure the subdirectories <code>'/data/downloads'</code> and <code>'/data/tv'</code>.
+                                            </p>
+                                </dd>
+                                <dt>Install Sonarr</dt>
+                                <dd>
+                                    <p>
+                                        <a href="//www.linuxserver.io">linuxserver.io</a> maintains a preview Sonarr docker image, please follow the <a href="https://hub.docker.com/r/lsiodev/sonarr-preview">instructions</a> to install it.
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="tab-pane fade" id="downloads-v3-other" role="tabpanel">
+                            <div class="alert alert-info">
+                                Please contact us if you wish to port Sonarr v3 Beta for any other platform that the ones already listed.<br>
+                Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+            </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="downloads-v3-docker" role="tabpanel">
-                        <dl class="install-steps">
-                            <dt>Introduction</dt>
-                            <dd>
-                                <p>
-                                    The Sonarr team does not actively maintain a Docker image for Sonarr. Instead the docker images are maintained by third parties.
-                                </p>
-                                <h5>Docker Permissions</h5>
-                                <p>
-                                    The most common issue our users encounter with Docker is a misunderstanding of permissions and volumes. Especially when connecting with download clients.<br/>
-                                    Our advice is to consider each docker container a separate 'computer' and consider that when you're making configuration changes.
-                                    In order for Sonarr to connect to that other computer it must be made aware of how it can access it.                                    
-                                </p><p>
-                                    This is especially true when importing new downloads.<br/>
-                                    The download client will say "I downloaded the file in /mydownloads/My.Series.S01E01/", but that path is local to that 'computer'.<br/>
-                                    Sonarr needs to be made aware how to access '/mydownloads' if that path is mounted differently in the Sonarr container.<br/>
-                                    One solution is to ensure that the volume mount is the same for both containers, the other option is to configure a Remote Path Mapping in Settings -> Download Clients.<br/>
-                                    Finally, ensure that both containers have the appropriate user permission to access and move files in the volume mounts.
-                                </p>
-                                <h5>Docker Volumes</h5>
-                                <p>
-                                    The second most common issue is when users mount the <code>/downloads</code> and <code>/series</code> volumes separately. 
-                                    Volumes are considered separate filesystems and as such  causes Sonarr to copy new downloads from one to the other instead of efficiently moving or hardlinking them.<br/>
-                                    Our advice is to use a single volume mount such as <code>/data</code> and then configure the subdirectories <code>'/data/downloads'</code> and <code>'/data/tv'</code>.
-                                </p>
-                            </dd>
-                            <dt>Install Sonarr</dt>
-                            <dd>
-                                <p>
-                                    <a href="//www.linuxserver.io">linuxserver.io</a> maintains a preview Sonarr docker image, please follow the <a href="https://hub.docker.com/r/lsiodev/sonarr-preview">instructions</a> to install it.
-                                </p>
-                            </dd>
-                        </dl>
+                </div>
+            </div>
+            <div id="support" class="support">
+                <div class="container">
+                    <div class="section-header">
+                        <h3>Support</h3>
                     </div>
-                    <div class="tab-pane fade" id="downloads-v3-other" role="tabpanel">
-                        <div class="alert alert-info">
-                            Please contact us if you wish to port Sonarr v3 Beta for any other platform that the ones already listed.<br/>
-                            Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
-                        </div>
+                    <div class="row">
+                        <a class="col-sm-3" href="https://forums.sonarr.tv" target="_blank">
+                            <div class="text">
+                                <i class="fas fa-users fa-2x"></i>
+                                <h4>Forums</h4>
+                                <p>
+                                    Talk to Sonarr developers and other users, we are here to help.
+                                </p>
+                            </div>
+                        </a>
+                        <a class="col-sm-3" href="https://wiki.sonarr.tv" target="_blank">
+                            <div class="text">
+                                <i class="far fa-lightbulb fa-2x"></i>
+                                <h4>Wiki</h4>
+                                <p>
+                                    Check out the FAQ, API documentation and other guides
+                                </p>
+                            </div>
+                        </a>
+                        <a class="col-sm-3" href="http://webchat.freenode.net/?channels=#sonarr" target="_blank">
+                            <div class="text">
+                                <i class="fas fa-comment fa-2x"></i>
+                                <h4>IRC Channel</h4>
+                                <p>
+                                    Join our IRC channel for a chat. irc.freenode.net #sonarr
+                                </p>
+                            </div>
+                        </a>
+                        <a class="col-sm-3" href="https://github.com/Sonarr/Sonarr/issues" target="_blank">
+                            <div class="text">
+                                <i class="fab fa-github fa-2x"></i>
+                                <h4>GitHub Issues</h4>
+                                <p>
+                                    Track bugs and features for the things that matter to you.
+                                </p>
+                            </div>
+                        </a>
+                        <a class="col-sm-3" href="https://twitter.com/sonarrtv" target="_blank">
+                            <div class="text">
+                                <i class="fab fa-twitter fa-2x"></i>
+                                <h4>Follow us on Twitter</h4>
+                                <p>
+                                    News, updates and anything else that might come up.
+                                </p>
+                            </div>
+                        </a>
+                        <a class="col-sm-3" href="https://www.reddit.com/r/sonarr" target="_blank">
+                            <div class="text">
+                                <i class="fab fa-reddit-alien fa-2x"></i>
+                                <h4>Sonarr subreddit</h4>
+                                <p>
+                                    Discuss Sonarr and talk to other users.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div id="support" class="support">
-        <div class="container">
-            <div class="section-header">
-                <h3>Support</h3>
-            </div>
-            <div class="row">
-                <a class="col-sm-3" href="https://forums.sonarr.tv" target="_blank">
-                    <div class="text">
-                        <i class="fas fa-users fa-2x"></i>
-                        <h4>Forums</h4>
-                        <p>
-                            Talk to Sonarr developers and other users, we are here to help.
-                        </p>
-                    </div>
-                </a>
-
-                <a class="col-sm-3" href="https://wiki.sonarr.tv" target="_blank">
-                    <div class="text">
-                        <i class="far fa-lightbulb fa-2x"></i>
-                        <h4>Wiki</h4>
-                        <p>
-                            Check out the FAQ, API documentation and other guides
-                        </p>
-                    </div>
-                </a>
-
-                <a class="col-sm-3" href="http://webchat.freenode.net/?channels=#sonarr" target="_blank">
-                    <div class="text">
-                        <i class="fas fa-comment fa-2x"></i>
-                        <h4>IRC Channel</h4>
-                        <p>
-                            Join our IRC channel for a chat. irc.freenode.net #sonarr
-                        </p>
-                    </div>
-                </a>
-
-                <a class="col-sm-3" href="https://github.com/Sonarr/Sonarr/issues" target="_blank">
-                    <div class="text">
-                        <i class="fab fa-github fa-2x"></i>
-                        <h4>GitHub Issues</h4>
-                        <p>
-                            Track bugs and features for the things that matter to you.
-                        </p>
-                    </div>
-                </a>
-
-                <a class="col-sm-3" href="https://twitter.com/sonarrtv" target="_blank">
-                    <div class="text">
-                        <i class="fab fa-twitter fa-2x"></i>
-                        <h4>Follow us on Twitter</h4>
-                        <p>
-                            News, updates and anything else that might come up.
-                        </p>
-                    </div>
-                </a>
-
-                <a class="col-sm-3" href="https://www.reddit.com/r/sonarr" target="_blank">
-                    <div class="text">
-                        <i class="fab fa-reddit-alien fa-2x"></i>
-                        <h4>Sonarr subreddit</h4>
-                        <p>
-                            Discuss Sonarr and talk to other users.
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="row credits">
-                <div class="col-md-12">
-                    <div class="row copyright">
+            <footer id="footer" class="footer">
+                <div class="container">
+                    <div class="row credits">
                         <div class="col-md-12">
-                            © <span id="year"></span> Sonarr. All rights reserved.
+                            <div class="row copyright">
+                                <div class="col-md-12">
+                                    © <span id="year"></span> Sonarr. All rights reserved.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </footer>
+            </footer>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+            <script src="js/tab-loader.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
+            <script>
+                hljs.initHighlightingOnLoad();
+            </script>
+            <script src="js/theme.js"></script>
+            <script type="text/javascript" src="js/index-slider.js"></script>
+            <script type="text/javascript">
+                if (window.location.hash.toLocaleLowerCase() === "#donate") {
+                    window.location.replace("https://sonarr.tv/donate");
+                }
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="js/tab-loader.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="js/theme.js"></script>
+                (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function() {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    <script type="text/javascript" src="js/index-slider.js"></script>
-    <script type="text/javascript">
-
-        if(window.location.hash.toLocaleLowerCase()=== "#donate"){
-            window.location.replace("https://sonarr.tv/donate");
-        }
-
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-54382816-2', 'auto');
-        ga('send', 'pageview');
-</script>
+                ga('create', 'UA-54382816-2', 'auto');
+                ga('send', 'pageview');
+            </script>
 </body>
+
 </html>
