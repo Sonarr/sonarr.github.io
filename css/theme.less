@@ -367,6 +367,23 @@ header {
     #333333 ;
 }
 
+li {
+  a svg.icon {
+    height: 1em;
+    vertical-align: middle;
+    
+    g path {
+      fill: #428bca !important;
+    }
+  }
+
+  &.active a svg.icon {
+    g path {
+      fill: #fff !important;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .features {
     margin-top: 100px;
