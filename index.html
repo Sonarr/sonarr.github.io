@@ -428,8 +428,13 @@ sudo apt update</code></pre>
                                         </dd>
                                         <dt><span class="step">1</span>Install Sonarr</dt>
                                         <dd>
-                                            Use yay to install the sonarr-phantom package:
-                                            <pre><code class="bash">yay -S sonarr-phantom</code></pre>
+                                            <p>
+                                                An aur helper can install sonarr-phantom and its dependencies easily, or follow the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages">AUR Installing Packages</a> wiki for manual installation.
+                                            </p>
+                                            <p>
+                                                For example, to use <a href="https://github.com/Jguer/yay">yay</a> to install the sonarr-phantom package:
+                                                <pre><code class="bash">yay -S sonarr-phantom</code></pre>
+                                            </p>
                                         </dd>
                                         <dt><span class="step">2</span>Start Sonarr</dt>
                                         <dd>
@@ -534,29 +539,27 @@ sudo apt update</code></pre>
                                     <p>
                                         There are two common problems with Docker volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.
                                         The first is a problem because the download client will report a download's path as <code>/torrents/My.Series.S01E01/</code>, but in the Sonarr container that might be at
-                                        <code>/downloads/My.Series.S01E01/</code>.<br>
-            Both problems can be solved with well planned, consistent paths.
-        </p>
-                                        <p>
-                                            Most Docker images suggest paths like <code>/tv</code> and <code>/downloads</code>. This causes slow moves and doesn't allow hard links because they
-                                            are considered two different file systems <i>inside</i> the container.<br>
-            Some also recommend paths for the download client container that are different from the Sonarr container, like <code>/torrents</code>.<br>
+                                        <code>/downloads/My.Series.S01E01/</code>. The second is a performance issue and causes problems for seeding torrents. Both problems can be solved with well planned, consistent paths.
+                                    </p>
+                                    <p>
+                                        Most Docker images suggest paths like <code>/tv</code> and <code>/downloads</code>. This causes slow moves and doesn't allow hard links because they
+                                        are considered two different file systems <i>inside</i> the container. Some also recommend paths for the download client container that are different from the Sonarr container, like <code>/torrents</code>.<br>
             The best solution is to use a single, common volume <i>inside</i> the containers, such as <code>/data</code>.
-                                            Your TV shows would be in <code>/data/TV</code>, torrents in <code>/data/downloads/torrents</code> and/or usenet downloads in <code>/data/downloads/usenet</code>.
-                                        </p>
-                                        <p>
-                                            If this advice is not followed, you may have to configure a Remote Path Mapping in the Sonarr web UI (Settings &rsaquo; Download Clients).
-                                        </p>
-                                        <h5>Ownership and Permissions</h5>
-                                        <p>
-                                            Permissions and ownership of files is one of the most common problems for Sonarr users, both inside and outside Docker. Most images have environment variables that can be used to override
-                                            the default user, group and umask, you should decide this before setting up all of your containers.
-                                            The recommendation is to use a common group for all related containers so that each container can use the shared group permissions to read and write files on the mounted volumes.<br>
+                                        Your TV shows would be in <code>/data/TV</code>, torrents in <code>/data/downloads/torrents</code> and/or usenet downloads in <code>/data/downloads/usenet</code>.
+                                    </p>
+                                    <p>
+                                        If this advice is not followed, you may have to configure a Remote Path Mapping in the Sonarr web UI (Settings &rsaquo; Download Clients).
+                                    </p>
+                                    <h5>Ownership and Permissions</h5>
+                                    <p>
+                                        Permissions and ownership of files is one of the most common problems for Sonarr users, both inside and outside Docker. Most images have environment variables that can be used to override
+                                        the default user, group and umask, you should decide this before setting up all of your containers.
+                                        The recommendation is to use a common group for all related containers so that each container can use the shared group permissions to read and write files on the mounted volumes.<br>
             Keep in mind that Sonarr will need read and write to the download folders as well as the final folders.
         </p>
-                                            <p>
-                                                For a more detailed explanation of these issues, see <a href="https://www.reddit.com/r/usenet/wiki/docker">The Best Docker Setup</a> wiki article on Reddit /r/usenet.
-                                            </p>
+                                        <p>
+                                            <i>For a more detailed explanation of these issues, see <a href="https://www.reddit.com/r/usenet/wiki/docker">The Best Docker Setup</a> wiki article on Reddit /r/usenet.</i>
+                                        </p>
                                 </dd>
                                 <dt><span class="step">2</span>Install Sonarr</dt>
                                 <dd>

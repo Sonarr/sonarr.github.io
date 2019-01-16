@@ -10,13 +10,11 @@
         <p>
             There are two common problems with Docker volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.
             The first is a problem because the download client will report a download's path as <code>/torrents/My.Series.S01E01/</code>, but in the Sonarr container that might be at
-            <code>/downloads/My.Series.S01E01/</code>.<br/>
-            Both problems can be solved with well planned, consistent paths.
+            <code>/downloads/My.Series.S01E01/</code>. The second is a performance issue and causes problems for seeding torrents. Both problems can be solved with well planned, consistent paths.
         </p>
         <p>
             Most Docker images suggest paths like <code>/tv</code> and <code>/downloads</code>. This causes slow moves and doesn't allow hard links because they
-            are considered two different file systems <i>inside</i> the container.<br/>
-            Some also recommend paths for the download client container that are different from the Sonarr container, like <code>/torrents</code>.<br/>
+            are considered two different file systems <i>inside</i> the container. Some also recommend paths for the download client container that are different from the Sonarr container, like <code>/torrents</code>.<br/>
             The best solution is to use a single, common volume <i>inside</i> the containers, such as <code>/data</code>.
             Your TV shows would be in <code>/data/TV</code>, torrents in <code>/data/downloads/torrents</code> and/or usenet downloads in <code>/data/downloads/usenet</code>.
         </p>
@@ -31,7 +29,7 @@
             Keep in mind that Sonarr will need read and write to the download folders as well as the final folders.
         </p>
         <p>
-            For a more detailed explanation of these issues, see <a href="https://www.reddit.com/r/usenet/wiki/docker">The Best Docker Setup</a> wiki article on Reddit /r/usenet.
+            <i>For a more detailed explanation of these issues, see <a href="https://www.reddit.com/r/usenet/wiki/docker">The Best Docker Setup</a> wiki article on Reddit /r/usenet.</i>
         </p>
     </install-step>
     <install-step num="2" title="Install Sonarr">
