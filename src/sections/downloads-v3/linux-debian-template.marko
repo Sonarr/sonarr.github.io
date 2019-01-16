@@ -47,12 +47,17 @@ sudo apt update</code></pre>
         <pre><code class="bash">sudo apt install sonarr</code></pre>
     </install-step>
     <install-step num="4" title="View Sonarr">
-        Connect to <code>http://(ip/name):8989</code> to view your Sonarr installation.
+        <p>
+            Connect to <code>http://localhost:8989</code> to view your Sonarr installation.
+        </p>
+        <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
     </install-step>
 </dl>
 <install-alternatives id=`downloads-v3-linux-${input.vendor}-alternatives`>
     <h5>Manual Install</h5>
-    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+    <p>
+        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+    </p>
     <h5>${input.vendor_title} package channels</h5>
     <p>
         The ${input.vendor_title} packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.

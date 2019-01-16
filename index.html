@@ -300,14 +300,19 @@ sudo apt update</code></pre>
                                         </dd>
                                         <dt><span class="step">4</span>View Sonarr</dt>
                                         <dd>
-                                            Connect to <code>http://(ip/name):8989</code> to view your Sonarr installation.
+                                            <p>
+                                                Connect to <code>http://localhost:8989</code> to view your Sonarr installation.
+                                            </p>
+                                            <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
                                         </dd>
                                     </dl>
                                     <div class="install-alternatives">
                                         <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-debian-alternatives">Alternatives for advanced users</div>
                                         <div class="collapse" id="downloads-v3-linux-debian-alternatives">
                                             <h5>Manual Install</h5>
-                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            <p>
+                                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            </p>
                                             <h5>Debian package channels</h5>
                                             <p>
                                                 The Debian packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
@@ -383,14 +388,19 @@ sudo apt update</code></pre>
                                         </dd>
                                         <dt><span class="step">4</span>View Sonarr</dt>
                                         <dd>
-                                            Connect to <code>http://(ip/name):8989</code> to view your Sonarr installation.
+                                            <p>
+                                                Connect to <code>http://localhost:8989</code> to view your Sonarr installation.
+                                            </p>
+                                            <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
                                         </dd>
                                     </dl>
                                     <div class="install-alternatives">
                                         <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-ubuntu-alternatives">Alternatives for advanced users</div>
                                         <div class="collapse" id="downloads-v3-linux-ubuntu-alternatives">
                                             <h5>Manual Install</h5>
-                                            It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            <p>
+                                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            </p>
                                             <h5>Ubuntu package channels</h5>
                                             <p>
                                                 The Ubuntu packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
@@ -427,18 +437,22 @@ sudo apt update</code></pre>
                                         </dd>
                                         <dt><span class="step">3</span>View Sonarr</dt>
                                         <dd>
-                                            You should now be able to access Sonarr at <code>http://localhost:8989</code>.<br>
+                                            <p>
+                                                You should now be able to access Sonarr at <code>http://localhost:8989</code>.
+                                            </p>
                                             <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
                                         </dd>
                                     </dl>
                                     <div class="install-alternatives">
                                         <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-archlinux-alternatives">Alternatives for advanced users</div>
                                         <div class="collapse" id="downloads-v3-linux-archlinux-alternatives">
-                                            <h5>Manual Install AUR package</h5>
+                                            <h5>Manual Install</h5>
                                             <p>
-                                                <pre><code class="bash">git clone https://aur.archlinux.org/sonarr-phantom.git
-cd sonarr-phantom
-makepkg -sri</code></pre>
+                                                It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            </p>
+                                            <h5>Docker container</h5>
+                                            <p>
+                                                You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
                                             </p>
                                         </div>
                                     </div>
@@ -486,7 +500,7 @@ makepkg -sri</code></pre>
                                         During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
                                     </div>
                                 </dd>
-                                <dt><span class="step">4</span>Open Sonarr</dt>
+                                <dt><span class="step">4</span>View Sonarr</dt>
                                 <dd>
                                     You should now be able to access Sonarr at <code>http://localhost:8989</code>.
                                 </dd>
