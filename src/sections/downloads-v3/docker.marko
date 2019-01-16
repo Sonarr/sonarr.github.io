@@ -31,9 +31,20 @@
             To install and use these Docker images, you'll need to keep the above in mind while following their documentation. There are many ways to manage Docker images and containers too, so installation
             and maintenance of them will depend on the route you choose.
             <ul>
-                <li><a href="https://hub.docker.com/r/lsiodev/sonarr-preview">lsiodev/sonarr-preview</a> is made by <a href="//www.linuxserver.io">linuxserver.io</a>, one of the most prolific and popular
-                Docker image maintainers. They also maintain images for most of the popular download clients as well.</li>
-                <li><a href="https://hub.docker.com/r/hotio/suitarr/">hotio/suitarr</a> doesn't make any specific path suggestions, but uses labels for each software it supports instead of individual Docker images.</li>
+            <li>
+                <h5><a href="https://hub.docker.com/r/lsiodev/sonarr-preview">lsiodev/sonarr-preview</a></h5>
+                <p>
+                    <a href="//www.linuxserver.io">linuxserver.io</a> is one of the most prolific and popular Docker image maintainers. They also maintain images for most of the popular download clients as well.
+                    LinuxServer specifies a couple of default volumes such as <code>/tv</code> and <code>/downloads</code>. Our recommendation is to use a single volume for the data, as mentioned above.
+                </p>
+            </li>
+            <li>
+                <h5><a href="https://hub.docker.com/r/hotio/suitarr/">hotio/suitarr</a></h5>
+                <p>
+                    <a href="https://gitlab.com/hotio/suitarr">hotio</a> uses tags for each software it supports instead of individual Docker images.
+                    Read the <a href="https://gitlab.com/hotio/suitarr/blob/master/README.md">instructions</a> on how to install the image.
+                </p>
+            </li>
             </ul>
         </p>
     </install-step>
