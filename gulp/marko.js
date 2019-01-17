@@ -55,7 +55,8 @@ gulp.task('marko', function() {
                .on('error', errorHandler.onError)
                .pipe(prettyHtml({
                 preserve_newlines: true,
-                max_preserve_newlines: 0
+                max_preserve_newlines: 0,
+                unformatted: ['code', 'pre', 'em', 'strong', 'span', 'i', 'b']
                }))
-               .pipe(gulp.dest('./'))
-            });
+               .pipe(gulp.dest('./'));
+});
