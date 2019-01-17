@@ -4,12 +4,15 @@ var marko = require('marko');
 var through2 = require('through2');
 var errorHandler = require('./errorHandler');
 var gutil = require('gulp-util');
+var cachebust = require('gulp-cache-bust');
 var PluginError = gutil.PluginError;
 
 var markoCompilerOptions = {
     writeToDisk: false,
     preserveWhitespace: true
 };
+
+var cwd = process.cwd();
 
 require('marko/node-require').install({compilerOptions: markoCompilerOptions});
         
@@ -58,5 +61,6 @@ gulp.task('marko', function() {
                 max_preserve_newlines: 0,
                 unformatted: ['code', 'pre', 'em', 'strong', 'span', 'i', 'b']
                }))
+               .pipe(cachebust({ basePath: cwd + '/' }))
                .pipe(gulp.dest('./'));
 });
