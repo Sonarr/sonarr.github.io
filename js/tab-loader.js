@@ -14,6 +14,8 @@ function isTab(hash) {
 function openTab(hash) {
     if (hash.startsWith('#downloads-v3-linux-'))
         $('a.nav-link[href=#downloads-v3-linux]').tab('show');
+    if (hash.startsWith('#downloads-v3-nas-'))
+        $('a.nav-link[href=#downloads-v3-nas]').tab('show');
     $('a.nav-link[href=' + hash + ']').tab('show');
 }
 

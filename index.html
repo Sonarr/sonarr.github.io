@@ -197,6 +197,9 @@
                         <a class="nav-link" data-toggle="tab" href="#downloads-v3-macos"><i class="fab fa-apple"></i> macOS</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#downloads-v3-nas"><i class="fas fa-hdd"></i> NAS</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#downloads-v3-docker"><i class="fab fa-docker"></i> Docker</a>
                     </li>
                     <li class="nav-item">
@@ -551,6 +554,47 @@ sudo systemctl enable --now sonarr</code></pre>
                                 <p>
                                     You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="downloads-v3-nas" role="tabpanel">
+                        <div>
+                            <ul class="nav nav-pills">
+                                <li class="nav-item active">
+                                    <a class="nav-link active" data-toggle="pill" href="#downloads-v3-nas-synology"> Synology</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-nas-qnap">QNAP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-nas-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="download-v3-nas-tabcontent">
+                                <div class="tab-pane fade active in" id="downloads-v3-nas-synology" role="tabpanel">
+                                    <div class="alert alert-info">
+                                        The Sonarr v2 Synology package was provided by SynoCommunity. No v3 Synology package is currently available.<br>
+                                        Please contact us if you wish to maintain a v3 package so that we can include the appropriate install instructions.
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="downloads-v3-nas-qnap" role="tabpanel">
+                                    <div class="alert alert-info">
+                                        The Sonarr v2 Qnap port was maintained by the qnap forum community.<br>
+                                        Please contact us if you wish to maintain a v3 package so that we can include the appropriate install instructions.
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="downloads-v3-nas-other" role="tabpanel">
+                                    <div class="install-description">
+                                        <div class="alert alert-info">
+                                            Please contact us if you wish to port Sonarr v3 Beta for any other nas that the ones already listed.<br>
+                                            Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                                        </div>
+                                        <p>
+                                            A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
+                                        </p>
+                                        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">Download Linux .tar.gz</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
