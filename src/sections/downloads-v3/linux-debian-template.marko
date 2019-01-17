@@ -1,15 +1,14 @@
-<dl class="install-steps">
+<install-steps>
     <install-step title="Introduction">
         <p>
             The installation process described here utilizes ${input.vendor_title}'s apt package manager. The package will configure the required systemd unit to auto-start Sonarr.
             It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
         </p>
-        <div class="alert alert-info">
-            <h4 class="alert-heading">Sonarr v2 migration</h4>
+        <migration-alert>
             The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
             It's advisable to make a backup of the v2 data first.<br/>
             Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
-        </div>
+        </migration-alert>
     </install-step>
     <install-step num="1" title="Optional: Mono and MediaInfo dependencies">
         ${input.vendor_title} includes functioning versions of Mono and MediaInfo in it's default repositories. However newer updates are available in the vendors individual repositories.
@@ -39,11 +38,11 @@ sudo apt update</code></pre>
         </dl>
     </install-step>
     <install-step num="3" title="Install Sonarr">
-        <div class="alert alert-warning">
+        <alert level="warning">
             During the installation, you will be asked which user and group Sonarr must run as.
             It's important to choose these correctly to avoid permission issues with your media files.
             We suggest you keep at least the group name identical between your download client(s) and Sonarr.
-        </div>
+        </alert>
         <pre><code class="bash">sudo apt install sonarr</code></pre>
     </install-step>
     <install-step num="4" title="View Sonarr">
@@ -52,7 +51,7 @@ sudo apt update</code></pre>
         </p>
         <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
     </install-step>
-</dl>
+</install-steps>
 <install-alternatives id=`downloads-v3-linux-${input.vendor}-alternatives`>
     <h5>Manual Install</h5>
     <p>

@@ -1,9 +1,13 @@
-<dl class="install-steps">
+<install-steps>
     <install-step title="Introduction">
         <p>
             The Arch Linux User Repository offers a <a href="https://aur.archlinux.org/packages/sonarr-phantom/">sonarr-phantom</a> package that can be installed manually
             or using your favorite <a href="https://wiki.archlinux.org/index.php/AUR_helpers">AUR helper</a>.
         </p>
+        <migration-alert>
+            The existing sonarr AUR packages already used <code>/var/lib/sonarr</code> to store the Sonarr database.
+            Sonarr v3 will convert that directory automatically on startup. It's advisable to make a backup of the v2 data first.
+        </migration-alert>
     </install-step>
     <install-step num="1" title="Install Sonarr">
         <p>
@@ -24,7 +28,7 @@ sudo systemctl enable --now sonarr</code></pre>
         </p>
         <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
     </install-step>
-</dl>
+</install-steps>
 <install-alternatives id="downloads-v3-linux-archlinux-alternatives">
     <h5>Manual Install</h5>
     <p>

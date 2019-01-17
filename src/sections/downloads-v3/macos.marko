@@ -1,6 +1,15 @@
-<dl class="install-steps">
+<install-steps>
     <install-step title="Introduction">
-        The easiest way to install Sonarr on macOS is to use the App archive.
+        <p>
+            The easiest way to install Sonarr on macOS is to use the App archive with the steps described below.
+        </p>
+
+        <!-- TODO: Check mac migration support -->
+        <migration-alert>
+            The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 database.
+            Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data, this will be migrated to <code>~/.config/Sonarr</code>.<br/>
+            It's advisable to make a backup of the v2 data before installing v3.
+        </migration-alert>
     </install-step>
     <install-step num="1" title="Download App package">
         <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=macos&installer=true">Download macOS App</a>
@@ -9,22 +18,22 @@
         <p>
             Open the archive and drag the Sonarr icon to your Application folder.
         </p>
-        <div class="alert alert-warning">
+        <alert level="warning">
             In macOS 10.12+ Gatekeeper App Translocation will prevent Sonarr from updating if it's being run directly from the download location. Therefore it MUST be moved to the Application folder.
-        </div>
+        </alert>
     </install-step>
     <install-step num="3" title="Start Sonarr">
         <p>
             Open Sonarr.app in your Application folder.
         </p>
-        <div class="alert alert-info">
+        <alert level="info">
             During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
-        </div>
+        </alert>
     </install-step>
     <install-step num="4" title="View Sonarr">
         You should now be able to access Sonarr at <code>http://localhost:8989</code>.
     </install-step>
-</dl>
+</install-steps>
 <install-alternatives id="downloads-v3-macos-alternatives">
     <h5>Manual Install</h5>
     <p>

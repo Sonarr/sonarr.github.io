@@ -205,15 +205,31 @@
                 </ul>
                 <div class="tab-content" id="downloads-v3-tabcontent">
                     <div class="tab-pane fade active in" id="downloads-v3-windows" role="tabpanel">
-                        <div class="install-description">
-                            <div class="alert alert-warning">
-                                Sonarr v3 no longer supports Windows XP. We also do not provide any guarantee for Windows 7.
-                            </div>
-                            <p>
-                                Sonarr can be installed on Windows as Windows Service or system tray application.
-                            </p>
-                            <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;amp;os=windows&amp;amp;installer=true">Download Windows Installer</a>
-                        </div>
+                        <dl class="install-steps">
+                            <dt>Introduction</dt>
+                            <dd>
+                                <p>
+                                    Sonarr is supported natively on Windows. Sonarr can be installed on Windows as Windows Service or system tray application.
+                                </p>
+                                <p>
+                                    A Windows Service runs even when the user is not logged in, but special case must be taken since Windows Services cannot access network drives (\\server\share or X:\ mapped drives) without special configuration steps.<br>
+                                    It's therefore advisable to install Sonarr as a system tray application if the user does not need to log out, the option to do so is provided during the installer.
+                                </p>
+                                <div class="alert alert-warning">Sonarr v3 no longer supports Windows XP. At this time Windows 7 <i>should</i> still work, but we will not maintain Windows 7 support.</div>
+                                <div class="alert alert-info">
+                                    <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                    Sonarr v3 will automatically convert the existing Sonarr v2 installation. Sonarr v2 stored it's database in <code>C:\ProgramData\NzbDrone</code>, which will be automatically converted to <code>C:\ProgramData\Sonarr</code>.
+                                    It's advisable to make a backup of the v2 data first.
+                                </div>
+                            </dd>
+                            <dt>Install Sonarr</dt>
+                            <dd>
+                                <p>
+                                    Sonarr can be installed on Windows as Windows Service or system tray application.
+                                </p>
+                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;amp;os=windows&amp;amp;installer=true">Download Windows Installer</a>
+                            </dd>
+                        </dl>
                         <div class="install-alternatives">
                             <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-windows-alternatives">Alternatives for advanced users</div>
                             <div class="collapse" id="downloads-v3-windows-alternatives">
@@ -425,6 +441,11 @@ sudo apt update</code></pre>
                                                 The Arch Linux User Repository offers a <a href="https://aur.archlinux.org/packages/sonarr-phantom/">sonarr-phantom</a> package that can be installed manually
                                                 or using your favorite <a href="https://wiki.archlinux.org/index.php/AUR_helpers">AUR helper</a>.
                                             </p>
+                                            <div class="alert alert-info">
+                                                <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                                The existing sonarr AUR packages already used <code>/var/lib/sonarr</code> to store the Sonarr database.
+                                                Sonarr v3 will convert that directory automatically on startup. It's advisable to make a backup of the v2 data first.
+                                            </div>
                                         </dd>
                                         <dt><span class="step">1</span>Install Sonarr</dt>
                                         <dd>
@@ -482,7 +503,15 @@ sudo systemctl enable --now sonarr</code></pre>
                         <dl class="install-steps">
                             <dt>Introduction</dt>
                             <dd>
-                                The easiest way to install Sonarr on macOS is to use the App archive.
+                                <p>
+                                    The easiest way to install Sonarr on macOS is to use the App archive with the steps described below.
+                                </p>
+                                <div class="alert alert-info">
+                                    <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                    The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 database.
+                                    Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data, this will be migrated to <code>~/.config/Sonarr</code>.<br>
+                                    It's advisable to make a backup of the v2 data before installing v3.
+                                </div>
                             </dd>
                             <dt><span class="step">1</span>Download App package</dt>
                             <dd>
@@ -533,12 +562,17 @@ sudo systemctl enable --now sonarr</code></pre>
                                     The Sonarr team does not offer an official Docker image. However, a number of third parties have created and maintain their own.<br>
                                     These instructions provide generic guidance that should apply to any Sonarr Docker image.
                                 </p>
+                                <div class="alert alert-info">
+                                    <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                    Most docker containers use <code>/config</code> volume to mount the data directory and supply that path to Sonarr as parameter.
+                                    Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found. It's advisable to make a backup of the v2 data first.
+                                </div>
                             </dd>
                             <dt><span class="step">1</span>Avoid common pitfalls</dt>
                             <dd>
                                 <h5>Volumes and Paths</h5>
                                 <p>
-                                    There are two common problems with Docker volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.
+                                    There are two common problems with Docker volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.<br>
                                     The first is a problem because the download client will report a download's path as <code>/torrents/My.Series.S01E01/</code>, but in the Sonarr container that might be at
                                     <code>/downloads/My.Series.S01E01/</code>. The second is a performance issue and causes problems for seeding torrents. Both problems can be solved with well planned, consistent paths.
                                 </p>

@@ -4,11 +4,15 @@
             The Sonarr team does not offer an official Docker image. However, a number of third parties have created and maintain their own.<br/>
             These instructions provide generic guidance that should apply to any Sonarr Docker image.
         </p>
+        <migration-alert>
+            Most docker containers use <code>/config</code> volume to mount the data directory and supply that path to Sonarr as parameter.
+            Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found. It's advisable to make a backup of the v2 data first.
+        </migration-alert>
     </install-step>
     <install-step num="1" title="Avoid common pitfalls">
         <h5>Volumes and Paths</h5>
         <p>
-            There are two common problems with Docker volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.
+            There are two common problems with Docker volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.<br/>
             The first is a problem because the download client will report a download's path as <code>/torrents/My.Series.S01E01/</code>, but in the Sonarr container that might be at
             <code>/downloads/My.Series.S01E01/</code>. The second is a performance issue and causes problems for seeding torrents. Both problems can be solved with well planned, consistent paths.
         </p>
