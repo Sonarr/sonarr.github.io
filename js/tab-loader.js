@@ -46,7 +46,7 @@ if (window.history.pushState) {
 
 // Override handling of a click when we go to a fragment.
 $('a').click(function(e) {
-    if (e.target.hash) {
+    if (e.target.hash && $(e.target).attr('href').startsWith('#')) {
         var isTabLink = $(e.target).hasClass('nav-link');
         if (window.history.pushState) {
             var wasTabChange = window.history.state && window.history.state.tabchange;
