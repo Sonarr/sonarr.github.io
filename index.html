@@ -292,10 +292,10 @@
                                             For Sonarr to function optimally it may be necessary to configure those repositories.
                                             <ul>
                                                 <li>
-                                                    Add the <a href="https://www.mono-project.com/download/stable/#download-lin-debian">Mono</a> repository. <i>You do not need to install mono itself.</i>
+                                                    Add the <a href="https://www.mono-project.com/download/stable/#download-lin-debian">Mono</a> repository. <i>You do not need to install mono itself, it'll be done automatically later.</i>
                                                 </li>
                                                 <li>
-                                                    Add the <a href="https://mediaarea.net/en/Repos#Debian">MediaInfo</a> repository.
+                                                    Add the <a href="https://mediaarea.net/en/Repos#deb">MediaInfo</a> repository.
                                                 </li>
                                             </ul>
                                         </dd>
@@ -315,6 +315,12 @@ sudo apt update</code></pre>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb https://apt.sonarr.tv/debian stretch main" | sudo tee /etc/apt/sources.list.d/sonarr.list
+sudo apt update</code></pre>
+                                                </dd>
+                                                <dt>Debian 10 "buster" <span class="arch">(i386, amd64)</span></dt>
+                                                <dd>
+                                                    <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/debian buster main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                             </dl>
@@ -380,10 +386,10 @@ sudo apt update</code></pre>
                                             For Sonarr to function optimally it may be necessary to configure those repositories.
                                             <ul>
                                                 <li>
-                                                    Add the <a href="https://www.mono-project.com/download/stable/#download-lin-ubuntu">Mono</a> repository. <i>You do not need to install mono itself.</i>
+                                                    Add the <a href="https://www.mono-project.com/download/stable/#download-lin-ubuntu">Mono</a> repository. <i>You do not need to install mono itself, it'll be done automatically later.</i>
                                                 </li>
                                                 <li>
-                                                    Add the <a href="https://mediaarea.net/en/Repos#Ubuntu/LinuxMint">MediaInfo</a> repository.
+                                                    Add the <a href="https://mediaarea.net/en/Repos#deb">MediaInfo</a> repository.
                                                 </li>
                                             </ul>
                                         </dd>

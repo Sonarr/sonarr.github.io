@@ -9,15 +9,18 @@ import DebianTemplate from './linux-debian-template.marko';
     </ul>
     <div class="tab-content" id="download-v3-linux-tabcontent">
         <tabview-pane active id="downloads-v3-linux-debian">
-            <${DebianTemplate} vendor="debian" vendor_title="Debian" mediainfo_link="Debian" distros=[
+            <${DebianTemplate} vendor="debian" vendor_title="Debian" distros=[
                 {title: 'Debian 8 "jessie"', code: 'jessie'}, 
-                {title: 'Debian 9 "stretch"', code: 'stretch'}
+                {title: 'Debian 9 "stretch"', code: 'stretch'}, 
+                {title: 'Debian 10 "buster"', code: 'buster'}, 
+                {title: 'Debian 11 "bullseye"', code: 'bullseye', hidden: true}
                 ] />
         </tabview-pane>
         <tabview-pane id="downloads-v3-linux-ubuntu">
-            <${DebianTemplate} vendor="ubuntu" vendor_title="Ubuntu" mediainfo_link="Ubuntu/LinuxMint" distros=[
+            <${DebianTemplate} vendor="ubuntu" vendor_title="Ubuntu" distros=[
                 {title: 'Ubuntu 16.04 "xenial"', code: 'xenial'}, 
-                {title: 'Ubuntu 18.04 "bionic"', code: 'bionic'}
+                {title: 'Ubuntu 18.04 "bionic"', code: 'bionic'}, 
+                {title: 'Ubuntu 20.04 "focal"', code: 'focal', hidden: true}
                 ] />
         </tabview-pane>
         <tabview-pane id="downloads-v3-linux-archlinux" file="downloads-v3/linux-archlinux.marko" />
