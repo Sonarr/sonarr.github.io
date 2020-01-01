@@ -4,12 +4,16 @@ var browserSync = require('browser-sync').create();
 require('./less.js');
 require('./marko.js');
 
-gulp.task('watch', ['less', 'marko'], function () {
-    gulp.watch(['css/*.less'],['less']);
-    gulp.watch(['src/**/*.marko','*.marko'],['marko']);
-});
+gulp.task('build', gulp.parallel('less', 'marko'));
 
-gulp.task('serve', ['watch'], function () {
+gulp.task('watch', gulp.series('build', (done) => {
+    gulp.watch(['css/*.less'], gulp.series('less'));
+    gulp.watch(['src/**/*.marko','*.marko'], gulp.series('marko'));
+    
+    done();
+}));
+
+gulp.task('serve', gulp.series('watch', (done) => {
     browserSync.init({
         server: {
             baseDir: './'
@@ -20,4 +24,6 @@ gulp.task('serve', ['watch'], function () {
         '**/*.css',
         '**/*.html'
     ]).on('change', browserSync.reload);
-});
+
+    done();
+}));
