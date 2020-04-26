@@ -305,19 +305,19 @@
                                                 Note: the packages should work on newer Debian versions too but we only provide packages for the ones listed below.
                                             </div>
                                             <dl>
-                                                <dt>Debian 8 "jessie" <span class="arch">(i386, amd64)</span></dt>
+                                                <dt>Debian 8 "jessie" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb https://apt.sonarr.tv/debian jessie main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
-                                                <dt>Debian 9 "stretch" <span class="arch">(i386, amd64)</span></dt>
+                                                <dt>Debian 9 "stretch" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb https://apt.sonarr.tv/debian stretch main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
-                                                <dt>Debian 10 "buster" <span class="arch">(i386, amd64)</span></dt>
+                                                <dt>Debian 10 "buster" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb https://apt.sonarr.tv/debian buster main" | sudo tee /etc/apt/sources.list.d/sonarr.list
@@ -399,16 +399,22 @@ sudo apt update</code></pre>
                                                 Note: the packages should work on newer Ubuntu versions too but we only provide packages for the ones listed below.
                                             </div>
                                             <dl>
-                                                <dt>Ubuntu 16.04 "xenial" <span class="arch">(i386, amd64)</span></dt>
+                                                <dt>Ubuntu 16.04 "xenial" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb https://apt.sonarr.tv/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
-                                                <dt>Ubuntu 18.04 "bionic" <span class="arch">(i386, amd64)</span></dt>
+                                                <dt>Ubuntu 18.04 "bionic" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
                                                 <dd>
                                                     <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb https://apt.sonarr.tv/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/sonarr.list
+sudo apt update</code></pre>
+                                                </dd>
+                                                <dt>Ubuntu 20.04 "focal" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
+                                                <dd>
+                                                    <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                             </dl>
