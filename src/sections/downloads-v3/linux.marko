@@ -10,17 +10,17 @@ import DebianTemplate from './linux-debian-template.marko';
     <div class="tab-content" id="download-v3-linux-tabcontent">
         <tabview-pane active id="downloads-v3-linux-debian">
             <${DebianTemplate} vendor="debian" vendor_title="Debian" distros=[
-                {title: 'Debian 8 "jessie"', code: 'jessie'}, 
-                {title: 'Debian 9 "stretch"', code: 'stretch'}, 
-                {title: 'Debian 10 "buster"', code: 'buster'}, 
-                {title: 'Debian 11 "bullseye"', code: 'bullseye', hidden: true}
+                {title: 'Debian 8 "jessie"',    code: 'jessie',   archs: 'i386, amd64, armhf' }, 
+                {title: 'Debian 9 "stretch"',   code: 'stretch',  archs: 'i386, amd64, armhf' }, 
+                {title: 'Debian 10 "buster"',   code: 'buster',   archs: 'i386, amd64, armhf, arm64' }, 
+                {title: 'Debian 11 "bullseye"', code: 'bullseye', archs: 'i386, amd64, armhf, arm64', hidden: true }
                 ] />
         </tabview-pane>
         <tabview-pane id="downloads-v3-linux-ubuntu">
             <${DebianTemplate} vendor="ubuntu" vendor_title="Ubuntu" distros=[
-                {title: 'Ubuntu 16.04 "xenial"', code: 'xenial'}, 
-                {title: 'Ubuntu 18.04 "bionic"', code: 'bionic'}, 
-                {title: 'Ubuntu 20.04 "focal"', code: 'focal'}
+                {title: 'Ubuntu 16.04 "xenial"', code: 'xenial', archs: 'i386, amd64, armhf' }, 
+                {title: 'Ubuntu 18.04 "bionic"', code: 'bionic', archs: 'i386, amd64, armhf' }, 
+                {title: 'Ubuntu 20.04 "focal"',  code: 'focal',  archs: 'i386, amd64, armhf, arm64' }
                 ] />
         </tabview-pane>
         <tabview-pane id="downloads-v3-linux-archlinux" file="downloads-v3/linux-archlinux.marko" />
