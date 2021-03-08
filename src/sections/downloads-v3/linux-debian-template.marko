@@ -41,7 +41,8 @@ sudo apt update</code></pre>
         <alert level="warning">
             During the installation, you will be asked which user and group Sonarr must run as.
             It's important to choose these correctly to avoid permission issues with your media files.
-            We suggest you keep at least the group name identical between your download client(s) and Sonarr.
+            We suggest you keep at least the group name identical between your download client(s) and Sonarr.<br/>
+            If you need to correct these after installation, please run <code>dpkg-reconfigure sonarr</code>. See <a href="https://wiki.debian.org/debconf">debconf</a> for more information.
         </alert>
         <pre><code class="bash">sudo apt install sonarr</code></pre>
     </install-step>
@@ -55,14 +56,14 @@ sudo apt update</code></pre>
 <install-alternatives id=`downloads-v3-linux-${input.vendor}-alternatives`>
     <h5>Manual Install</h5>
     <p>
-        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
     </p>
     <h5>${input.vendor_title} package channels</h5>
     <p>
         The ${input.vendor_title} packages provided are used to configure the systemd unit, adding users and permissions. However the built-in updater is used for subsequent application updates.
         The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
     </p><p>
-        For advanced users the alternative *-master and *-develop apt repo distributions are available.
+        For advanced users the alternative *-main and *-develop apt repo distributions are available.
         In these channels the built-in updater is disabled and apt must be used to install updates.
     </p>
     <h5>Docker container</h5>

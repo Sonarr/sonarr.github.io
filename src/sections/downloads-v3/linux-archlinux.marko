@@ -6,7 +6,9 @@
         </p>
         <migration-alert>
             The existing sonarr AUR packages already used <code>/var/lib/sonarr</code> to store the Sonarr database.
-            Sonarr v3 will convert that directory automatically on startup. It's advisable to make a backup of the v2 data first.
+            Sonarr v3 will convert that directory automatically on startup. It's advisable to make a backup of the v2 data first.<br/>
+            <br/>
+            <i>The Sonarr v3 package is still being updated from the preview to the final stable release. Until that time the below instructions should properly install the latest available v3.</i>
         </migration-alert>
     </install-step>
     <install-step num="1" title="Install Sonarr">
@@ -32,7 +34,7 @@ sudo systemctl enable --now sonarr</code></pre>
 <install-alternatives id="downloads-v3-linux-archlinux-alternatives">
     <h5>Manual Install</h5>
     <p>
-        It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+        It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
     </p>
     <h5>Docker container</h5>
     <p>

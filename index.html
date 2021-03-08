@@ -123,74 +123,16 @@
             </div>
         </div>
     </div>
-    <div id="download" class="download">
+    <div id="download">
         <div class="container">
-            <div class="section-header">
-                <h3>Download</h3>
-            </div>
-            <div class="row download_wrapper">
-                <div class="col-sm-4">
-                    <div class="option">
-                        <div class="wrapper">
-                            <h3><i class="fab fa-linux"></i> Linux</h3>
-                            <div class="features">
-                                <p>
-                                    Automatic Updates
-                                </p>
-                                <p>
-                                    Use your package manager
-                                </p>
-                            </div>
-                            <a class="button" href="https://github.com/Sonarr/Sonarr/wiki/Installation#wiki-linux" target="_blank">INSTRUCTIONS</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 featured">
-                    <div class="option">
-                        <div class="wrapper">
-                            <h3><i class="fab fa-windows"></i> Windows</h3>
-                            <div class="features">
-                                <p>
-                                    Automatic Updates
-                                </p>
-                                <p>
-                                    Run as a Service
-                                </p>
-                                <p>
-                                    Installer
-                                </p>
-                            </div>
-                            <a class="button" href="https://download.sonarr.tv/v2/master/latest/NzbDrone.master.exe">DOWNLOAD</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="option">
-                        <div class="wrapper">
-                            <h3><i class="fab fa-apple"></i> macOS</h3>
-                            <div class="features">
-                                <p>
-                                    Automatic Updates
-                                </p>
-                            </div>
-                            <a class="button" href="https://github.com/Sonarr/Sonarr/wiki/Installation#macos" target="_blank">INSTRUCTIONS</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <div id="downloads-v3" class="download">
         <div class="container">
             <div class="section-header">
-                <h3>Download v3 Beta</h3>
+                <h3>Download Sonarr v3</h3>
             </div>
             <div class="row">
-                <div class="alert alert-warning">
-                    <h4 class="alert-heading">Warning: Beta Releases</h4>
-                    This section is for the Sonarr v3 beta releases. We cannot guarantee these releases are stable and might perform breaking changes at any time.<br>
-                    Please refer to the download links above for the stable v2 releases and the <a href="https://github.com/Sonarr/Sonarr/wiki/Installation">wiki</a> for more v2 installation instructions.
-                </div>
                 <ul class="nav nav-tabs nav-justified">
                     <li class="nav-item active">
                         <a class="nav-link active" data-toggle="tab" href="#downloads-v3-windows"><i class="fab fa-windows"></i> Windows</a>
@@ -220,14 +162,22 @@
                                     Sonarr is supported natively on Windows. Sonarr can be installed on Windows as Windows Service or system tray application.
                                 </p>
                                 <p>
-                                    A Windows Service runs even when the user is not logged in, but special case must be taken since Windows Services cannot access network drives (\\server\share or X:\ mapped drives) without special configuration steps.<br>
-                                    It's therefore advisable to install Sonarr as a system tray application if the user does not need to log out, the option to do so is provided during the installer.
+                                    Sonarr can be installed as system tray application or Windows Service. A system tray application is started after the user logs in and is visible as an icon on the taskbar system tray.<br>
+                                    A Windows Service runs even when the user is not logged in, but special care must be taken since Windows Services cannot access network drives (\\server\share or X:\ mapped drives) without special configuration steps.<br>
+                                    Additionally the Windows Service runs under the 'Local Service' account, by default this account does not have permissions to access your user's home directory unless permissions have been assigned manually. This is particularly relevant when using download clients that are configured to download to your home directory.<br>
+                                    It's therefore advisable to install Sonarr as a system tray application if the user can remain logged in. The option to do so is provided during the installer.
                                 </p>
                                 <div class="alert alert-warning">Sonarr v3 no longer supports Windows XP. At this time Windows 7 <i>should</i> still work, but we will not maintain Windows 7 support.</div>
                                 <div class="alert alert-info">
-                                    <h4 class="alert-heading">Sonarr v2 migration</h4>
-                                    Sonarr v3 will automatically convert the existing Sonarr v2 installation. Sonarr v2 stored it's database in <code>C:\ProgramData\NzbDrone</code>, which will be automatically converted to <code>C:\ProgramData\Sonarr</code>.
-                                    It's advisable to make a backup of the v2 data first.
+                                    <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
+                                    <p>
+                                        Sonarr v3 will automatically convert the existing Sonarr v2 installation. Sonarr v2 stored it's database in <code>C:\ProgramData\NzbDrone</code>, which will be automatically converted to <code>C:\ProgramData\Sonarr</code>.
+                                        It's advisable to make a backup of the v2 data first.
+                                    </p>
+                                    <p>
+                                        Sonarr v2 ran under the System account, which has far too many privileges. Sonarr v3 runs under the Local Service account, and will not have access to user's home directories. This may lead to unexpected behavior when you're using a download client thats configured to download to your home directory.
+                                        If this applies to you, please install Sonarr to run as system tray application instead.
+                                    </p>
                                 </div>
                             </dd>
                             <dt><span class="step">1</span>Install Sonarr</dt>
@@ -235,7 +185,7 @@
                                 <p>
                                     Download the Windows Installer with the following link and execute it.
                                 </p>
-                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=windows&amp;installer=true">Download Windows Installer</a>
+                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=windows&amp;installer=true">Download Windows Installer</a>
                             </dd>
                             <dt><span class="step">2</span>View Sonarr</dt>
                             <dd>
@@ -249,7 +199,7 @@
                             <div class="collapse" id="downloads-v3-windows-alternatives">
                                 <h5>Manual Install</h5>
                                 <p>
-                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=windows">.zip download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=windows">.zip download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                 </p>
                             </div>
                         </div>
@@ -280,7 +230,7 @@
                                                 It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
                                             </p>
                                             <div class="alert alert-info">
-                                                <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                                <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                                 The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
                                                 It's advisable to make a backup of the v2 data first.<br>
                                                 Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
@@ -330,7 +280,8 @@ sudo apt update</code></pre>
                                             <div class="alert alert-warning">
                                                 During the installation, you will be asked which user and group Sonarr must run as.
                                                 It's important to choose these correctly to avoid permission issues with your media files.
-                                                We suggest you keep at least the group name identical between your download client(s) and Sonarr.
+                                                We suggest you keep at least the group name identical between your download client(s) and Sonarr.<br>
+                                                If you need to correct these after installation, please run <code>dpkg-reconfigure sonarr</code>. See <a href="https://wiki.debian.org/debconf">debconf</a> for more information.
                                             </div>
                                             <pre><code class="bash">sudo apt install sonarr</code></pre>
                                         </dd>
@@ -347,7 +298,7 @@ sudo apt update</code></pre>
                                         <div class="collapse" id="downloads-v3-linux-debian-alternatives">
                                             <h5>Manual Install</h5>
                                             <p>
-                                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                             </p>
                                             <h5>Debian package channels</h5>
                                             <p>
@@ -355,7 +306,7 @@ sudo apt update</code></pre>
                                                 The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
                                             </p>
                                             <p>
-                                                For advanced users the alternative *-master and *-develop apt repo distributions are available.
+                                                For advanced users the alternative *-main and *-develop apt repo distributions are available.
                                                 In these channels the built-in updater is disabled and apt must be used to install updates.
                                             </p>
                                             <h5>Docker container</h5>
@@ -374,7 +325,7 @@ sudo apt update</code></pre>
                                                 It'll deploy the binaries in <code>/usr/lib/sonarr/bin</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
                                             </p>
                                             <div class="alert alert-info">
-                                                <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                                <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                                 The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 installation, but it will only do so for installations utilizing systemd.
                                                 It's advisable to make a backup of the v2 data first.<br>
                                                 Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data.
@@ -424,7 +375,8 @@ sudo apt update</code></pre>
                                             <div class="alert alert-warning">
                                                 During the installation, you will be asked which user and group Sonarr must run as.
                                                 It's important to choose these correctly to avoid permission issues with your media files.
-                                                We suggest you keep at least the group name identical between your download client(s) and Sonarr.
+                                                We suggest you keep at least the group name identical between your download client(s) and Sonarr.<br>
+                                                If you need to correct these after installation, please run <code>dpkg-reconfigure sonarr</code>. See <a href="https://wiki.debian.org/debconf">debconf</a> for more information.
                                             </div>
                                             <pre><code class="bash">sudo apt install sonarr</code></pre>
                                         </dd>
@@ -441,7 +393,7 @@ sudo apt update</code></pre>
                                         <div class="collapse" id="downloads-v3-linux-ubuntu-alternatives">
                                             <h5>Manual Install</h5>
                                             <p>
-                                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                                It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                             </p>
                                             <h5>Ubuntu package channels</h5>
                                             <p>
@@ -449,7 +401,7 @@ sudo apt update</code></pre>
                                                 The package itself is only updated if changes are made to the required dependencies or install/configuration scripts.
                                             </p>
                                             <p>
-                                                For advanced users the alternative *-master and *-develop apt repo distributions are available.
+                                                For advanced users the alternative *-main and *-develop apt repo distributions are available.
                                                 In these channels the built-in updater is disabled and apt must be used to install updates.
                                             </p>
                                             <h5>Docker container</h5>
@@ -468,9 +420,11 @@ sudo apt update</code></pre>
                                                 or using your favorite <a href="https://wiki.archlinux.org/index.php/AUR_helpers">AUR helper</a>.
                                             </p>
                                             <div class="alert alert-info">
-                                                <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                                <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                                 The existing sonarr AUR packages already used <code>/var/lib/sonarr</code> to store the Sonarr database.
-                                                Sonarr v3 will convert that directory automatically on startup. It's advisable to make a backup of the v2 data first.
+                                                Sonarr v3 will convert that directory automatically on startup. It's advisable to make a backup of the v2 data first.<br>
+                                                <br>
+                                                <i>The Sonarr v3 package is still being updated from the preview to the final stable release. Until that time the below instructions should properly install the latest available v3.</i>
                                             </div>
                                         </dd>
                                         <dt><span class="step">1</span>Install Sonarr</dt>
@@ -501,7 +455,7 @@ sudo systemctl enable --now sonarr</code></pre>
                                         <div class="collapse" id="downloads-v3-linux-archlinux-alternatives">
                                             <h5>Manual Install</h5>
                                             <p>
-                                                It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                                It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                             </p>
                                             <h5>Docker container</h5>
                                             <p>
@@ -513,13 +467,13 @@ sudo systemctl enable --now sonarr</code></pre>
                                 <div class="tab-pane fade" id="downloads-v3-linux-other" role="tabpanel">
                                     <div class="install-description">
                                         <div class="alert alert-info">
-                                            Please contact us if you wish to port Sonarr v3 Beta for any other distribution that the ones already listed.<br>
+                                            Please contact us if you wish to port Sonarr v3 for any other distribution that the ones already listed.<br>
                                             Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
                                         </div>
                                         <p>
                                             A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
                                         </p>
-                                        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">Download Linux .tar.gz</a>
+                                        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">Download Linux .tar.gz</a>
                                     </div>
                                 </div>
                             </div>
@@ -533,7 +487,7 @@ sudo systemctl enable --now sonarr</code></pre>
                                     The easiest way to install Sonarr on macOS is to use the App archive with the steps described below.
                                 </p>
                                 <div class="alert alert-info">
-                                    <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                    <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                     The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 database.
                                     Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data, this will be migrated to <code>~/.config/Sonarr</code>.<br>
                                     It's advisable to make a backup of the v2 data before installing v3.
@@ -541,7 +495,7 @@ sudo systemctl enable --now sonarr</code></pre>
                             </dd>
                             <dt><span class="step">1</span>Download App package</dt>
                             <dd>
-                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=macos&amp;installer=true">Download macOS App</a>
+                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=macos&amp;installer=true">Download macOS App</a>
                             </dd>
                             <dt><span class="step">2</span>Install App</dt>
                             <dd>
@@ -573,7 +527,7 @@ sudo systemctl enable --now sonarr</code></pre>
                             <div class="collapse" id="downloads-v3-macos-alternatives">
                                 <h5>Manual Install</h5>
                                 <p>
-                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
                                 </p>
                                 <h5>Docker container</h5>
                                 <p>
@@ -603,20 +557,19 @@ sudo systemctl enable --now sonarr</code></pre>
                                 </div>
                                 <div class="tab-pane fade" id="downloads-v3-nas-qnap" role="tabpanel">
                                     <div class="alert alert-info">
-                                        The Sonarr v2 Qnap port was maintained by the qnap forum community.<br>
-                                        Please contact us if you wish to maintain a v3 package so that we can include the appropriate install instructions.
+                                        The Sonarr v2 and v3 Qnap port is being maintained by the qnap forum community.<br>
+                                        Please contact us if you wish to include the appropriate install instructions on this page.
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="downloads-v3-nas-other" role="tabpanel">
                                     <div class="install-description">
                                         <div class="alert alert-info">
-                                            Please contact us if you wish to port Sonarr v3 Beta for any other nas that the ones already listed.<br>
-                                            Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                                            Please contact us if you wish to port Sonarr v3 for any other nas that the ones already listed.
                                         </div>
                                         <p>
                                             A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
                                         </p>
-                                        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/phantom-develop/latest?version=3&amp;os=linux">Download Linux .tar.gz</a>
+                                        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">Download Linux .tar.gz</a>
                                     </div>
                                 </div>
                             </div>
@@ -631,7 +584,7 @@ sudo systemctl enable --now sonarr</code></pre>
                                     These instructions provide generic guidance that should apply to any Sonarr Docker image.
                                 </p>
                                 <div class="alert alert-info">
-                                    <h4 class="alert-heading">Sonarr v2 migration</h4>
+                                    <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                     Most docker containers use <code>/config</code> volume to mount the data directory and supply that path to Sonarr as parameter.
                                     Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found. It's advisable to make a backup of the v2 data first.
                                 </div>
@@ -678,7 +631,7 @@ sudo systemctl enable --now sonarr</code></pre>
                                             </p>
                                         </li>
                                         <li>
-                                            <h5><a href="https://hub.docker.com/r/hotio/sonarr">hotio/sonarr:nightly</a></h5>
+                                            <h5><a href="https://hub.docker.com/r/hotio/sonarr">hotio/sonarr:release</a></h5>
                                             <p>
                                                 <a href="https://hotio.dev">hotio</a> doesn't specify any default volumes, besides <code>/config</code>. Images are automatically updated 2x in 1 hour if upstream changes are found.
                                                 Read the <a href="https://hotio.dev/containers/sonarr">instructions</a> on how to install the image.
@@ -691,8 +644,7 @@ sudo systemctl enable --now sonarr</code></pre>
                     </div>
                     <div class="tab-pane fade" id="downloads-v3-other" role="tabpanel">
                         <div class="alert alert-info">
-                            Please contact us if you wish to port Sonarr v3 Beta for any other platform that the ones already listed.<br>
-                            Sonarr v2 is supported by various third-parties on other platforms and we prefer to coordinate the port of v3.
+                            Please contact us if you wish to port Sonarr v3 for any other platform that the ones already listed.
                         </div>
                     </div>
                 </div>
@@ -788,12 +740,12 @@ sudo systemctl enable --now sonarr</code></pre>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="js/tab-loader.js?v=b79ff84521040529f27507a972c16c62"></script>
+    <script src="js/tab-loader.js?v=e07d03e0295b47c032ccdeed17bf4c1b"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
     </script>
-    <script src="js/theme.js?v=85693f7f35c872717ee514c10ca38fdc"></script>
+    <script src="js/theme.js?v=453b4ff1a4f41c49315a28f79aa5ea83"></script>
     <script type="text/javascript" src="js/index-slider.js?v=48ba37f65a8c9499e4833ad1924fccb7"></script>
     <script type="text/javascript">
         if (window.location.hash.toLocaleLowerCase() === "#donate") {
