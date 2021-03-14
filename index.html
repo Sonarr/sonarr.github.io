@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css?v=0032cb25c1f3202a92ff30daf9c072d5">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css">
-    <link rel="stylesheet" type="text/css" href="css/theme.css?v=44c37d36ebb77698f2057fc4f89d087b">
+    <link rel="stylesheet" type="text/css" href="css/theme.css?v=1e46442564ed06f77a824f0dc44af6ce">
     <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" media="screen, projection">
     <link rel="icon" type="image/ico" href="img/favicon.ico">
@@ -156,6 +156,9 @@
                 <div class="tab-content" id="downloads-v3-tabcontent">
                     <div class="tab-pane fade active in" id="downloads-v3-windows" role="tabpanel">
                         <dl class="install-steps">
+                            <div class="maintainer">
+                                Package maintainers: <a href="https://github.com/sonarr/sonarr">Team Sonarr</a>
+                            </div>
                             <dt>Introduction</dt>
                             <dd>
                                 <p>
@@ -223,6 +226,9 @@
                             <div class="tab-content" id="download-v3-linux-tabcontent">
                                 <div class="tab-pane fade active in" id="downloads-v3-linux-debian" role="tabpanel">
                                     <dl class="install-steps">
+                                        <div class="maintainer">
+                                            Package maintainers: <a href="https://github.com/sonarr/sonarr">Team Sonarr</a>
+                                        </div>
                                         <dt>Introduction</dt>
                                         <dd>
                                             <p>
@@ -318,6 +324,9 @@ sudo apt update</code></pre>
                                 </div>
                                 <div class="tab-pane fade" id="downloads-v3-linux-ubuntu" role="tabpanel">
                                     <dl class="install-steps">
+                                        <div class="maintainer">
+                                            Package maintainers: <a href="https://github.com/sonarr/sonarr">Team Sonarr</a>
+                                        </div>
                                         <dt>Introduction</dt>
                                         <dd>
                                             <p>
@@ -413,6 +422,9 @@ sudo apt update</code></pre>
                                 </div>
                                 <div class="tab-pane fade" id="downloads-v3-linux-archlinux" role="tabpanel">
                                     <dl class="install-steps">
+                                        <div class="maintainer">
+                                            Package maintainers: <a href="https://aur.archlinux.org/packages/sonarr/">degeberg, fryfrog</a>
+                                        </div>
                                         <dt>Introduction</dt>
                                         <dd>
                                             <p>
@@ -481,6 +493,9 @@ sudo systemctl enable --now sonarr</code></pre>
                     </div>
                     <div class="tab-pane fade" id="downloads-v3-macos" role="tabpanel">
                         <dl class="install-steps">
+                            <div class="maintainer">
+                                Package maintainers: <a href="https://github.com/sonarr/sonarr">Team Sonarr</a>
+                            </div>
                             <dt>Introduction</dt>
                             <dd>
                                 <p>
@@ -577,6 +592,9 @@ sudo systemctl enable --now sonarr</code></pre>
                     </div>
                     <div class="tab-pane fade" id="downloads-v3-docker" role="tabpanel">
                         <dl class="install-steps">
+                            <div class="maintainer">
+                                Package maintainers: <a href="https://www.linuxserver.io">linuxserver</a>, <a href="https://hotio.dev">hotio</a>
+                            </div>
                             <dt>Introduction</dt>
                             <dd>
                                 <p>
@@ -624,10 +642,10 @@ sudo systemctl enable --now sonarr</code></pre>
                                     and maintenance of them will depend on the route you choose.
                                     <ul>
                                         <li>
-                                            <h5><a href="https://hub.docker.com/r/linuxserver/sonarr">linuxserver/sonarr:preview</a></h5>
+                                            <h5><a href="https://hub.docker.com/r/linuxserver/sonarr">linuxserver/sonarr:latest</a></h5>
                                             <p>
-                                                <a href="//www.linuxserver.io">linuxserver.io</a> is one of the most prolific and popular Docker image maintainers. They also maintain images for most of the popular download clients as well.
-                                                LinuxServer specifies a couple of default volumes such as <code>/tv</code> and <code>/downloads</code>. Our recommendation is to use a single volume for the data, as mentioned above.
+                                                <a href="//www.linuxserver.io">linuxserver.io</a> is one of the most prolific and popular Docker image maintainers. They also maintain images for most of the popular download clients as well.<br>
+                                                <b>LinuxServer specifies a couple of default volumes such as <code>/tv</code> and <code>/downloads</code>. Our recommendation is to use a single <code>/data</code> volume, as mentioned above.</b>
                                             </p>
                                         </li>
                                         <li>

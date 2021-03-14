@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git://github.com/NzbDrone/NzbDrone.git"
   },
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve"
+  },
   "author": "",
   "license": "BSD",
   "gitHead": "9ff7aa1bf7fe38c4c5bdb92f56c8ad556916ed67",
