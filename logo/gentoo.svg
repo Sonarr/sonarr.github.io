@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    width="200" height="200" viewBox="0 0 594.663 622.505" version="1.0">
+    <metadata>
+        <rdf:RDF>
+        <cc:Work>
+            <dc:title>Gentoo Logo Dark v1.0</dc:title>
+            <dc:date>2011-06-03</dc:date>
+            <dc:creator>
+                <cc:Agent>
+                    <dc:title>Sebastian Pipping &lt;sping@gentoo.org&gt;</dc:title>
+                </cc:Agent>
+            </dc:creator>
+            <dc:rights>
+                <cc:Agent>
+                    <dc:title>Lennart Andre Rolland, Gentoo Foundation Inc.</dc:title>
+                </cc:Agent>
+            </dc:rights>
+            <dc:publisher>
+                <cc:Agent>
+                    <dc:title>Gentoo Foundation Inc.</dc:title>
+                </cc:Agent>
+            </dc:publisher>
+            <dc:contributor>
+                <cc:Agent>
+                    <dc:title>Lennart Andre Rolland for original vector version, idea for dark version and specific RGB value by unknown person</dc:title>
+                </cc:Agent>
+            </dc:contributor>
+            <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/" />
+        </cc:Work>
+        <cc:License
+            rdf:about="http://creativecommons.org/licenses/by-sa/2.5/">
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+            <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+            <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+        </cc:License>
+        </rdf:RDF>
+    </metadata>
+    <g>
+        <path d="
+            M.066 496.393c.068-26.26 22.392-62.925 54.112-96.233 21.198-22.26 42.727-41.799 89.657-81.813-32.462-17.813-82.95-39.304-108.284-67.45-9.373-10.414-26.363-34.008-23.068-65.53C19.2 121.122 98.498 23.621 211.214 3.008 248.718-3.85 291.778 1.1 327.217 17.033c111.18 49.984 247.148 174.162 263.877 234.795 5.888 21.342 4.757 55.36-5.395 74.32-12.581 23.498-56.136 71.225-115.725 120.473-93.499 77.274-224.52 160.248-322.352 174.21-31.611 4.512-63.908-.194-86.573-12.982-35.46-20.01-47.232-46.724-51.37-54.73C-1.324 531.825.042 504.85.066 496.392z
+            M175.434 293.744c-30.724 25.94-51.152 43.432-76.763 66.84-61.676 56.37-103.582 99.279-81.977 157.932 24.923 67.661 79.556 64.23 143.621 51.654 165.137-32.57 436.593-241.26 422.756-318.342-11.195-62.371-162.854-186.374-252.648-230.5C302.371 7.543 270.041.413 237.614 1.938 114.144 7.767 17.72 120.182 22.645 181.089c4.792 59.257 154.556 110.888 152.789 112.656z
+            M227.662 16.049c-60.634 6.39-72.247 14.193-127.176 55.752-18.41 13.929-52.294 47.82-60.975 88.026-3.307 15.313.602 28.533 11.63 37.804 35.313 29.688 94.416 53.774 142.904 77.057 14.203 6.82 4.799 19.185-18.104 39.013C118.15 363.733 40.014 424.635 34.56 471.043c-2.57 21.868 4.916 51.583 31.46 66.79 31.006 17.763 95.371 6.17 138.35-9.835 62.806-23.388 145.308-75.004 210.807-125.742 68.11-52.76 131.437-119.773 134.57-130.702 3.847-13.422 3.463-25.818-3.96-40.071-11.658-22.382-27.244-39.013-43.979-57.629-44.902-47.338-92.412-88.934-149.254-120.81C311.506 30.027 275.39 11.02 227.662 16.05z
+            M227.662 16.049m89.068 106.13c43.805 21.178 88.79 76.806-.39 108.824-24.25 8.706-101.159-21.382-98.804-62.444 3.433-60.656 45.707-72.24 99.194-46.38z
+            M283.605 250.05m-25.543-98.582c-34.279 53.104 49.77 69.43 62.638 59.746 55.477-41.753-47.536-83.142-62.638-59.746z
+        " style="fill:#1793D1;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+    </g>
+    <!-- M.066 496.393m263.142-295.04c1.208-14.89 59.594-.066 55.904 11.725-3.891 12.44-57.289 5.355-55.904-11.726z -->
+</svg>

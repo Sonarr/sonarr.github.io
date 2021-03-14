@@ -220,6 +220,9 @@
                                     <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-archlinux"><img src="logo/archlinux.svg" class="icon svg"> ArchLinux</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-gentoo"><img src="logo/gentoo.svg" class="icon svg"> Gentoo</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
                                 </li>
                             </ul>
@@ -465,6 +468,56 @@ sudo systemctl enable --now sonarr</code></pre>
                                     <div class="install-alternatives">
                                         <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-archlinux-alternatives">Alternatives for advanced users</div>
                                         <div class="collapse" id="downloads-v3-linux-archlinux-alternatives">
+                                            <h5>Manual Install</h5>
+                                            <p>
+                                                It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            </p>
+                                            <h5>Docker container</h5>
+                                            <p>
+                                                You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="downloads-v3-linux-gentoo" role="tabpanel">
+                                    <dl class="install-steps">
+                                        <div class="maintainer">
+                                            Package maintainers: <a href="https://github.com/xartin/gentoo-overlay">xartin</a>
+                                        </div>
+                                        <dt>Introduction</dt>
+                                        <dd>
+                                            <p>
+                                                The Gentoo Linux <a href="https://github.com/xartin/gentoo-overlay">Ebuild Overlay</a> offers a sonarr package that can be installed using Gentoo portage.
+                                            </p>
+                                        </dd>
+                                        <dt><span class="step">1</span>Install Sonarr</dt>
+                                        <dd>
+                                            <p>
+                                                The easiest method to add this overlay for sonarr to any Gentoo Linux install is using <a href="https://wiki.gentoo.org/wiki/Eselect/Repository">eselect repository</a> to provide sonarr package install files.
+                                            </p>
+                                            <p>
+                                                For example,
+                                                <pre><code class="bash">emerge eselect-repository dev-vcs/git
+emerge --sync usenet-overlay
+emerge sonarr</code></pre>
+                                            </p>
+                                        </dd>
+                                        <dt><span class="step">2</span>Start Sonarr</dt>
+                                        <dd>
+                                            <pre><code class="bash">systemctl daemon-reload
+systemctl enable --now sonarr</code></pre>
+                                        </dd>
+                                        <dt><span class="step">3</span>View Sonarr</dt>
+                                        <dd>
+                                            <p>
+                                                Browse to <code>http://localhost:8989</code> to start using Sonarr.
+                                            </p>
+                                            <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
+                                        </dd>
+                                    </dl>
+                                    <div class="install-alternatives">
+                                        <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-gentoo-alternatives">Alternatives for advanced users</div>
+                                        <div class="collapse" id="downloads-v3-linux-gentoo-alternatives">
                                             <h5>Manual Install</h5>
                                             <p>
                                                 It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
