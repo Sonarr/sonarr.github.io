@@ -161,16 +161,15 @@
                             </div>
                             <dt>Introduction</dt>
                             <dd>
+                                <p>Sonarr is supported natively on Windows. Sonarr can be installed on Windows as Windows Service or system tray application.</p>
                                 <p>
-                                    Sonarr is supported natively on Windows. Sonarr can be installed on Windows as Windows Service or system tray application.
-                                </p>
-                                <p>
-                                    Sonarr can be installed as system tray application or Windows Service. A system tray application is started after the user logs in and is visible as an icon on the taskbar system tray.<br>
-                                    A Windows Service runs even when the user is not logged in, but special care must be taken since Windows Services cannot access network drives (\\server\share or X:\ mapped drives) without special configuration steps.<br>
+                                    A Windows Service runs even when the user is not logged in, but special care must be taken since Windows Services cannot access network drives (X:\ mapped drives) without special configuration steps.<br>
                                     Additionally the Windows Service runs under the 'Local Service' account, by default this account does not have permissions to access your user's home directory unless permissions have been assigned manually. This is particularly relevant when using download clients that are configured to download to your home directory.<br>
-                                    It's therefore advisable to install Sonarr as a system tray application if the user can remain logged in. The option to do so is provided during the installer.
+                                    'Local Service' also generally has very limited permissions. It's therefore advisable to install Sonarr as a system tray application if the user can remain logged in. The option to do so is provided during the installer.
                                 </p>
-                                <div class="alert alert-warning">Sonarr v3 no longer supports Windows XP. At this time Windows 7 <i>should</i> still work, but we will not maintain Windows 7 support.</div>
+                                <div class="alert alert-warning">
+                                    Windows versions are limited for support to those currently supported by Microsoft, others may work but this is an unsupported configuration.
+                                </div>
                                 <div class="alert alert-info">
                                     <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                     <p>
@@ -178,7 +177,7 @@
                                         It's advisable to make a backup of the v2 data first.
                                     </p>
                                     <p>
-                                        Sonarr v2 ran under the System account, which has far too many privileges. Sonarr v3 runs under the Local Service account, and will not have access to user's home directories. This may lead to unexpected behavior when you're using a download client thats configured to download to your home directory.
+                                        Sonarr v2 ran under the System account, which has far too many privileges. Sonarr v3 runs under the Local Service account by default, and will not have access to user's home directories. This may lead to unexpected behavior when you're using a download client thats configured to download to your home directory.
                                         If this applies to you, please install Sonarr to run as system tray application instead.
                                     </p>
                                 </div>
@@ -645,9 +644,6 @@ systemctl enable --now sonarr</code></pre>
                     </div>
                     <div class="tab-pane fade" id="downloads-v3-docker" role="tabpanel">
                         <dl class="install-steps">
-                            <div class="maintainer">
-                                Package maintainers: <a href="https://www.linuxserver.io">linuxserver</a>, <a href="https://hotio.dev">hotio</a>
-                            </div>
                             <dt>Introduction</dt>
                             <dd>
                                 <p>
@@ -657,7 +653,7 @@ systemctl enable --now sonarr</code></pre>
                                 <div class="alert alert-info">
                                     <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                     Most docker containers use <code>/config</code> volume to mount the data directory and supply that path to Sonarr as parameter.
-                                    Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found. It's advisable to make a backup of the v2 data first.
+                                    Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found.
                                 </div>
                             </dd>
                             <dt><span class="step">1</span>Avoid common pitfalls</dt>
@@ -665,18 +661,15 @@ systemctl enable --now sonarr</code></pre>
                                 <h5>Volumes and Paths</h5>
                                 <p>
                                     There are two common problems with Docker volumes: Paths that differ between the Sonarr and download client container and paths that prevent fast moves and hard links.<br>
-                                    The first is a problem because the download client will report a download's path as <code>/torrents/My.Series.S01E01/</code>, but in the Sonarr container that might be at
-                                    <code>/downloads/My.Series.S01E01/</code>. The second is a performance issue and causes problems for seeding torrents. Both problems can be solved with well planned, consistent paths.
+                                    The first is a problem because the download client will report a download's path as <code>/torrents/My.Show.S01E01/</code>, but in the Sonarr container that might be at
+                                    <code>/downloads/My.Show.S01E01/</code>. The second is a performance issue and causes problems for seeding torrents. Both problems can be solved with well planned, consistent paths.
                                 </p>
                                 <p>
-                                    Most Docker images suggest paths like <code>/tv</code> and <code>/downloads</code>. This causes slow moves and doesn't allow hard links because they
-                                    are considered two different file systems <i>inside</i> the container. Some also recommend paths for the download client container that are different from the Sonarr container, like <code>/torrents</code>.<br>
-                                    The best solution is to use a single, common volume <i>inside</i> the containers, such as <code>/data</code>.
-                                    Your TV shows would be in <code>/data/TV</code>, torrents in <code>/data/downloads/torrents</code> and/or usenet downloads in <code>/data/downloads/usenet</code>.
+                                    Most Docker images suggest paths like <code>/tv</code> and <code>/downloads</code>. This causes slow moves and doesn't allow hard links because they are considered two different file systems <i>inside</i>
+                                    the container. Some also recommend paths for the download client container that are different from the Sonarr container, like <code>/torrents</code>.<br> The best solution is to use a single, common volume <i>inside</i> the containers,
+                                    such as <code>/data</code>. Your Series would be in <code>/data/tv</code>, torrents in <code>/data/downloads/torrents</code> and/or usenet downloads in <code>/data/downloads/usenet</code>.
                                 </p>
-                                <p>
-                                    If this advice is not followed, you may have to configure a Remote Path Mapping in the Sonarr web UI (Settings &rsaquo; Download Clients).
-                                </p>
+                                <p>If this advice is not followed, you may have to configure a Remote Path Mapping in the Sonarr web UI (Settings &rsaquo; Download Clients).</p>
                                 <h5>Ownership and Permissions</h5>
                                 <p>
                                     Permissions and ownership of files is one of the most common problems for Sonarr users, both inside and outside Docker. Most images have environment variables that can be used to override
@@ -685,7 +678,7 @@ systemctl enable --now sonarr</code></pre>
                                     Keep in mind that Sonarr will need read and write to the download folders as well as the final folders.
                                 </p>
                                 <p>
-                                    <i>For a more detailed explanation of these issues, see <a href="https://wiki.servarr.com/Docker_Guide">The Best Docker Setup and Docker Guide</a> wiki article.</i>
+                                    <i>For a more detailed explanation of these issues, see <a href="https://wiki.servarr.com/docker-guide">The Best Docker Setup and Docker Guide</a> wiki article.</i>
                                 </p>
                             </dd>
                             <dt><span class="step">2</span>Install Sonarr</dt>
@@ -695,17 +688,21 @@ systemctl enable --now sonarr</code></pre>
                                     and maintenance of them will depend on the route you choose.
                                     <ul>
                                         <li>
-                                            <h5><a href="https://hub.docker.com/r/linuxserver/sonarr">linuxserver/sonarr:latest</a></h5>
+                                            <h5>
+                                                <a href="https://ghcr.io/hotio/sonarr:latest">ghcr.io/hotio/sonarr:release</a>
+                                            </h5>
                                             <p>
-                                                <a href="//www.linuxserver.io">linuxserver.io</a> is one of the most prolific and popular Docker image maintainers. They also maintain images for most of the popular download clients as well.<br>
-                                                <b>LinuxServer specifies a couple of default volumes such as <code>/tv</code> and <code>/downloads</code>. Our recommendation is to use a single <code>/data</code> volume, as mentioned above.</b>
+                                                <a href="https://hotio.dev">hotio</a> doesn't specify any default volumes, besides <code>/config</code>. Images are automatically updated 2x in 1 hour if upstream changes are found. Hotio also builds our Pull Requests which may be useful for testing.
+                                                Read the <a href="https://hotio.dev/containers/sonarr">instructions</a> on how to install the image.
                                             </p>
                                         </li>
                                         <li>
-                                            <h5><a href="https://hub.docker.com/r/hotio/sonarr">hotio/sonarr:release</a></h5>
+                                            <h5>
+                                                <a href="https://ghcr.io/linuxserver/sonarr:latest">ghcr.io/linuxserver/sonarr:latest</a>
+                                            </h5>
                                             <p>
-                                                <a href="https://hotio.dev">hotio</a> doesn't specify any default volumes, besides <code>/config</code>. Images are automatically updated 2x in 1 hour if upstream changes are found.
-                                                Read the <a href="https://hotio.dev/containers/sonarr">instructions</a> on how to install the image.
+                                                <a href="https://www.linuxserver.io">linuxserver.io</a> is one of the most prolific and popular Docker image maintainers. They also maintain images for most of the popular download clients as well.
+                                                LinuxServer specifies a couple of optional default volumes such as <code>/tv</code> and <code>/downloads</code>. The default volumes are not optimal nor recommended. Our recommendation is to use a single volume for the data, as mentioned above.
                                             </p>
                                         </li>
                                     </ul>
@@ -737,12 +734,12 @@ systemctl enable --now sonarr</code></pre>
                         </p>
                     </div>
                 </a>
-                <a class="col-sm-3" href="https://wiki.sonarr.tv" target="_blank">
+                <a class="col-sm-3" href="https://wiki.servarr.com/sonarr" target="_blank">
                     <div class="text">
                         <i class="far fa-lightbulb fa-2x"></i>
                         <h4>Wiki</h4>
                         <p>
-                            Check out the FAQ, API documentation and other guides
+                            Check out the FAQ, Wiki documentation and other guides
                         </p>
                     </div>
                 </a>
@@ -811,12 +808,12 @@ systemctl enable --now sonarr</code></pre>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="js/tab-loader.js?v=b79ff84521040529f27507a972c16c62"></script>
+    <script src="js/tab-loader.js?v=e07d03e0295b47c032ccdeed17bf4c1b"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
     </script>
-    <script src="js/theme.js?v=85693f7f35c872717ee514c10ca38fdc"></script>
+    <script src="js/theme.js?v=453b4ff1a4f41c49315a28f79aa5ea83"></script>
     <script type="text/javascript" src="js/index-slider.js?v=48ba37f65a8c9499e4833ad1924fccb7"></script>
     <script type="text/javascript">
         if (window.location.hash.toLocaleLowerCase() === "#donate") {
