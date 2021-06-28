@@ -163,7 +163,7 @@
                             <dd>
                                 <p>Sonarr is supported natively on Windows. Sonarr can be installed on Windows as Windows Service or system tray application.</p>
                                 <p>
-                                    A Windows Service runs even when the user is not logged in, but special care must be taken since Windows Services cannot access network drives (X:\ mapped drives) without special configuration steps.<br>
+                                    A Windows Service runs even when the user is not logged in, but special care must be taken since Windows Services cannot access network drives (X:\ mapped drives or \\server\share UNC paths) without special configuration steps.<br>
                                     Additionally the Windows Service runs under the 'Local Service' account, by default this account does not have permissions to access your user's home directory unless permissions have been assigned manually. This is particularly relevant when using download clients that are configured to download to your home directory.<br>
                                     'Local Service' also generally has very limited permissions. It's therefore advisable to install Sonarr as a system tray application if the user can remain logged in. The option to do so is provided during the installer.
                                 </p>
@@ -644,6 +644,9 @@ systemctl enable --now sonarr</code></pre>
                     </div>
                     <div class="tab-pane fade" id="downloads-v3-docker" role="tabpanel">
                         <dl class="install-steps">
+                            <div class="maintainer">
+                                Package maintainers: <a href="https://www.linuxserver.io">linuxserver</a>, <a href="https://hotio.dev">hotio</a>
+                            </div>
                             <dt>Introduction</dt>
                             <dd>
                                 <p>
@@ -653,7 +656,7 @@ systemctl enable --now sonarr</code></pre>
                                 <div class="alert alert-info">
                                     <h4 class="alert-heading">Updating Sonarr v2 to v3</h4>
                                     Most docker containers use <code>/config</code> volume to mount the data directory and supply that path to Sonarr as parameter.
-                                    Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found.
+                                    Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found. Of course, it is always advisable to make a backup first.
                                 </div>
                             </dd>
                             <dt><span class="step">1</span>Avoid common pitfalls</dt>
@@ -692,7 +695,7 @@ systemctl enable --now sonarr</code></pre>
                                                 <a href="https://ghcr.io/hotio/sonarr:latest">ghcr.io/hotio/sonarr:release</a>
                                             </h5>
                                             <p>
-                                                <a href="https://hotio.dev">hotio</a> doesn't specify any default volumes, besides <code>/config</code>. Images are automatically updated 2x in 1 hour if upstream changes are found. Hotio also builds our Pull Requests which may be useful for testing.
+                                                <a href="https://hotio.dev">hotio</a> doesn't specify any default volumes, besides <code>/config</code>. Images are automatically updated multiple times per hour if upstream changes are found.
                                                 Read the <a href="https://hotio.dev/containers/sonarr">instructions</a> on how to install the image.
                                             </p>
                                         </li>
@@ -734,12 +737,12 @@ systemctl enable --now sonarr</code></pre>
                         </p>
                     </div>
                 </a>
-                <a class="col-sm-3" href="https://wiki.servarr.com/sonarr" target="_blank">
+                <a class="col-sm-3" href="https://wiki.sonarr.tv" target="_blank">
                     <div class="text">
                         <i class="far fa-lightbulb fa-2x"></i>
                         <h4>Wiki</h4>
                         <p>
-                            Check out the FAQ, Wiki documentation and other guides
+                            Check out the FAQ, API documentation and other guides
                         </p>
                     </div>
                 </a>
