@@ -212,16 +212,19 @@
                         <div>
                             <ul class="nav nav-pills">
                                 <li class="nav-item active">
-                                    <a class="nav-link active" data-toggle="pill" href="#downloads-v3-linux-debian"><img src="logo/debian.svg" class="icon svg"> Debian</a>
+                                    <a class="nav-link active" data-toggle="pill" href="#downloads-v3-linux-debian"><img src="logo/debian.svg" class="icon svg">&nbsp;Debian</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-ubuntu"><i class="fab fa-ubuntu"></i> Ubuntu</a>
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-ubuntu"><i class="fab fa-ubuntu"></i>&nbsp;Ubuntu</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-archlinux"><img src="logo/archlinux.svg" class="icon svg"> ArchLinux</a>
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-archlinux"><img src="logo/archlinux.svg" class="icon svg">&nbsp;ArchLinux</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-gentoo"><img src="logo/gentoo.svg" class="icon svg"> Gentoo</a>
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-gentoo"><img src="logo/gentoo.svg" class="icon svg">&nbsp;Gentoo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-freebsd"><i class="fab fa-freebsd"></i>&nbsp;FreeBSD</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="pill" href="#downloads-v3-linux-other"><i class="fas fa-ellipsis-v"></i>&nbsp;&nbsp;Others</a>
@@ -499,6 +502,7 @@ sudo systemctl enable --now sonarr</code></pre>
                                             <p>
                                                 For example,
                                                 <pre><code class="bash">emerge eselect-repository dev-vcs/git
+eselect repository enable usenet-overlay
 emerge --sync usenet-overlay
 emerge sonarr</code></pre>
                                             </p>
@@ -519,6 +523,54 @@ systemctl enable --now sonarr</code></pre>
                                     <div class="install-alternatives">
                                         <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-gentoo-alternatives">Alternatives for advanced users</div>
                                         <div class="collapse" id="downloads-v3-linux-gentoo-alternatives">
+                                            <h5>Manual Install</h5>
+                                            <p>
+                                                It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                            </p>
+                                            <h5>Docker container</h5>
+                                            <p>
+                                                You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="downloads-v3-linux-freebsd" role="tabpanel">
+                                    <dl class="install-steps">
+                                        <div class="maintainer">
+                                            Package maintainers: <a href="https://cgit.freebsd.org/ports/tree/net-p2p/sonarr">mvanbaak</a>
+                                        </div>
+                                        <dt>Introduction</dt>
+                                        <dd>
+                                            <p>
+                                                Sonarr can be installed using the FreeBSD Sonarr <a href="https://cgit.freebsd.org/ports/tree/net-p2p/sonarr">Port</a>.
+                                            </p>
+                                        </dd>
+                                        <dt><span class="step">1</span>Install Sonarr</dt>
+                                        <dd>
+                                            <p>
+                                                Install the port with:
+                                                <pre><code class="bash">pkg install sonarr</code></pre>
+                                            </p>
+                                        </dd>
+                                        <dt><span class="step">2</span>Start Sonarr</dt>
+                                        <dd>
+                                            <p>
+                                                Start the service:
+                                                <pre><code class="bash">sysrc sonarr_enable=YES
+service sonarr start</code></pre>
+                                            </p>
+                                        </dd>
+                                        <dt><span class="step">3</span>View Sonarr</dt>
+                                        <dd>
+                                            <p>
+                                                Browse to <code>http://localhost:8989</code> to start using Sonarr.
+                                            </p>
+                                            <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
+                                        </dd>
+                                    </dl>
+                                    <div class="install-alternatives">
+                                        <div class="collapsed" data-toggle="collapse" data-target="#downloads-v3-linux-freebsd-alternatives">Alternatives for advanced users</div>
+                                        <div class="collapse" id="downloads-v3-linux-freebsd-alternatives">
                                             <h5>Manual Install</h5>
                                             <p>
                                                 It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&amp;os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
