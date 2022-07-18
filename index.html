@@ -486,26 +486,17 @@ sudo systemctl enable --now sonarr</code></pre>
                                 <div class="tab-pane fade" id="downloads-v3-linux-gentoo" role="tabpanel">
                                     <dl class="install-steps">
                                         <div class="maintainer">
-                                            Package maintainers: <a href="https://github.com/xartin/gentoo-overlay">xartin</a>
+                                            Package maintainers: <a href="https://github.com/xartin">xartin</a>, <a href="https://github.com/candrews">candrews</a>
                                         </div>
                                         <dt>Introduction</dt>
                                         <dd>
                                             <p>
-                                                The Gentoo Linux <a href="https://github.com/xartin/gentoo-overlay">Ebuild Overlay</a> offers a sonarr package that can be installed using Gentoo portage.
+                                                <a href="https://packages.gentoo.org/packages/www-apps/sonarr">Gentoo Linux includes sonarr</a> so it can be installed using Gentoo portage.
                                             </p>
                                         </dd>
                                         <dt><span class="step">1</span>Install Sonarr</dt>
                                         <dd>
-                                            <p>
-                                                The easiest method to add this overlay for sonarr to any Gentoo Linux install is using <a href="https://wiki.gentoo.org/wiki/Eselect/Repository">eselect repository</a> to provide sonarr package install files.
-                                            </p>
-                                            <p>
-                                                For example,
-                                                <pre><code class="bash">emerge eselect-repository dev-vcs/git
-eselect repository enable usenet-overlay
-emerge --sync usenet-overlay
-emerge sonarr</code></pre>
-                                            </p>
+                                            <pre><code class="bash">emerge www-apps/sonarr</code></pre>
                                         </dd>
                                         <dt><span class="step">2</span>Start Sonarr</dt>
                                         <dd>
