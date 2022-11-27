@@ -57,8 +57,6 @@ header {
   }
 }
 
-
-
 .btn-sonarr {
   background-color: fade(@droneTeal, 20%);
   border: 1px solid fade(@droneTeal, 50%);
@@ -87,6 +85,21 @@ header {
 .rename {
   margin-top: 70px;
   margin-bottom: -20px;
+}
+
+.feature-header {
+  margin-top: 70px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px 10px;
+  // height: 480px;
+  background: #262626;
+  color: #fff;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 56px;
+  text-shadow: 1px 1px 1px #31393d;
+  text-align: center;
 }
 
 .features {
@@ -394,7 +407,7 @@ li {
 
 @media (max-width: 767px) {
   .features {
-    margin-top: 100px;
+    margin-top: 40px;
   }
 
   .support, .donate {
@@ -471,6 +484,10 @@ li {
         float: left;
       }
     }
+  }
+
+  .feature-header {
+    display: none;
   }
 }
 
