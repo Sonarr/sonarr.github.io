@@ -625,7 +625,13 @@ service sonarr start</code></pre>
                                     In macOS 10.12+ Gatekeeper App Translocation will prevent Sonarr from updating if it's being run directly from the download location. Therefore it MUST be moved to the Application folder.
                                 </div>
                             </dd>
-                            <dt><span class="step">3</span>Start Sonarr</dt>
+                            <dt><span class="step">3</span>Self-sign Sonarr</dt>
+                            <dd>
+                                <p>
+                                    Self-sign Sonarr `codesign --force --deep -s - Sonarr.app`
+                                </p>
+                            </dd>
+                            <dt><span class="step">4</span>Start Sonarr</dt>
                             <dd>
                                 <p>
                                     Open Sonarr.app in your Application folder.
@@ -634,7 +640,7 @@ service sonarr start</code></pre>
                                     During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
                                 </div>
                             </dd>
-                            <dt><span class="step">4</span>View Sonarr</dt>
+                            <dt><span class="step">5</span>View Sonarr</dt>
                             <dd>
                                 <p>
                                     Browse to <code>http://localhost:8989</code> to start using Sonarr.
