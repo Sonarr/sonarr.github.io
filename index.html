@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css?v=0032cb25c1f3202a92ff30daf9c072d5">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css">
-    <link rel="stylesheet" type="text/css" href="css/theme.css?v=d41d8cd98f00b204e9800998ecf8427e">
+    <link rel="stylesheet" type="text/css" href="css/theme.css?v=604dd013f58b7955e9a6479541ee5fdd">
     <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" media="screen, projection">
     <link rel="icon" type="image/ico" href="img/favicon.ico">
@@ -625,7 +625,13 @@ service sonarr start</code></pre>
                                     In macOS 10.12+ Gatekeeper App Translocation will prevent Sonarr from updating if it's being run directly from the download location. Therefore it MUST be moved to the Application folder.
                                 </div>
                             </dd>
-                            <dt><span class="step">3</span>Start Sonarr</dt>
+                            <dt><span class="step">3</span>Self-sign Sonarr</dt>
+                            <dd>
+                                <p>
+                                    Self-sign Sonarr <code>codesign --force --deep -s - Sonarr.app</code>
+                                </p>
+                            </dd>
+                            <dt><span class="step">4</span>Start Sonarr</dt>
                             <dd>
                                 <p>
                                     Open Sonarr.app in your Application folder.
@@ -634,7 +640,7 @@ service sonarr start</code></pre>
                                     During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
                                 </div>
                             </dd>
-                            <dt><span class="step">4</span>View Sonarr</dt>
+                            <dt><span class="step">5</span>View Sonarr</dt>
                             <dd>
                                 <p>
                                     Browse to <code>http://localhost:8989</code> to start using Sonarr.
@@ -863,12 +869,12 @@ service sonarr start</code></pre>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="js/tab-loader.js?v=b79ff84521040529f27507a972c16c62"></script>
+    <script src="js/tab-loader.js?v=e07d03e0295b47c032ccdeed17bf4c1b"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
     </script>
-    <script src="js/theme.js?v=85693f7f35c872717ee514c10ca38fdc"></script>
+    <script src="js/theme.js?v=453b4ff1a4f41c49315a28f79aa5ea83"></script>
     <script type="text/javascript" src="js/index-slider.js?v=48ba37f65a8c9499e4833ad1924fccb7"></script>
     <script type="text/javascript">
         if (window.location.hash.toLocaleLowerCase() === "#donate") {
