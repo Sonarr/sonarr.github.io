@@ -25,14 +25,15 @@
     </install-step>
     <install-step num="2" title="Add the Sonarr repository">
         <div>
+            Execute the below three commands in your terminal. <br/>
             Note: the packages should work on newer ${input.vendor_title} versions too but we only provide packages for the ones listed below.
         </div>
         <dl>
             <for|distro| of=input.distros.filter(v => !v.hidden)>
             <dt>${distro.title} <span class="arch">(${distro.archs})</span></dt>
             <dd>
-                <pre><code class="bash">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
-echo "deb https://apt.sonarr.tv/${input.vendor} ${distro.code} main" | sudo tee /etc/apt/sources.list.d/sonarr.list
+                <pre><code class="bash">sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb [signed-by=/usr/share/keyrings/sonarr.gpg] https://apt.sonarr.tv/${input.vendor} ${distro.code} main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
             </dd>
             </for>
