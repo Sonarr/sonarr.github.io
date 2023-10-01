@@ -272,25 +272,28 @@
                                         <dt><span class="step">2</span>Add the Sonarr repository</dt>
                                         <dd>
                                             <div>
-                                                Execute the three commands show below in your terminal.<br>
+                                                Execute the four commands show below in your terminal.<br>
                                                 Note: the packages should work on newer Debian versions too but we only provide packages for the ones listed below.
                                             </div>
                                             <dl>
                                                 <dt>Debian 8 "jessie" <span class="arch">(i386, amd64, armhf)</span></dt>
                                                 <dd>
-                                                    <pre><code class="bash">sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+                                                    <pre><code class="bash">sudo gpg -k
+sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb [signed-by=/usr/share/keyrings/sonarr.gpg] https://apt.sonarr.tv/debian jessie main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                                 <dt>Debian 9 "stretch" <span class="arch">(i386, amd64, armhf)</span></dt>
                                                 <dd>
-                                                    <pre><code class="bash">sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+                                                    <pre><code class="bash">sudo gpg -k
+sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb [signed-by=/usr/share/keyrings/sonarr.gpg] https://apt.sonarr.tv/debian stretch main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                                 <dt>Debian 10 "buster" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
                                                 <dd>
-                                                    <pre><code class="bash">sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+                                                    <pre><code class="bash">sudo gpg -k
+sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb [signed-by=/usr/share/keyrings/sonarr.gpg] https://apt.sonarr.tv/debian buster main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
@@ -371,25 +374,28 @@ sudo apt update</code></pre>
                                         <dt><span class="step">2</span>Add the Sonarr repository</dt>
                                         <dd>
                                             <div>
-                                                Execute the three commands show below in your terminal.<br>
+                                                Execute the four commands show below in your terminal.<br>
                                                 Note: the packages should work on newer Ubuntu versions too but we only provide packages for the ones listed below.
                                             </div>
                                             <dl>
                                                 <dt>Ubuntu 16.04 "xenial" <span class="arch">(i386, amd64, armhf)</span></dt>
                                                 <dd>
-                                                    <pre><code class="bash">sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+                                                    <pre><code class="bash">sudo gpg -k
+sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb [signed-by=/usr/share/keyrings/sonarr.gpg] https://apt.sonarr.tv/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                                 <dt>Ubuntu 18.04 "bionic" <span class="arch">(i386, amd64, armhf)</span></dt>
                                                 <dd>
-                                                    <pre><code class="bash">sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+                                                    <pre><code class="bash">sudo gpg -k
+sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb [signed-by=/usr/share/keyrings/sonarr.gpg] https://apt.sonarr.tv/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
                                                 <dt>Ubuntu 20.04 "focal" <span class="arch">(i386, amd64, armhf, arm64)</span></dt>
                                                 <dd>
-                                                    <pre><code class="bash">sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+                                                    <pre><code class="bash">sudo gpg -k
+sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --no-default-keyring --keyring /usr/share/keyrings/sonarr.gpg --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
 echo "deb [signed-by=/usr/share/keyrings/sonarr.gpg] https://apt.sonarr.tv/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update</code></pre>
                                                 </dd>
