@@ -1,0 +1,8 @@
+<dl>
+    <for|arch| of=input.archs.filter(v => !v.hidden)>
+    <dt>${arch.title} <span class="arch">(${arch.details})</span></dt>
+    <dd>
+        <pre><code class="bash">https://services.sonarr.tv/v1/download/main/latest?version=4&os=linux&arch=${arch.code}</code></pre>
+    </dd>
+    </for>
+</dl>

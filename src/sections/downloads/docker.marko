@@ -7,7 +7,7 @@
         </p>
         <migration-alert>
             Most docker containers use <code>/config</code> volume to mount the data directory and supply that path to Sonarr as parameter.
-            Sonarr v3 will convert the given directory on startup if a Sonarr v2 database is found. Of course, it is always advisable to make a backup first.
+            Sonarr will convert the given directory on startup if an existing database is found. Of course, it is always advisable to make a backup first.
         </migration-alert>
     </install-step>
     <install-step num="1" title="Avoid common pitfalls">

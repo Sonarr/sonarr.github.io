@@ -1,0 +1,45 @@
+import ManualTemplate from './linux-manual-template.marko';
+
+<install-steps>
+    <maintained-by><a href="https://github.com/sonarr/sonarr">Team Sonarr</a></maintained-by>
+    <install-step title="Introduction">
+        <p>
+            The installation process described here utilizes an installation shell script. The script will configure the required systemd unit to auto-start Sonarr.
+            It'll deploy the binaries in <code>/opt/Sonarr</code> and the configuation data will be stored in <code>/var/lib/sonarr</code>.
+        </p>
+        <migration-alert>
+            The Sonarr v4 package overwrites v3's systemd unit if present.
+            It's advisable to make a backup of the v3 data first and uninstall the previous <code>sonarr</code> package.<br/>
+        </migration-alert>
+    </install-step>
+    <install-step num="1" title="Install Sonarr">
+        <alert level="warning">
+            During the installation, you will be asked which user and group Sonarr must run as.
+            It's important to choose these correctly to avoid permission issues with your media files.
+            We suggest you keep at least the group name identical between your download client(s) and Sonarr.<br/>
+            If you need to correct these after installation, please re-run the installation script.
+        </alert>
+        <h5>curl</h5>
+        <pre><code class="bash">curl -o- https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/debian/install.sh | bash</code></pre>
+        <h5>wget</h5>
+        <pre><code class="bash">wget -qO- https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/debian/install.sh | bash</code></pre>
+    </install-step>
+    <install-step num="2" title="View Sonarr">
+        <p>
+            Browse to <code>http://localhost:8989</code> to start using Sonarr.
+        </p>
+        <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
+    </install-step>
+</install-steps>
+<install-alternatives id=`downloads-linux-${input.vendor}-alternatives`>
+    <h5>Manual Install</h5>
+    <div>
+        <p>It is possible to install Sonarr manally using a <code>.tar.gz</code> download. However in that case you must manually deal with dependencies, installation and permissions. You will need to download the correct package for your system.</p>
+
+        <${ManualTemplate} archs=[...input.archs] />
+    </div>
+    <h5>Docker container</h5>
+    <p>
+        You can follow the <a href="#downloads-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+    </p>
+</install-alternatives>

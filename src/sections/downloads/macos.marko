@@ -7,13 +7,11 @@
 
         <!-- TODO: Check mac migration support -->
         <migration-alert>
-            The Sonarr v3 package will attempt to automatically migrate an existing Sonarr v2 database.
-            Sonarr v2 used the user's home directory <code>~/.config/NzbDrone</code> to store the application data, this will be migrated to <code>~/.config/Sonarr</code>.<br/>
-            It's advisable to make a backup of the v2 data before installing v3.
+            Sonarr will convert an existing Sonarr database if found during startup. Of course, it is always advisable to make a backup first.
         </migration-alert>
     </install-step>
     <install-step num="1" title="Download App package">
-        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=3&os=macos&installer=true">Download macOS App</a>
+        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=4&os=macos&installer=true">Download macOS App</a>
     </install-step>
     <install-step num="2" title="Install App">
         <p>
@@ -32,9 +30,6 @@
         <p>
             Open Sonarr.app in your Application folder.
         </p>
-        <alert level="info">
-            During startup it may ask you to install the Mono Runtime if an appropriate version is not already installed.
-        </alert>
     </install-step>
     <install-step num="5" title="View Sonarr">
         <p>
@@ -42,13 +37,13 @@
         </p>
     </install-step>
 </install-steps>
-<install-alternatives id="downloads-v3-macos-alternatives">
+<install-alternatives id="downloads-macos-alternatives">
     <h5>Manual Install</h5>
     <p>
-        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=4&os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
     </p>
     <h5>Docker container</h5>
     <p>
-        You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+        You can follow the <a href="#downloads-docker">Docker guide</a> to install Sonarr as a Docker container instead.
     </p>
 </install-alternatives>
