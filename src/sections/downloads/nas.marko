@@ -1,0 +1,34 @@
+<div>
+    <ul class="nav nav-pills">
+        <tabview-item active pill href="#downloads-nas-synology"> Synology</tabview-item>
+        <tabview-item pill href="#downloads-nas-qnap">QNAP</tabview-item>
+        <tabview-item pill href="#downloads-nas-other" icon="fas-ellipsis-v">&nbsp;&nbsp;Others</tabview-item>
+    </ul>
+    <div class="tab-content" id="download-v3-nas-tabcontent">
+        <tabview-pane active id="downloads-nas-synology">
+            <alert level="info">
+               A Sonarr package is maintained by <a href="https://synocommunity.com/">SynoCommunity</a><br />
+               Please contact us if you wish to include the appropriate install instructions on this page.
+            </alert>
+        </tabview-pane>
+        <tabview-pane id="downloads-nas-qnap">
+            <alert level="info">
+               The Sonarr Qnap port is being maintained by the qnap forum community.<br/>
+               Please contact us if you wish to include the appropriate install instructions on this page.
+            </alert>
+        </tabview-pane>
+        <tabview-pane id="downloads-nas-other">
+            <install-description>
+                <alert level="info">
+                    Please contact us if you wish to port Sonarr for any other NAS that the ones already listed.
+                </alert>
+
+                <p>
+                    A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
+                </p>
+
+                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=4&os=linux">Download Linux .tar.gz</a>
+            </install-description>
+        </tabview-pane>
+    </div>
+</div>

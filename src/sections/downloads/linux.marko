@@ -1,0 +1,49 @@
+import DebianTemplate from './linux-debian-template.marko';
+import ManualTemplate from './linux-manual-template.marko';
+
+<div>
+    <ul class="nav nav-pills">
+        <tabview-item active pill href="#downloads-linux-debian" icon="./logo/debian.svg">&nbsp;Debian</tabview-item>
+        <tabview-item pill href="#downloads-linux-ubuntu" icon="fab-ubuntu">&nbsp;Ubuntu</tabview-item>
+        <tabview-item pill href="#downloads-linux-archlinux" icon="./logo/archlinux.svg">&nbsp;ArchLinux</tabview-item>
+        <tabview-item pill href="#downloads-linux-gentoo" icon="./logo/gentoo.svg">&nbsp;Gentoo</tabview-item>
+        <tabview-item pill href="#downloads-linux-freebsd" icon="fab-freebsd">&nbsp;FreeBSD</tabview-item>
+        <tabview-item pill href="#downloads-linux-other" icon="fas-ellipsis-v">&nbsp;&nbsp;Others</tabview-item>
+    </ul>
+    <div class="tab-content" id="download-v3-linux-tabcontent">
+        <tabview-pane active id="downloads-linux-debian">
+            <${DebianTemplate} vendor="debian" vendor_title="Debian" archs=[
+                {title: 'ARM',   code: 'arm',   details: 'ARM, armf, and armhf' },
+                {title: 'ARM64', code: 'arm64', details: 'arm64' },
+                {title: 'AMD64', code: 'amd64', details: 'amd64' }
+                ] />
+        </tabview-pane>
+        <tabview-pane id="downloads-linux-ubuntu">
+            <${DebianTemplate} vendor="ubuntu" vendor_title="Ubuntu" archs=[
+                {title: 'ARM',   code: 'arm',   details: 'ARM, armf, and armhf' },
+                {title: 'ARM64', code: 'arm64', details: 'arm64' },
+                {title: 'AMD64', code: 'amd64', details: 'amd64' }
+                ] />
+        </tabview-pane>
+        <tabview-pane id="downloads-linux-archlinux" file="downloads/linux-archlinux.marko" />
+        <tabview-pane id="downloads-linux-gentoo" file="downloads/linux-gentoo.marko" />
+        <tabview-pane id="downloads-linux-freebsd" file="downloads/linux-freebsd.marko" />
+        <tabview-pane id="downloads-linux-other">
+            <install-description>
+                <alert level="info">
+                    Please contact us if you wish to port Sonarr v4 for any other distribution that the ones already listed.
+                </alert>
+
+                <p>
+                    A generic download is available for linux, but dependencies, installation and permissions will need to be done manually.
+                </p>
+
+                <${ManualTemplate} archs=[
+                    {title: 'ARM',   code: 'arm',   details: 'ARM, armf, and armhf' },
+                    {title: 'ARM64', code: 'arm64', details: 'arm64' },
+                    {title: 'AMD64', code: 'amd64', details: 'amd64' }
+                    ] />
+            </install-description>
+        </tabview-pane>
+    </div>
+</div>

@@ -14,12 +14,8 @@
         </alert>
         <migration-alert>
             <p>
-                Sonarr v3 will automatically convert the existing Sonarr v2 installation. Sonarr v2 stored it's database in <code>C:\ProgramData\NzbDrone</code>, which will be automatically converted to <code>C:\ProgramData\Sonarr</code>.
-                It's advisable to make a backup of the v2 data first.
-            </p>
-            <p>
-                Sonarr v2 ran under the System account, which has far too many privileges. Sonarr v3 runs under the Local Service account by default, and will not have access to user's home directories. This may lead to unexpected behavior when you're using a download client thats configured to download to your home directory.
-                If this applies to you, please install Sonarr to run as system tray application instead.
+                Sonarr will automatically convert an existing Sonarr installation.
+                It's advisable to make a backup of the v3 data first.
             </p>
         </migration-alert>
     </install-step>
@@ -27,7 +23,7 @@
         <p>
             Download the Windows Installer with the following link and execute it.
         </p>
-        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=3&os=windows&installer=true">Download Windows Installer</a>
+        <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=4&os=windows&installer=true">Download Windows Installer</a>
     </install-step>
     <install-step num="2" title="View Sonarr">
         <p>
@@ -35,9 +31,9 @@
         </p>
     </install-step>    
 </install-steps>
-<install-alternatives id="downloads-v3-windows-alternatives">
+<install-alternatives id="downloads-windows-alternatives">
     <h5>Manual Install</h5>
     <p>
-        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&os=windows">.zip download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+        It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=4&os=windows">.zip download</a>. However in that case you must manually deal with dependencies, installation and permissions.
     </p>
 </install-alternatives>

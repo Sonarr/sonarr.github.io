@@ -2,14 +2,14 @@
     <maintained-by><a href="https://aur.archlinux.org/packages/sonarr/">degeberg, fryfrog</a></maintained-by>
     <install-step title="Introduction">
         <p>
-            The Arch Linux User Repository offers a <a href="https://aur.archlinux.org/packages/sonarr/">sonarr</a> package that can be installed manually
+            The Arch Linux User Repository offers <a href="https://aur.archlinux.org/packages/sonarr/">sonarr</a> package that can be installed manually
             or using your favorite <a href="https://wiki.archlinux.org/index.php/AUR_helpers">AUR helper</a>.
         </p>
+
         <migration-alert>
-            The existing sonarr AUR packages already used <code>/var/lib/sonarr</code> to store the Sonarr database.
-            Sonarr v3 will convert that directory automatically on startup. It's advisable to make a backup of the v2 data first.<br/>
-            <br/>
-            <i>The Sonarr v3 beta package <code>sonarr-phantom</code> has now been superceded by <code>sonarr</code>.</i>
+            <p>
+                Sonarr will convert an existing Sonarr database if found during startup. Of course, it is always advisable to make a backup first.
+            </p>
         </migration-alert>
     </install-step>
     <install-step num="1" title="Install Sonarr">
@@ -17,8 +17,8 @@
             An aur helper can install sonarr and its dependencies easily, or follow the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages">AUR Installing Packages</a> wiki for manual installation.
         </p>
         <p>
-            For example, to use <a href="https://github.com/Jguer/yay">yay</a> to install the sonarr package:
-            <pre><code class="bash">yay -S sonarr</code></pre>
+            For example, to use <a href="https://aur.archlinux.org/packages/paru">paru</a> to install the sonarr package:
+            <pre><code class="bash">paru -S sonarr</code></pre>
         </p>
     </install-step>
     <install-step num="2" title="Start Sonarr">
@@ -32,13 +32,13 @@ sudo systemctl enable --now sonarr</code></pre>
         <i>(Replace 'localhost' with your server IP if you're connecting remotely)</i>
     </install-step>
 </install-steps>
-<install-alternatives id="downloads-v3-linux-archlinux-alternatives">
+<install-alternatives id="downloads-linux-archlinux-alternatives">
     <h5>Manual Install</h5>
     <p>
-        It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=3&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+        It is possible to install Sonarr manually from upstream using the <a href="//services.sonarr.tv/v1/download/main/latest?version=4&os=linux">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
     </p>
     <h5>Docker container</h5>
     <p>
-        You can follow the <a href="#downloads-v3-docker">Docker guide</a> to install Sonarr as a Docker container instead.
+        You can follow the <a href="#downloads-docker">Docker guide</a> to install Sonarr as a Docker container instead.
     </p>
 </install-alternatives>
