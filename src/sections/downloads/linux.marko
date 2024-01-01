@@ -15,14 +15,14 @@ import ManualTemplate from './linux-manual-template.marko';
             <${DebianTemplate} vendor="debian" vendor_title="Debian" archs=[
                 {title: 'ARM',   code: 'arm',   details: 'ARM, armf, and armhf' },
                 {title: 'ARM64', code: 'arm64', details: 'arm64' },
-                {title: 'AMD64', code: 'amd64', details: 'amd64' }
+                {title: 'AMD64 (x64)', code: 'x64', details: 'amd64' }
                 ] />
         </tabview-pane>
         <tabview-pane id="downloads-linux-ubuntu">
             <${DebianTemplate} vendor="ubuntu" vendor_title="Ubuntu" archs=[
                 {title: 'ARM',   code: 'arm',   details: 'ARM, armf, and armhf' },
                 {title: 'ARM64', code: 'arm64', details: 'arm64' },
-                {title: 'AMD64', code: 'amd64', details: 'amd64' }
+                {title: 'AMD64 (x64)', code: 'x64', details: 'amd64' }
                 ] />
         </tabview-pane>
         <tabview-pane id="downloads-linux-archlinux" file="downloads/linux-archlinux.marko" />
@@ -41,7 +41,7 @@ import ManualTemplate from './linux-manual-template.marko';
                 <${ManualTemplate} archs=[
                     {title: 'ARM',   code: 'arm',   details: 'ARM, armf, and armhf' },
                     {title: 'ARM64', code: 'arm64', details: 'arm64' },
-                    {title: 'AMD64', code: 'amd64', details: 'amd64' }
+                    {title: 'AMD64 (x64)', code: 'x64', details: 'amd64' }
                     ] />
             </install-description>
         </tabview-pane>
