@@ -566,7 +566,12 @@ service sonarr start</code></pre>
                             </dd>
                             <dt><span class="step">1</span>Download App package</dt>
                             <dd>
-                                <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=4&amp;os=macos&amp;installer=true">Download macOS App</a>
+                                <div>
+                                    <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=4&amp;os=macos&amp;arch=arm64&amp;installer=true">Download macOS App (ARM)</a>
+                                </div>
+                                <div>
+                                    <a class="btn btn-sonarr" href="//services.sonarr.tv/v1/download/main/latest?version=4&amp;os=macos&amp;arch=x64&amp;installer=true">Download macOS App (Intel)</a>
+                                </div>
                             </dd>
                             <dt><span class="step">2</span>Install App</dt>
                             <dd>
@@ -601,7 +606,7 @@ service sonarr start</code></pre>
                             <div class="collapse" id="downloads-macos-alternatives">
                                 <h5>Manual Install</h5>
                                 <p>
-                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=4&amp;os=macos">.tar.gz download</a>. However in that case you must manually deal with dependencies, installation and permissions.
+                                    It is possible to install Sonarr manually using the <a href="//services.sonarr.tv/v1/download/main/latest?version=4&amp;os=macos&amp;arch=arm64">macOS ARM</a> or <a href="//services.sonarr.tv/v1/download/main/latest?version=4&amp;os=macos&amp;arch=x64">macOS Intel</a> .tar.gz downloads. However in that case you must manually deal with dependencies, installation and permissions.
                                 </p>
                                 <h5>Docker container</h5>
                                 <p>
