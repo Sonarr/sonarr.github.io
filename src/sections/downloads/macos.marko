@@ -28,8 +28,10 @@
     </install-step>
     <install-step num="3" title="Self-sign Sonarr">
         <p>
-            Open Terminal and run <code>codesign --force --deep -s - Sonarr.app</code>
+            Open Terminal and run
         </p>
+
+        <pre><code class="bash">codesign --force --deep -s - /Applications/Sonarr.app && xattr -rd com.apple.quarantine /Applications/Sonarr.app</code></pre>
     </install-step>
     <install-step num="4" title="Start Sonarr">
         <p>
