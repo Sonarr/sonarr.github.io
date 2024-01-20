@@ -31,7 +31,7 @@
             Open Terminal and run
         </p>
 
-        <pre><code class="bash">codesign --force --deep -s - /Applications/Sonarr.app && xattr -rd com.apple.quarantine /Applications/Sonarr.app</code></pre>
+        <pre><code class="bash">xattr -cr /Applications/Sonarr.app && codesign --force --deep -s - /Applications/Sonarr.app && xattr -rd com.apple.quarantine /Applications/Sonarr.app</code></pre>
     </install-step>
     <install-step num="4" title="Start Sonarr">
         <p>
