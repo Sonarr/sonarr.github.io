@@ -23,9 +23,11 @@ import ManualTemplate from './linux-manual-template.marko';
             If you need to correct these after installation, please re-run the installation script.
         </alert>
         <h5>curl</h5>
-        <pre><code class="bash">curl -o- https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/debian/install.sh | sudo bash</code></pre>
+        <pre><code class="bash">curl -o install-sonarr.sh https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/debian/install.sh
+sudo bash install-sonarr.sh</code></pre>
         <h5>wget</h5>
-        <pre><code class="bash">wget -qO- https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/debian/install.sh | sudo bash</code></pre>
+        <pre><code class="bash">wget -qO install-sonarr.sh https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/debian/install.sh
+sudo bash install-sonarr.sh</code></pre>
     </install-step>
     <install-step num="2" title="View Sonarr">
         <p>
