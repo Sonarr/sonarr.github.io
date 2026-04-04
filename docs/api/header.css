@@ -1,5 +1,7 @@
 :root {
   --scalar-custom-header-height: 50px;
+  --scalar-font: 'Lato', sans-serif;
+  --scalar-font-code: 'Lato', sans-serif;
 }
 .custom-header {
   height: var(--scalar-custom-header-height);
