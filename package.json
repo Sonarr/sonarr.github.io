@@ -24,7 +24,7 @@
     "gulp-pretty-html": "^2.0.9",
     "gulp-print": "^1.1.0",
     "gulp-util": "^3.0.8",
-    "marko": "^4.14.18",
+    "marko": "^5.38.36",
     "through2": "^3.0.0"
   }
 }
